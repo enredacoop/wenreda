@@ -1,0 +1,50 @@
+{
+  "home": {
+    "path_to_layout": "src/layouts/home.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "home"},
+      {"src/data/data.json": "home"}
+    ]
+  },
+  "lineas": {
+    "path_to_layout": "src/layouts/lines.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "lineas"},
+      {"src/data/data.json": "lineas"}
+    ]
+  },
+  "lineas/construyendo-la-nueva-economia-social": {
+    "path_to_layout": "src/layouts/line.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "construyendo-la-nueva-economia-social"},
+      {"src/data/data.json": "construyendo-la-nueva-economia-social"}
+    ]
+  },
+  "lineas/transparencia-y-participacion": {
+    "path_to_layout": "src/layouts/line.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "transparencia-y-participacion"},
+      {"src/data/data.json": "transparencia-y-participacion"}
+    ]
+  },
+  "lineas/innovacion-social-tecnologica": {
+    "path_to_layout": "src/layouts/line.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "innovacion-social-tecnologica"},
+      {"src/data/data.json": "innovacion-social-tecnologica"}
+    ]
+  },
+  "lineas/la-comunicacion-como-herramienta-de-cambio": {
+    "path_to_layout": "src/layouts/line.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "la-comunicacion-como-herramienta-de-cambio"},
+      {"src/data/data.json": "la-comunicacion-como-herramienta-de-cambio"}
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "home": {
+    "clave": "valor"
+  },
+  "lineas": {
+    "items": [
+      {
+        "title": "Construyendo la nueva Economía Social",
+        "class": "economia-social",
+        "url": "/lineas/construyendo-la-nueva-economia-social"
+      },
+      {
+        "title": "Transparencia y Participación",
+        "class": "transparencia-participacion",
+        "url": "/lineas/transparencia-y-participacion"
+      },
+      {
+        "title": "Innovación Social Tecnológica",
+        "class": "innovacion-social",
+        "url": "/lineas/innovacion-social-tecnologica"
+      },
+      {
+        "title": "La comunicación como herramienta de cambio",
+        "class": "comunicacion",
+        "url": "/lineas/la-comunicacion-como-herramienta-de-cambio"
+      }
+    ]
+  },
+  "construyendo-la-nueva-economia-social": {
+    "line": "Construyendo la nueva Economia Social",
+    "claim": "Las personas frente a la acumulación",
+    "why": "El cooperativismo consiste en apostar por un modelo de organizaciones democráticas que trabajan por una economía al servicio de las personas. Enreda es cooperativismo y desarrolla diversos proyectos para favorecer la consolidación y desarrollo del mismo.",
+    "dialogue": [
+      {
+        "ask": "¿Son importantes las cooperativas en la actualidad?",
+        "answer": "Podemos ver cada día como un sistema muere y uno nuevo emerge. Y va más rápido de lo que se podría pensar. No se puede concebir ninguna actividad, y menos aun económica, sin la participación de las personas involucradas, sin anteponer lo humano a cualquier otra cuestión y sin pensar en el medio ambiente como elemento generador de vida. No hay entidad mejor que las cooperativas que recojan y engloben estos principios y los desarrollen en su quehacer diario."
+      },
+      {
+        "ask": "Defender la cooperación frente a la competitividad",
+        "answer": "La construcción colectiva hace que los proyectos avancen y se desarrollen de una forma más rápida y sana. Tenemos que empuzar entre todas hacia un horizonte de beneficio común y solidario en donde el sistema no necesite destruir para generar hegemonías autoritarias."
+      },
+      {
+        "ask": "El consumo es un acto político",
+        "answer": "No hay nada más democrático que la propia democracia. Y ésta debe ser aplicada en todas nuestras relaciones humanas. Y el consumo, con el poder que ello conlleva, no podría dejarse de lado. Detrás de cada decisión de consumo está la emancipación de la humanidad. De una familia que cooperativizó su sudor con la intención de dejar de estar explotada. De la posibilidad de al menos buscar la dignidad como fin último de cada ser humano. Hay que poner la economía al servicio de las personas y del medio ambiente. Si estas dos últimas se ven perjudicadas, el modelo económico implementado no nos vale y hay que cambiarlo. Y en ese cambio estamos porque se ha visto que la economía hegemónica actual solo destruye como mecanismo de subsistencia."
+      }
+    ],
+    "works": [
+      {"name": "lacentral.coop", "image": "", "description": "Plataforma de productos y servicios cooperativos", "url": "http://lacentral.coop"},
+      {"name": "somos.coop", "image": "", "description": "Espacio web para difundir la marca cooperativa", "url": "http://somos.coop"}
+    ],
+    "calltoaction": {
+      "call": "Avanza en el desarrollo de tu proyecto cooperativo",
+      "email": "info@enreda.coop",
+      "phone": ""
+    }
+  },
+  "transparencia-y-participacion": {
+    "line": "Transparencia y Participación",
+    "claim": "Hacia una democracia real",
+    "why": "Construimos sistemas que permiten la implementación efectiva de mecanismos de participación y transparencia basados en estándares internacionales. Organizaciones abiertas adaptadas a la realidad.",
+    "dialogue": [
+      {
+        "ask": "¿Qué exigencias realizas a gobiernos y administraciones en materia de participación y transparencia?",
+        "answer": "En los últimos años, los poderes públicos están implementando diversas iniciativas vinculadas a la participación ciudadana y la transparencia. En la mayoría de las ocasiones, viene impulsado por la aprobación de leyes que obligan a incidir en determinadas materias; o por iniciativas parciales subvencionadas que no surgen de un análisis previo para la elaboración, desarrollo y ejecución de herramientas verdaderamente útiles para vecinas y vecinos. Son necesarias herramientas eficaces y eficientes, que cumplan la finalidad para las que se han creado, pedagógicas y compartibles, para que sean asumidas como propios por la ciudadanía. "
+      },
+      {
+        "ask": "¿Qué instrumentos tiene la sociedad civil para fiscalizar la acción de gobiernos y administraciones?",
+        "answer": "Elaborar colectivamente supone sumar fuerzas para buscar soluciones. La organización ciudadana, como fuente de inteligencia colectiva, crea los mejores instrumentos para controlar a gobiernos y administraciones, así como incidir en las decisiones políticas adoptadas en los mismos."
+      },
+      {
+        "ask": "¿De qué forma podemos intervenir en la toma de decisiones políticas?",
+        "answer": "Intervenimos en la toma de decisiones políticas cuando se abren canales previos para el fomento de la participación ciudadana y la co-decisión; pero también cuando se logra que los poderes públicos asuman las reivindicaciones que posee la ciudadanía, a través de la organización y la búsqueda y creación de herramientas que abordan la gestión y la generación de propuestas."
+      },
+      {
+        "ask": "¿Cómo podemos colaborar para mejorar nuestro entorno?",
+        "answer": "Siendo ciudadanía activa, reclamando y organizándonos para el cumplimiento efectivo de los derechos."
+      }
+    ],
+    "works": [
+      {"name": "TiPi", "image": "", "description": "Transparencia, Información, Participación e Incidencia", "url": "http://tipiciudadano.es"}
+    ],
+    "calltoaction": {
+      "call": "Reclama información, organízate para conseguirla",
+      "email": "info@enreda.coop",
+      "phone": ""
+    }
+  },
+  "innovacion-social-tecnologica": {
+    "line": "Innovación Social Tecnológica",
+    "claim": "...",
+    "why": "Aplicamos la tecnología para resolver problemas reales que afectan a la ciudadanía. La innovación en el sector TIC, como herramienta de cambio, es nuestra apuesta básica como entidad.",
+    "dialogue": [
+      {
+        "ask": "¿Cómo podemos aplicar la tecnología para la resolución de problemas sociales?",
+        "answer": ""
+      }
+    ],
+    "works": [
+      {"name": "Social to Crowd", "image": "", "description": "El crowdfunding de las cosas", "url": "http://socialtocrowd.org"}
+    ],
+    "calltoaction": {
+      "call": "Imaginemos que está en nuestras manos",
+      "email": "info@enreda.coop",
+      "phone": ""
+    }
+  },
+  "la-comunicacion-como-herramienta-de-cambio": {
+    "line": "La comunicación como herramienta de cambio",
+    "claim": "La comunicación como herramienta de cambio",
+    "why": "Informarse no es un ejercicio pasivo. Requiere empeño, crítica, inconformismo. No hay ciudadanía sin exigencia y sin duda. Busca y reclama información de calidad a los medios de comunicación, a las instituciones públicas, a las empresas. Desecha la basura, ignora el ruido. Expresa tu disconformidad. Dale el valor que tiene a la información. Distínguela de la propaganda.",
+    "dialogue": [
+      {
+        "ask": "¿Por qué nos interesa la comunicación?",
+        "answer": "La omnipresencia de la información es un rasgo distintivo de nuestro tiempo. Los medios de comunicación continúan desempeñando un papel fundamental, pero las innovaciones tecnológicas han cambiado para siempre las reglas del juego. No sólo hay más medios que nunca y más públicos que nunca. También más emisores, más formatos. También hay más ruido: no siempre la llamada sociedad de la información avanza hacia la sociedad del conocimiento. Pero sobre todo hay más posibilidades que nunca para comunicar. Y para sacarle el máximo partido a la comunicación."
+      },
+      {
+        "ask": "¿Qué ha cambiado en la sociedad?",
+        "answer": "En paralelo al imparable desarrollo de nuevas tecnologías, y especialmente ligado a las posibilidades que brinda internet, se ha forjado en la sociedad un nuevo consenso: la transparencia y la participación ciudadana deben ser bases fundamentales del funcionamiento de la sociedad democrática. Es decir, la relación entre las administraciones públicas y los ciudadanos, como también entre las empresas y sus públicos, tiene que romper los esquemas clásicos de unidireccionalidad, jerarquía y opacidad. Esto tiene una influencia determinante en la comunicación."
+      },
+      {
+        "ask": "¿Quién necesita comunicar?",
+        "answer": "La comunicación -entendida como la proyección de la actividad propia en el espacio público- es parte misma de cualquier iniciativa en la sociedad contemporánea. No es una elección. Todos comunicamos: incluso el silencio es comunicación. La pregunta es cómo hacerlo. Empresas, instituciones, asociaciones... todos deben decidir qué quieren decirle a quién y con qué objetivo. La comunicación no se configura ya como la última fase de la actividad. No se trata de hacerlo primero y contarlo después, como ha dictado la forma tradicional de encarar la cuestión. La comunicación es parte fundamental de la propia actividad. No sólo describe, también define el propio objeto descrito. Somos en parte lo que comunicamos."
+      },
+      {
+        "ask": "¿Qué nos hace diferentes?",
+        "answer": "Nuestro interés en la comunicación es puramente lógico, porque entra en contacto con todos los campos de nuestra actividad: transparencia, participación, democracia, información, tecnología... Ponemos al servicio de la comunicación todo nuestro bagaje tecnológico y la experiencia de periodistas con trayectoria tanto en medios de comunicación como en instituciones. Combinamos el conocimiento de los fenómenos comunicativos con una elevada competencia tecnológica. Así ofrecemos criterio y ejecución profesional de la estrategia de comunicación, partiendo de un diagnóstico de las necesidades y de una definición de los objetivos. Y mantenemos nuestra escala de valores y prioridades: cercanía, compromiso, eficacia. Enreda asesora a empresas e instituciones para que acierten con sus decisiones en materia de comunicación, al tiempo que hacemos un seguimiento detallado de la eficacia de las acciones puestas en marcha."
+      }
+    ],
+    "works": [],
+    "calltoaction": {
+      "call": "Comunica y actúa",
+      "email": "info@enreda.coop",
+      "phone": ""
+    }
+  }
+}

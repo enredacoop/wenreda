@@ -1,0 +1,117 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<!-- Content -->
+
+<div id="line">
+
+    <!-- intro-header -->
+    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1><%= data.line %></h1>
+                        <hr class="intro-divider">
+                        <h3><%= data.claim %></h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- intro-header -->
+    <div class="main-message">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <%= data.why %>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <% for(var i=0; i<data.dialogue.length; i++) { %>
+
+        <% if (i % 2 == 0) { %>
+
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                            <h2 class="section-heading"><%= data.dialogue[i].ask %></h2>
+                        </div>
+                        <div class=" col-md-5 col-md-offset-1 col-sm-6">
+                            <p class="lead"><%= data.dialogue[i].answer %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <% } else { %>
+
+            <div class="content-section-b">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-push-6  col-sm-6">
+                            <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                            <h2 class="section-heading"><%= data.dialogue[i].ask %></h2>
+                        </div>
+                        <div class="col-md-5 col-sm-pull-6 col-sm-6">
+                            <p class="lead"><%= data.dialogue[i].answer %></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content-section-b -->
+            
+        <% } %>
+
+    <% } %>
+
+    <div class="call">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2><%= data.calltoaction.call %></h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline call-social-buttons">
+                        <li>
+                            <a href="tel:<%= data.calltoaction.phone %>" class="btn btn-default btn-lg"><i class="fa fa-phone fa-fw"></i> <span class="network-name">Llámanos</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:<%= data.calltoaction.mail %>" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Escríbenos</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+</div>
+
+<% include common/footer %>
+
+<% include common/end %>
