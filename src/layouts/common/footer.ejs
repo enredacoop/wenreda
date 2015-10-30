@@ -2,14 +2,19 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <ul class="list-inline">
+            <div class="col-md-4 contact">
+                <%= global.email %>
+                <br/>
+                <%= global.phone %>
+            </div>
+            <div class="col-md-8">
+                <ul class="list-inline pull-right">
                     <li>
                         <a href="/cooperativa">Cooperativa</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="/lineas">Lineas</a>
+                        <a href="/lineas">Líneas</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
@@ -20,10 +25,14 @@
                         <a href="/blog">Blog</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
                 <p class="copyright text-muted small">
-                    <strong><%= global.current_year %>, <%= global.site_name_short %></strong><br/>
-                    <%= global.copyleft %>
-                </p>
+                <strong><%= global.current_year %>, <%= global.site_name %></strong><br/>
+                <%= global.copyleft %>
+            </p>
             </div>
         </div>
     </div>

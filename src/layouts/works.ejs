@@ -1,0 +1,25 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<div id="works">
+    <% for(var i=0; i<data.items.length; i++) { %>
+        <a href="<%= data.items[i].url %>" alt="<%= data.items[i].title %>" title="<%= data.items[i].title %>">
+            <div class="work <%= data.items[i].class %>">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <div class="message">
+                                <h2><%= data.items[i].title %></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    <% } %>
+</div>
+
+<% include common/footer %>
+
+<% include common/end %>

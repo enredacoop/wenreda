@@ -7,6 +7,9 @@ html {
     font-family: @font, sans-serif;
 }
 
+::-moz-selection { color: @dark_color; background-color: @main_color; }
+::selection { color: @dark_color; background-color: @main_color; }
+
 h1,
 h2,
 h3,
@@ -16,16 +19,68 @@ h6 {
   font-weight: 700;
 }
 
+/********** HEADER **********/
+
 header {
-  .topnav {
-    font-size: 14px;
+  .navbar-custom {
+    font-size: 16px;
+    background-color: @dark_color;
+    color: @clean_color;
+    
+    a {
+      color: @clean_color;
+      &:hover {
+        color: @white_color;
+        background-color: @black_color;
+      }
+    }
+
+    button {
+      span {
+        background-color: @clean_color;
+      }
+    }
+    
   }
 }
 
 
+/********** HOME **********/
+
+#home {
+
+  padding-top: 50px;
+  background-color: @main_color;
+
+  .claim {
+    
+    text-align: center;
+    color: #f8f8f8;
+    height: 100%;
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+    h2 {
+      font-size: 3em;
+    }
+
+  }
+}
+
+@media(max-width:767px) {
+  #home {
+    .claim {
+      padding-bottom: 15%;
+    }
+  }
+}
+
+
+
 /********** LINES **********/
 
-#lines {
+#lines, #works {
 
   padding-top: 50px;
 
@@ -34,12 +89,20 @@ header {
     text-decoration: none;
     &:hover {  }
 
-    .economia-social { background-color: lighten(@black_color, 5%); }
-    .transparencia-participacion { background-color: lighten(@black_color, 10%); }
-    .innovacion-social { background-color: lighten(@black_color, 15%); }
-    .comunicacion { background-color: lighten(@black_color, 20%); }
+    .line.economia-social { background-color: lighten(@black_color, 5%); }
+    .line.transparencia-participacion { background-color: lighten(@black_color, 10%); }
+    .line.innovacion-social { background-color: lighten(@black_color, 15%); }
+    .line.comunicacion { background-color: lighten(@black_color, 20%); }
 
-    .line {
+    .work.tipi { background-color: @tipi_color; }
+    .work.lacentralcoop { background-color: @lacentralcoop_color; }
+    .work.somoscoop { background-color: @somoscoop_color; }
+    .work.enlaorbita { background-color: @enlaorbita_color; }
+    .work.socialtocrowd { background-color: @socialtocrowd_color; }
+    .work.transparenciapresupuestaria { background-color: @transparenciapresupuestaria_color; }
+    .work.clic { background-color: @clic_color; }
+
+    .line, .work {
       
       text-align: center;
       color: #f8f8f8;
@@ -48,8 +111,8 @@ header {
       .message {
 
         position: relative;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-bottom: 10%;
 
         h2 {
           margin: 0;
@@ -97,7 +160,7 @@ p.lead {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: @white_color;
+    color: @clean_color;
     background: url('http://www.fondos7.net/wallpaper-original/wallpapers/fondo-degrade-negro-5647.jpg') no-repeat center center;
     background-size: cover;
 
@@ -131,7 +194,7 @@ p.lead {
   .main-message {
     padding: 50px 0;
     background-color: @black_color;
-    color: @white_color;
+    color: @clean_color;
     font-size: 18px;
     font-weight: 400;
   }
@@ -160,7 +223,7 @@ p.lead {
   .call {
       
       padding: 100px 0;
-      color: @white_color;
+      color: @clean_color;
       background: url('http://www.fondos7.net/wallpaper-original/wallpapers/fondo-degrade-negro-5647.jpg') no-repeat center center;
       background-size: cover;
 
@@ -254,8 +317,31 @@ p.lead {
 /********** FOOTER **********/
 
 footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+    padding: 30px 0;
+    background-color: @dark_color;
+    color: @clean_color;
+
+    .row {
+      padding-bottom: 40px;
+
+      .contact {
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      li {
+        a {
+          color: @clean_color;
+          &:hover {
+            color: @white_color;
+            text-decoration: underline;
+          }
+        }
+      }
+    
+    }
+
+
 }
 
 p.copyright {

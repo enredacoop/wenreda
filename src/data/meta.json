@@ -4,6 +4,11 @@
     "description": "Tecnología para la Transformación Social",
     "keywords": "cooperativa, tecnología, social"
   },
+  "cooperativa": {
+    "title": "La cooperativa",
+    "description": "",
+    "keywords": ""
+  },
   "lineas": {
     "title": "Líneas estratégicas",
     "description": "",
@@ -26,6 +31,46 @@
   },
   "la-comunicacion-como-herramienta-de-cambio": {
     "title": "La Comunicacion como Herramienta de Cambio",
+    "description": "",
+    "keywords": ""
+  },
+  "trabajos": {
+    "title": "Trabajos realizados",
+    "description": "",
+    "keywords": ""
+  },
+  "tipi-ciudadano": {
+    "title": "TIPI Ciudadano",
+    "description": "",
+    "keywords": ""
+  },
+  "lacentralcoop": {
+    "title": "LaCentral.coop",
+    "description": "",
+    "keywords": ""
+  },
+  "somoscoop": {
+    "title": "Somos.coop",
+    "description": "",
+    "keywords": ""
+  },
+  "enlaorbita": {
+    "title": "En la Órbita",
+    "description": "",
+    "keywords": ""
+  },
+  "socialtocrowd": {
+    "title": "social to Crowd",
+    "description": "El crowdfunding de las cosas",
+    "keywords": ""
+  },
+  "transparencia-presupuestaria": {
+    "title": "Espacio Web de Transparencia Presupuestaria",
+    "description": "",
+    "keywords": ""
+  },
+  "clic-cervantes": {
+    "title": "CLIC Cervantes",
     "description": "",
     "keywords": ""
   }

@@ -1,6 +1,9 @@
 {
   "home": {
-    "clave": "valor"
+    "claim": "Tecnología para la Transformación Social"
+  },
+  "cooperativa": {
+
   },
   "lineas": {
     "items": [
@@ -131,6 +134,287 @@
       "call": "Comunica y actúa",
       "email": "info@enreda.coop",
       "phone": ""
+    }
+  },
+  "trabajos": {
+    "items": [
+      {
+        "title": "TIPI Ciudadano",
+        "logo": "",
+        "class": "tipi",
+        "url": "/trabajos/tipi-ciudadano"
+      },
+      {
+        "title": "LaCentral.coop",
+        "logo": "",
+        "class": "lacentralcoop",
+        "url": "/trabajos/lacentralcoop"
+      },
+      {
+        "title": "Somos.coop",
+        "logo": "",
+        "class": "somoscoop",
+        "url": "/trabajos/somoscoop"
+      },
+      {
+        "title": "En la Órbita",
+        "logo": "",
+        "class": "enlaorbita",
+        "url": "/trabajos/enlaorbita"
+      },
+      {
+        "title": "Social to Crowd",
+        "logo": "",
+        "class": "socialtocrowd",
+        "url": "/trabajos/socialtocrowd"
+      },
+      {
+        "title": "Transparencia Presupuestaria",
+        "logo": "",
+        "class": "transparenciapresupuestaria",
+        "url": "/trabajos/transparencia-presupuestaria"
+      },
+      {
+        "title": "CLIC Cervantes",
+        "logo": "",
+        "class": "clic",
+        "url": "/trabajos/clic-cervantes"
+      }
+    ]
+  },
+
+  "tipi-ciudadano": {
+    "title": "TIPI Ciudadano",
+    "subtitle": "Transparencia, Información, Participación e Incidencia.",
+    "description": "Proyecto que pretende fortalecer las capacidades de la sociedad civil, para incidir en los procesos de toma de decisión política y en la generación de un debate público informado sobre la pobreza y la justicia social en España.",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "http://tipiciudadano.es",
+    "keys": [
+      {"key": "Poner en valor la política como la solución a los problemas de pobreza y desigualdad."},
+      {"key": "Dotar a la ciudadanía de herramientas para poder exigir a los diputados que se avance en dar soluciones políticas a la pobreza y la exclusión social."},
+      {"key": "Generar, a través del acceso a la información, un incentivo a las buenas prácticas políticas."}
+    ],
+    "metrics": [
+      {"metric": "Iniciativas", "value": "150k"},
+      {"metric": "Eventos", "value": "50"},
+      {"metric": "ONGs", "value": "300"}
+    ],
+    "technologies": [
+      {"technology": "MeteorJS", "url": "https://www.meteor.com"},
+      {"technology": "MongoDB", "url": "https://www.mongodb.com"},
+      {"technology": "D3js", "url": "http://d3js.org"}
+    ],
+    "own": "no",
+    "client-name": "CIECODE",
+    "client-description": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
+    "client-logo": "",
+    "client-url": "http://unmundosalvadorsoler.org/ciecode",
+    "client-year": "2015",
+    "calltoaction": {
+      "call": "La pobreza es cosa de todas y todos ¡participa!"
+    }
+  },
+  "lacentralcoop": {
+    "title": "LaCentral.coop",
+    "subtitle": "Plataforma de productos y servicios cooperativos.",
+    "description": "",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "http://lacentral.coop",
+    "keys": [
+      {"key": "Aumentar la visibilidad y posibilidades de ventas de productos y servicios cooperativos."},
+      {"key": "Facilitar la interacción y la búsqueda de intercooperación entre cooperativas y cooperativistas."},
+      {"key": "Posibilitar el conocimiento por parte de una ciudadanía, cada vez más concienciada, del catálogo cooperativo más amplio e integral de todo el Estado y facilitar el acceso/compra de productos y servicios basados en los principios y valores del cooperativismo."}
+    ],
+    "metrics": [
+      {"metric": "Cooperativas", "value": ""},
+      {"metric": "Usuarios", "value": ""},
+      {"metric": "Productos y Servicios", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org"},
+      {"technology": "Django", "url": "https://www.djangoproject.com"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
+    ],
+    "own": "no",
+    "client-name": "FAECTA",
+    "client-description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.",
+    "client-logo": "",
+    "client-url": "http://faecta.coop",
+    "client-year": "2015",
+    "calltoaction": {
+      "call": "Contribuye al consumo responsable"
+    }
+  },
+  "somoscoop": {
+    "title": "Somos.coop",
+    "subtitle": "Somos cooperativistas, usa la marca coop.",
+    "description": "Espacio web para difundir la marca cooperativa. Principios, identidad y recursos del cooperativismo.",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "http://somos.coop",
+    "keys": [
+      {"key": "Principios e identidad de la marca cooperativa."},
+      {"key": "Dominios .coop como elemento diferenciador del cooperativismo en la red."},
+      {"key": "Recursos formativos e informativos de nuestra identidad."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""}
+    ],
+    "own": "si",
+    "client-name": "",
+    "client-description": "",
+    "client-logo": "",
+    "client-url": "",
+    "client-year": "",
+    "calltoaction": {
+      "call": "¡Construyamos cooperativismo!"
+    }
+  },
+  "enlaorbita": {
+    "title": "En la Órbita",
+    "subtitle": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet.",
+    "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "http://enlaorbita.com",
+    "keys": [
+      {"key": "Facilita posicionamiento digital a empresas y entidades."},
+      {"key": "Solución responsive para la visualización en todo tipo de dispositivos."},
+      {"key": "Funcionalidades avanzadas con precios muy reducidos."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org"},
+      {"technology": "Django", "url": "https://www.djangoproject.com"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"},
+      {"technology": "AngularJS", "url": "https://angularjs.org"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com"}
+
+    ],
+    "own": "si",
+    "client-name": "",
+    "client-description": "",
+    "client-logo": "",
+    "client-url": "",
+    "client-year": "",
+    "calltoaction": {
+      "call": "¡Mejora tu presencia en la red!"
+    }
+  },
+  "socialtocrowd": {
+    "title": "Social to Crowd",
+    "subtitle": "El crowdfunding de las cosas",
+    "description": "Plataforma para facilitar la solidaridad directa entre organizaciones y personas, sin la dependencia del dinero y generando un nuevo valor en la reutilización de las cosas.",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "http://socialtocrowd.org",
+    "keys": [
+      {"key": "Plataforma de solidaridad con proyectos sociales sin dependencia del dinero."},
+      {"key": "Transparencia para facilitar la donación de materiales a ONG's."},
+      {"key": "La colaboración como mecanismo de resolución de problemas sociales."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org"},
+      {"technology": "Django", "url": "https://www.djangoproject.com"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
+    ],
+    "own": "si",
+    "client-name": "",
+    "client-description": "",
+    "client-logo": "",
+    "client-url": "",
+    "client-year": "",
+    "calltoaction": {
+      "call": "Solidiaridad, transparencia e independencia."
+    }
+  },
+  "transparencia-presupuestaria": {
+    "title": "Transparencia Presupuestaria",
+    "subtitle": "",
+    "description": "",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "",
+    "keys": [
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""}
+    ],
+    "own": "",
+    "client-name": "",
+    "client-description": "",
+    "client-logo": "",
+    "client-url": "",
+    "client-year": "",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "clic-cervantes": {
+    "title": "CLIC Cervantes",
+    "subtitle": "",
+    "description": "",
+    "logo": "",
+    "background": "",
+    "screenshot": "",
+    "url": "",
+    "keys": [
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "technologies": [
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""},
+      {"technology": "", "url": ""}
+    ],
+    "own": "",
+    "client-name": "",
+    "client-description": "",
+    "client-logo": "",
+    "client-url": "",
+    "client-year": "",
+    "calltoaction": {
+      "call": ""
     }
   }
 }
