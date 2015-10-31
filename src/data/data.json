@@ -3,7 +3,53 @@
     "claim": "Tecnología para la Transformación Social"
   },
   "cooperativa": {
-
+    "logo": "",
+    "claim": "Tecnología para la Transformación Social",
+    "intro": "En ENREDA tenemos una mirada distinta de la realidad, de la tecnología y de la comunicación; y eso suele ser el primer paso para poder transformar las cosas.",
+    "principles": [
+      {"title": "Cooperativismo", "description": "Creemos en el valor social y democrático de las empresas. Mejor cooperar que competir."},
+      {"title": "Libertad tecnológica", "description": "Apostamos por el Software Libre y la libertad tecnológica en todos los ámbitos."},
+      {"title": "Compromiso social", "description": "Todas y todos podemos y debemos ser parte del cambio social para mejorar el mundo en el que vivimos. Desde lo local hacia lo global."}
+    ],
+    "team": {
+      "core": [
+        {"name": "Pablo Martín", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://enreda.coop", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "Pablo García", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "José Rubén Garrido", "photo": "", "email": "joser.garrido@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "Daniel Melendro", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": ""}
+      ],
+      "collaborators": [
+        {"name": "", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
+        {"name": "", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""}
+      ]
+    },
+    "join": {
+      "title": "¿Quieres unirte a Enreda?",
+      "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, ponte en contacto con nosotras.",
+      "contact": "Escríbenos",
+      "url": "mailto:info@enreda.coop"
+    },
+    "collaborate": {
+      "title": "Colabora con Enreda",
+      "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de Social Inn, un espacio de creación colectiva enfocado a la innovación social.",
+      "contact": "Deseo participar",
+      "url": ""
+    },
+    "network": {
+      "title": "Motivaciones de trabajar en red",
+      "description": "colaborar, cooperar y trabajar con otras organizaciones facilita el cumplimiento de nuestros objetivos y fines; así como intercambiar experiencias; aprender colectivamente; y apoyar otros proyectos con los que nos sentimos identificadas.",
+      "nodes": [
+        {"name": "Fiare", "logo": "", "description": "Banca ética y cooperativa constituida como herramienta al servicio de la transformación social a través de la financiación de proyectos de la economía social y solidaria y la promoción de una cultura de la intermediación financiera, bajo los principios de la transparencia, la participación, la democracia y el crédito como derecho.", "url": "http://www.fiarebancaetica.coop"},
+        {"name": "Coop57", "logo": "", "description": " cooperativa de servicios financieros éticos y solidarios que tiene como objetivo principal, contribuir a la transformación social en positivo de nuestra economía y de nuestra sociedad.", "url": "http://www.coop57.coop"},
+        {"name": "REAS", "logo": "", "description": "Red de Redes de Economía Alternativa y Solidaria, compuesta por más de trescientas entidades que nos agrupamos en redes territoriales y sectoriales.", "url": "http://www.economiasolidaria.org"},
+        {"name": "Mercado Social de Sevilla", "logo": "", "description": "red de producción, distribución y consumo de bienes y servicios con criterios éticos, democráticos, ecológicos y solidarios.El objetivo de esta red es cubrir una parte significativa de las necesidades de sus participantes y desconectar, tanto como sea posible, la economía solidaria de la economía capitalista.", "url": "http://mercadosocialsevilla.org"},
+        {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"},
+        {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabaho de las mismas.", "url": "http://openkratio.org"},
+        {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"}
+      ]
+    }
   },
   "lineas": {
     "items": [

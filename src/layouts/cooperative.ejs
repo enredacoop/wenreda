@@ -2,8 +2,61 @@
 
 <% include common/header %>
 
-<div class="container">
-  <p>LA COOPERATIVA</p>
+<div id="cooperative" class="wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p><%= data.intro %></p>
+                <h3>Principios</h3>
+                <ul>
+                <% for(var i=0; i<data.principles.length; i++) { %>
+                    <li>
+                        <h5><%= data.principles[i].title %></h5>
+                        <p><%= data.principles[i].description %></p>
+                    </li>
+                <% } %>
+                </ul>
+                <h3>Núcleo</h3>
+                <ul>
+                <% for(var i=0; i<data.team.core.length; i++) { %>
+                    <li>
+                        <%= data.team.core[i].name %>
+                        <ul>
+                            <li><%= data.team.core[i].email %></li>
+                            <li><%= data.team.core[i].web %></li>
+                        </ul>
+                    </li>
+                <% } %>
+                </ul>
+                <h3>Colaboradores</h3>
+                <ul>
+                <% for(var i=0; i<data.team.collaborators.length; i++) { %>
+                    <li>
+                        <%= data.team.collaborators[i].name %>
+                        <ul>
+                            <li><%= data.team.collaborators[i].email %></li>
+                            <li><%= data.team.collaborators[i].web %></li>
+                        </ul>
+                    </li>
+                <% } %>
+                </ul>
+                <h3>Únete</h3>
+                <h5><%= data.join.title %></h5>
+                <p><%= data.join.descrption %></p>
+                <h3>Colabora</h3>
+                <h5><%= data.collaborate.title %></h5>
+                <p><%= data.collaborate.descrption %></p>
+                <h3>RED</h3>
+                <h5><%= data.network.title %></h5>
+                <p><%= data.network.descrption %></p>
+                <% for(var i=0; i<data.network.nodes.length; i++) { %>
+                    <li>
+                        <strong><%= data.network.nodes[i].name %></strong>: <%= data.network.nodes[i].description %>
+                    </li>
+                <% } %>
+            </div>
+        </div>
+    </div>
 </div>
 
 <% include common/footer %>

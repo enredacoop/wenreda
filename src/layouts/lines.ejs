@@ -2,7 +2,7 @@
 
 <% include common/header %>
 
-<div id="lines">
+<div id="lines" class="wrapper">
     <% for(var i=0; i<data.items.length; i++) { %>
         <a href="<%= data.items[i].url %>" alt="<%= data.items[i].title %>" title="<%= data.items[i].title %>">
             <div class="line <%= data.items[i].class %>">
