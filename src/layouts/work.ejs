@@ -1,0 +1,95 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<div id="work" class="wrapper">
+    
+    <section id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><%= data.title %></h2>
+                    <h4><%= data.subtitle %></h4>
+                </div>
+                <div class="col-sm-6">
+                    <p><%= data.description %></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keys">
+        <div class="container">
+            <div class="row text-center">
+                <% for(var i=0; i<data.keys.length; i++) { %>
+                    <div class="col-sm-4">
+                        <span class="key"><%= data.keys[i].key %></span>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    </section>
+
+    <section id="metrics">
+        <div class="container">
+            <div class="row text-center">
+                <% for(var i=0; i<data.metrics.length; i++) { %>
+                    <div class="col-sm-4">
+                        <span class="value"><%= data.metrics[i].value %></span>
+                        <br/>
+                        <span class="metric"><%= data.metrics[i].metric %></span>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <span>Tecnologías</span>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <% for(var i=0; i<data.technologies.length; i++) { %>
+                            <li><a href="<%= data.technologies[i].url %>" target="_blank"><%= data.technologies[i].technology %></a></li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <% if (data.own == "no") { %>
+        <section id="client">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="<%= data.clienturl %>" target="_blank"><%= data.clientname %></a>
+                    <br/>
+                    <%= data.clientdescription %>
+                    <br/>
+                    <%= data.clientyear %>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <% } %>
+
+    <section id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4><%= data.calltoaction.call %></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<% include common/footer %>
+
+<% include common/end %>

@@ -257,11 +257,11 @@
       {"technology": "D3js", "url": "http://d3js.org"}
     ],
     "own": "no",
-    "client-name": "CIECODE",
-    "client-description": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
-    "client-logo": "",
+    "clientname": "CIECODE",
+    "clientdescription": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
+    "clientlogo": "",
     "client-url": "http://unmundosalvadorsoler.org/ciecode",
-    "client-year": "2015",
+    "clientyear": "2015",
     "calltoaction": {
       "call": "La pobreza es cosa de todas y todos ¡participa!"
     }
@@ -290,11 +290,11 @@
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
     ],
     "own": "no",
-    "client-name": "FAECTA",
-    "client-description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.",
-    "client-logo": "",
-    "client-url": "http://faecta.coop",
-    "client-year": "2015",
+    "clientname": "FAECTA",
+    "clientdescription": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.",
+    "clientlogo": "",
+    "clienturl": "http://faecta.coop",
+    "clientyear": "2015",
     "calltoaction": {
       "call": "Contribuye al consumo responsable"
     }
@@ -323,11 +323,11 @@
       {"technology": "", "url": ""}
     ],
     "own": "si",
-    "client-name": "",
-    "client-description": "",
-    "client-logo": "",
-    "client-url": "",
-    "client-year": "",
+    "clientname": "",
+    "clientdescription": "",
+    "clientlogo": "",
+    "clienturl": "",
+    "clientyear": "",
     "calltoaction": {
       "call": "¡Construyamos cooperativismo!"
     }
@@ -359,11 +359,11 @@
 
     ],
     "own": "si",
-    "client-name": "",
-    "client-description": "",
-    "client-logo": "",
-    "client-url": "",
-    "client-year": "",
+    "clientname": "",
+    "clientdescription": "",
+    "clientlogo": "",
+    "clienturl": "",
+    "clientyear": "",
     "calltoaction": {
       "call": "¡Mejora tu presencia en la red!"
     }
@@ -392,11 +392,11 @@
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
     ],
     "own": "si",
-    "client-name": "",
-    "client-description": "",
-    "client-logo": "",
-    "client-url": "",
-    "client-year": "",
+    "clientname": "",
+    "clientdescription": "",
+    "clientlogo": "",
+    "clienturl": "",
+    "clientyear": "",
     "calltoaction": {
       "call": "Solidiaridad, transparencia e independencia."
     }
@@ -424,12 +424,12 @@
       {"technology": "", "url": ""},
       {"technology": "", "url": ""}
     ],
-    "own": "",
-    "client-name": "",
-    "client-description": "",
-    "client-logo": "",
-    "client-url": "",
-    "client-year": "",
+    "own": "si",
+    "clientname": "",
+    "clientdescription": "",
+    "clientlogo": "",
+    "clienturl": "",
+    "clientyear": "",
     "calltoaction": {
       "call": ""
     }
@@ -458,11 +458,11 @@
       {"technology": "", "url": ""}
     ],
     "own": "",
-    "client-name": "",
-    "client-description": "",
-    "client-logo": "",
-    "client-url": "",
-    "client-year": "",
+    "clientname": "",
+    "clientdescription": "",
+    "clientlogo": "",
+    "clienturl": "",
+    "clientyear": "",
     "calltoaction": {
       "call": ""
     }
