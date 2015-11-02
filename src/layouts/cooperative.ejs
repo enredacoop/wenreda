@@ -3,60 +3,140 @@
 <% include common/header %>
 
 <div id="cooperative" class="wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p><%= data.intro %></p>
-                <h3>Principios</h3>
-                <ul>
+
+    <section id="intro">
+        <div style="padding:0 15px;">
+            <div class="row">
+                <div class="col-md-3 name">
+                    <span class="first">Enreda</span>
+                    <br>
+                    <span class="second">Cooperativa</span>
+                </div>
+                <div class="col-md-9 description">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
+                            <%= data.intro %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="principles">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading">Nuestros principios</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
                 <% for(var i=0; i<data.principles.length; i++) { %>
-                    <li>
-                        <h5><%= data.principles[i].title %></h5>
-                        <p><%= data.principles[i].description %></p>
-                    </li>
-                <% } %>
-                </ul>
-                <h3>Núcleo</h3>
-                <ul>
-                <% for(var i=0; i<data.team.core.length; i++) { %>
-                    <li>
-                        <%= data.team.core[i].name %>
-                        <ul>
-                            <li><%= data.team.core[i].email %></li>
-                            <li><%= data.team.core[i].web %></li>
-                        </ul>
-                    </li>
-                <% } %>
-                </ul>
-                <h3>Colaboradores</h3>
-                <ul>
-                <% for(var i=0; i<data.team.collaborators.length; i++) { %>
-                    <li>
-                        <%= data.team.collaborators[i].name %>
-                        <ul>
-                            <li><%= data.team.collaborators[i].email %></li>
-                            <li><%= data.team.collaborators[i].web %></li>
-                        </ul>
-                    </li>
-                <% } %>
-                </ul>
-                <h3>Únete</h3>
-                <h5><%= data.join.title %></h5>
-                <p><%= data.join.descrption %></p>
-                <h3>Colabora</h3>
-                <h5><%= data.collaborate.title %></h5>
-                <p><%= data.collaborate.descrption %></p>
-                <h3>RED</h3>
-                <h5><%= data.network.title %></h5>
-                <p><%= data.network.descrption %></p>
-                <% for(var i=0; i<data.network.nodes.length; i++) { %>
-                    <li>
-                        <strong><%= data.network.nodes[i].name %></strong>: <%= data.network.nodes[i].description %>
-                    </li>
+                    <div class="col-sm-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa <%= data.principles[i].icon %> fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="principle-heading"><%= data.principles[i].title %></h4>
+                        <p class="text-muted"><%= data.principles[i].description %></p>
+                    </div>
                 <% } %>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading">Núcleo</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <% for(var i=0; i<data.team.core.length; i++) { %>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="http://lorempixel.com/200/200/people" class="img-responsive img-circle" alt="">
+                            <h4><%= data.team.core[i].name %></h4>
+                            <p class="text-muted">Whatever</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="<%= data.team.core[i].email %>"><i class="fa fa-envelope"></i></a></li>
+                                <li><a href="<%= data.team.core[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="<%= data.team.core[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading">Colaboradores</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <% for(var i=0; i<data.team.collaborators.length; i++) { %>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="http://lorempixel.com/200/200/people" class="img-responsive img-circle" alt="">
+                            <h4><%= data.team.collaborators[i].name %></h4>
+                            <p class="text-muted">Whatever</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="<%= data.team.collaborators[i].email %>"><i class="fa fa-envelope"></i></a></li>
+                                <li><a href="<%= data.team.collaborators[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="<%= data.team.collaborators[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partof">
+        <div class="container">
+            <div class="row">
+                <div id="join" class="col-md-6 text-center">
+                    <div class="well">
+                        <h5><%= data.join.title %></h5>
+                        <p><%= data.join.description %></p>
+                    </div>
+                </div>
+                <div id="collaborate" class="col-md-6 text-center">
+                    <div class="well">
+                        <h5><%= data.collaborate.title %></h5>
+                        <p><%= data.collaborate.description %></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="network">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading"><%= data.network.title %></h2>
+                    <h3 class="section-subheading text-muted"><%= data.network.description %></h3>
+                </div>
+            </div>
+            <div class="row">
+                <% for(var i=0; i<data.network.nodes.length; i++) { %>
+                    <div class="col-sm-12">
+                        <strong><%= data.network.nodes[i].name %></strong>: <%= data.network.nodes[i].description %>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    </section>
+
 </div>
 
 <% include common/footer %>

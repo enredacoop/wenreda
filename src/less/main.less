@@ -19,6 +19,10 @@ h6 {
   font-weight: 700;
 }
 
+.text-primary {
+  color: @main_color;
+}
+
 .wrapper {
   padding-top: 50px;
 }
@@ -81,9 +85,113 @@ header {
 
 
 
-/********** HOME **********/
+/********** COOPERATIVE **********/
 
-#cooperative {  }
+#cooperative {
+  
+  section {
+    
+    padding: 60px 0;
+    
+    h2.section-heading {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    
+    h3.section-subheading {
+      font-size: 16px;
+      text-transform: none;
+      font-style: italic;
+      font-weight: 400;
+      margin-bottom: 75px;
+    }
+    
+    .principle-heading {
+      margin: 15px 0;
+      text-transform: none;
+    }
+
+    .team-member {
+      text-align: center;
+      margin-bottom: 50px;
+      img {
+        margin: 0 auto;
+        border: 7px solid white;
+      }
+      h4 {
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-transform: none;
+      }
+      p {
+        margin-top: 0;
+      }
+      .social-buttons {
+        li {
+          a {
+            color: @main_color;
+            &:hover {
+              color: @main_color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #intro {
+    padding: 0px;
+    .name {
+      background-color: @dark_color;
+      padding: 80px 15px 30px 15px;
+      height: 240px;
+      .first {
+        color: @main_color;
+        font-size: 3em;
+        text-transform: uppercase;
+        letter-spacing: -2px;
+      }
+      .second {
+        color: @clean_color;
+        font-size: 2em;
+        letter-spacing: 2px;
+      }
+    }
+    .description {
+      background-color: @main_color;
+      color: @clean_color;
+      font-size: 1.5em;
+      padding: 80px 15px 30px 15px;
+      height: 240px;
+    }
+  }
+
+  #partof {
+    background-color: @main_color;
+    #join {
+      color: @dark_color;
+      height: 200px;
+    }
+    #collaborate {
+      color: @dark_color;
+      height: 200px;
+    }
+  }
+
+  #network {
+    
+  }
+
+}
+
+@media(min-width:768px) {
+  #cooperative {
+    section {
+      padding: 120px 0;
+    }
+  }
+}
 
 
 
