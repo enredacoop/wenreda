@@ -30,13 +30,13 @@
       ]
     },
     "join": {
-      "title": "¿Quieres unirte a Enreda?",
+      "title": "Únete",
       "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, ponte en contacto con nosotras.",
       "contact": "Escríbenos",
       "url": "mailto:info@enreda.coop"
     },
     "collaborate": {
-      "title": "Colabora con Enreda",
+      "title": "Colabora",
       "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de Social Inn, un espacio de creación colectiva enfocado a la innovación social.",
       "contact": "Deseo participar",
       "url": ""
@@ -235,9 +235,10 @@
 
   "tipi-ciudadano": {
     "title": "TIPI Ciudadano",
+    "class": "tipi",
     "subtitle": "Transparencia, Información, Participación e Incidencia.",
     "description": "Proyecto que pretende fortalecer las capacidades de la sociedad civil, para incidir en los procesos de toma de decisión política y en la generación de un debate público informado sobre la pobreza y la justicia social en España.",
-    "logo": "",
+    "logo": "tipi.png",
     "background": "",
     "screenshot": "",
     "url": "http://tipiciudadano.es",
@@ -251,10 +252,11 @@
       {"metric": "Eventos", "value": "50"},
       {"metric": "ONGs", "value": "300"}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "MeteorJS", "url": "https://www.meteor.com"},
-      {"technology": "MongoDB", "url": "https://www.mongodb.com"},
-      {"technology": "D3js", "url": "http://d3js.org"}
+      {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
     "clientname": "CIECODE",
@@ -268,6 +270,7 @@
   },
   "lacentralcoop": {
     "title": "LaCentral.coop",
+    "class": "lacentralcoop",
     "subtitle": "Plataforma de productos y servicios cooperativos.",
     "description": "",
     "logo": "",
@@ -284,10 +287,11 @@
       {"metric": "Usuarios", "value": ""},
       {"metric": "Productos y Servicios", "value": ""}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org"},
-      {"technology": "Django", "url": "https://www.djangoproject.com"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
     "clientname": "FAECTA",
@@ -301,6 +305,7 @@
   },
   "somoscoop": {
     "title": "Somos.coop",
+    "class": "somoscoop",
     "subtitle": "Somos cooperativistas, usa la marca coop.",
     "description": "Espacio web para difundir la marca cooperativa. Principios, identidad y recursos del cooperativismo.",
     "logo": "",
@@ -317,10 +322,11 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""}
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -334,6 +340,7 @@
   },
   "enlaorbita": {
     "title": "En la Órbita",
+    "class": "enlaorbita",
     "subtitle": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet.",
     "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
     "logo": "",
@@ -350,12 +357,13 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org"},
-      {"technology": "Django", "url": "https://www.djangoproject.com"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"},
-      {"technology": "AngularJS", "url": "https://angularjs.org"},
-      {"technology": "EJS", "url": "http://www.embeddedjs.com"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
 
     ],
     "own": "si",
@@ -370,6 +378,7 @@
   },
   "socialtocrowd": {
     "title": "Social to Crowd",
+    "class": "socialtocrowd",
     "subtitle": "El crowdfunding de las cosas",
     "description": "Plataforma para facilitar la solidaridad directa entre organizaciones y personas, sin la dependencia del dinero y generando un nuevo valor en la reutilización de las cosas.",
     "logo": "",
@@ -386,10 +395,12 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org"},
-      {"technology": "Django", "url": "https://www.djangoproject.com"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -403,6 +414,7 @@
   },
   "transparencia-presupuestaria": {
     "title": "Transparencia Presupuestaria",
+    "class": "transparenciapresupuestaria",
     "subtitle": "",
     "description": "",
     "logo": "",
@@ -419,10 +431,11 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""}
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -436,35 +449,36 @@
   },
   "clic-cervantes": {
     "title": "CLIC Cervantes",
-    "subtitle": "",
-    "description": "",
+    "class": "clic",
+    "subtitle": "Comercio online, internacionalización e integración de sistemas",
+    "description": "Proyecto para la comercialización de productos del Instituto Cervantes en sus centros repartidos por el mundo. Un ejemplo de internacionalización y gestión coordinada de la información a través de Internet.",
     "logo": "",
     "background": "",
     "screenshot": "",
-    "url": "",
+    "url": "http://clic.cervantes.es",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
+      {"key": "Integración de sistemas de gestión propios del cliente y con diversos servicios de banca online"},
+      {"key": "Internacionalización de los centros en múltiples idiomas"},
+      {"key": "Gestión de múltiples sitios desarrollados en Drupal"}
     ],
     "metrics": [
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""}
+      {"metric": "Portales operativos", "value": "47"},
+      {"metric": "Formas de pago online", "value": "+20"},
+      {"metric": "Idiomas traducido", "value": "20"}
     ],
+    "metricsinfo": "Datos obtenidos en octubre de 2015",
     "technologies": [
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""},
-      {"technology": "", "url": ""}
+      {"technology": "Drupal", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
-    "own": "",
-    "clientname": "",
-    "clientdescription": "",
-    "clientlogo": "",
-    "clienturl": "",
-    "clientyear": "",
+    "own": "no",
+    "clientname": "Instituto Cervantes",
+    "clientdescription": "Organismo público español para la promoción y enseñanza de la lengua española, y la difusión de la cultura de España e Hispanoamérica",
+    "clientlogo": "instituto-cervantes.png",
+    "clienturl": "http://www.cervantes.es",
+    "clientyear": "2011-2015",
     "calltoaction": {
-      "call": ""
+      "call": "te ayudamos a desarrollar tu estrategia de comercio online."
     }
   }
 }

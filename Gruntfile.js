@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         dest: 'dist/assets/js/scripts.js',
       },
       less: {
-        src: ['src/less/colors.less', 'src/less/sizes.less', 'src/less/main.less'],
+        src: ['src/less/colors.less', 'src/less/sizes.less', 'src/less/mixins.less', 'src/less/main.less'],
         dest: 'dist/assets/css/styles.less',
       },
     },
@@ -74,6 +74,10 @@ module.exports = function(grunt) {
       less: {
         files: ['src/less/**/*.less'],
         tasks: ['concat:less', 'less:dist', 'clean'],
+      },
+      data: {
+        files: ['src/data/**/*.json', 'src/layouts/**/*.ejs'],
+        tasks: ['ejs_static:dist'],
       },
     },
   });

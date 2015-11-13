@@ -1,0 +1,72 @@
+/* Mixin */
+
+.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+    -webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+    box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
+
+
+
+.gradient (@origin: top, @start: #ffffff, @stop: #000000) {
+    background-color: @start;
+    background-image: -webkit-linear-gradient(@origin, @start, @stop);
+    background-image: -moz-linear-gradient(@origin, @start, @stop);
+    background-image: -o-linear-gradient(@origin, @start, @stop);
+    background-image: -ms-linear-gradient(@origin, @start, @stop);
+    background-image: linear-gradient(@origin, @start, @stop);
+}
+
+
+
+.make-contrast (@ref_color: #fff) {
+    color: contrast(@ref_color, @black_color, @white_color);
+}
+
+
+
+.make-border-top-contrast (@ref_color: #fff, @px: 1px, @style: solid) {
+    border-top: @px @style contrast(@ref_color, @black_color, @white_color);
+}
+
+.make-border-top (@ref_color: #fff, @px: 1px, @style: solid) {
+    border-top: @px @style @ref_color;
+}
+
+
+
+.work_styling (@ref_color: #fff) {
+  #intro {
+    background-color: @ref_color;
+  }
+  #info {
+    background-color: darken(@ref_color, 5%);
+  }
+  #keys {
+    background-color: @lightgrey_color;
+    color: @dark_color;
+    .key {
+      .make-border-top(@ref_color, 6px);
+    }
+  }
+  #metrics {
+    background-color: @clean_color;
+    color: @dark_color;
+    .metric {
+      .text {
+      }
+      .value {
+        color: darken(@ref_color, 5%);
+      }
+    }
+  }
+  #technologies {
+    background-color: @dark_color;
+    color: @clean_color;
+  }
+  #client {
+  }
+  #call {
+    background-color: @ref_color;
+  }
+}

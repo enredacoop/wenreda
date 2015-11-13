@@ -2,17 +2,30 @@
 
 <% include common/header %>
 
-<div id="work" class="wrapper">
+<div id="work" class="<%= data.class %> wrapper">
     
-    <section id="info">
+    <section id="intro">
         <div class="container">
             <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="/assets/images/works/<%= data.logo %>" alt="Logo de <%= data.title %>" height="200" />
+                </div>
                 <div class="col-sm-6">
                     <h2><%= data.title %></h2>
                     <h4><%= data.subtitle %></h4>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-6">
                     <p><%= data.description %></p>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <p>Screenshot goes here!</p>
                 </div>
             </div>
         </div>
@@ -20,10 +33,10 @@
 
     <section id="keys">
         <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <% for(var i=0; i<data.keys.length; i++) { %>
                     <div class="col-sm-4">
-                        <span class="key"><%= data.keys[i].key %></span>
+                        <div class="key"><%= data.keys[i].key %></div>
                     </div>
                 <% } %>
             </div>
@@ -35,11 +48,18 @@
             <div class="row text-center">
                 <% for(var i=0; i<data.metrics.length; i++) { %>
                     <div class="col-sm-4">
-                        <span class="value"><%= data.metrics[i].value %></span>
-                        <br/>
-                        <span class="metric"><%= data.metrics[i].metric %></span>
+                        <h4 class="metric">
+                            <span class="value"><%= data.metrics[i].value %></span>
+                            <br/>
+                            <span class="text"><%= data.metrics[i].metric %></span>
+                        </h4>
                     </div>
                 <% } %>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center metricsinfo">
+                    <small><%= data.metricsinfo %><small>
+                </div>
             </div>
         </div>
     </section>
@@ -47,15 +67,19 @@
     <section id="technologies">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <span>Tecnologías</span>
+                <div class="col-sm-6 text-center">
+                    <h6 class="title">TECH</h6>
                 </div>
                 <div class="col-sm-6">
-                    <ul>
+                    <div class="row">
                         <% for(var i=0; i<data.technologies.length; i++) { %>
-                            <li><a href="<%= data.technologies[i].url %>" target="_blank"><%= data.technologies[i].technology %></a></li>
+                            <div class="col-sm-3 text-center">
+                                <a href="<%= data.technologies[i].url %>" target="_blank" title="<%= data.technologies[i].technology %>">
+                                    <img src="<%= data.technologies[i].logo %>" alt="Logo de <%= data.technologies[i].technology %>" />
+                                </a>
+                            </div>
                         <% } %>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,8 +9,8 @@ html {
     font-family: @font, sans-serif;
 }
 
-::-moz-selection { color: @dark_color; background-color: @main_color; }
-::selection { color: @dark_color; background-color: @main_color; }
+::-moz-selection { color: @dark_color; background-color: @primary_color; }
+::selection { color: @dark_color; background-color: @primary_color; }
 
 h1,
 h2,
@@ -22,7 +22,7 @@ h6 {
 }
 
 .text-primary {
-  color: @main_color;
+  color: @primary_color;
 }
 
 .wrapper {
@@ -42,6 +42,7 @@ header {
     font-size: 16px;
     background-color: @dark_color;
     color: @clean_color;
+    .box-shadow(0px, 3px, 3px, 0.8);
     
     a {
       color: @clean_color;
@@ -49,6 +50,9 @@ header {
         color: @white_color;
         background-color: @black_color;
       }
+    }
+    a.navbar-brand {
+      padding: 0px;
     }
 
     button {
@@ -66,7 +70,7 @@ header {
 
 #home {
 
-  background-color: @main_color;
+  background-color: @primary_color;
 
   .claim {
     
@@ -76,6 +80,7 @@ header {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    text-transform: uppercase;
 
     h2 {
       font-size: 3em;
@@ -137,9 +142,9 @@ header {
       .social-buttons {
         li {
           a {
-            color: @main_color;
+            color: @primary_color;
             &:hover {
-              color: @main_color;
+              color: @primary_color;
             }
           }
         }
@@ -154,7 +159,7 @@ header {
       padding: 80px 15px 30px 15px;
       height: 240px;
       .first {
-        color: @main_color;
+        color: @primary_color;
         font-size: 3em;
         text-transform: uppercase;
         letter-spacing: -2px;
@@ -166,7 +171,7 @@ header {
       }
     }
     .description {
-      background-color: @main_color;
+      background-color: @primary_color;
       color: @clean_color;
       font-size: 1.5em;
       padding: 80px 15px 30px 15px;
@@ -174,20 +179,26 @@ header {
     }
   }
 
+  #team {
+    .gradient(top, @lightgrey_color, @clean_color);
+  }
+
   #partof {
-    background-color: @main_color;
-    #join {
-      color: @dark_color;
-      height: 200px;
+    background-color: @primary_color;
+    color: @dark_color;
+    h5 {
+      color: @white_color;
+      font-size: 3em;
+      text-transform: uppercase;
     }
-    #collaborate {
-      color: @dark_color;
-      height: 200px;
+    p {
+      font-size: 1.3em;
     }
   }
 
   #network {
-
+    background-color: #020202;
+    color: @clean_color;
   }
 
 }
@@ -207,12 +218,12 @@ header {
 
 #lines, #works {
 
-  a {
+  a.jump {
 
     text-decoration: none;
     &:hover {  }
 
-    .line.economia-social { background-color: lighten(@black_color, 5%); }
+    .line.economia-social { background: url('/assets/images/lines/economiasocial_banner.png') no-repeat top center; }
     .line.transparencia-participacion { background-color: lighten(@black_color, 10%); }
     .line.innovacion-social { background-color: lighten(@black_color, 15%); }
     .line.comunicacion { background-color: lighten(@black_color, 20%); }
@@ -282,7 +293,7 @@ p.lead {
     padding-bottom: 50px;
     text-align: center;
     color: @clean_color;
-    background: url('http://www.fondos7.net/wallpaper-original/wallpapers/fondo-degrade-negro-5647.jpg') no-repeat center center;
+    background: url('/assets/images/lines/economiasocial_banner.png') no-repeat top center;
     background-size: cover;
 
     .intro-message {
@@ -293,8 +304,9 @@ p.lead {
 
       h1 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0,0,0,1);
         font-size: 4em;
+        text-transform: uppercase;
       }
 
       .intro-divider {
@@ -338,14 +350,14 @@ p.lead {
   .section-heading-spacer {
       float: left;
       width: 200px;
-      border-top: 3px solid #e7e7e7;
+      border-top: 6px solid @primary_color;
   }
 
   .call {
       
       padding: 100px 0;
       color: @clean_color;
-      background: url('http://www.fondos7.net/wallpaper-original/wallpapers/fondo-degrade-negro-5647.jpg') no-repeat center center;
+      background: url('/assets/images/economiasocial_banner.png') no-repeat center center;
       background-size: cover;
 
       h2 {
@@ -361,6 +373,17 @@ p.lead {
       .call-social-buttons {
         float: right;
         margin-top: 0;
+
+        .btn-custom {
+          color: @clean_color;
+          background-color: @dark_color;
+          border-color: @black_color;
+          &:hover, &:active, &:visited {
+            color: @clean_color;
+            background-color: @black_color;
+          }
+        }
+
       }
 
       .network-name {
@@ -434,6 +457,115 @@ p.lead {
 
 
 
+/********** WORK **********/
+
+#work {
+  #intro {
+
+  }
+  #info {
+    p {
+      font-size: 1.7em;
+    }
+  }
+  #keys {
+    .key {
+      font-size: 1.5em;
+      padding-top: 5px;
+    }
+  }
+  #metrics {
+    .metric {
+      .text {
+        font-size: 1.5em;
+        font-weight: 400;
+      }
+      .value {
+        font-size: 3em;
+        font-weight: 700;
+      }
+    }
+    .metricsinfo {
+      padding-top: 15px;
+      font-style: italic;
+    }
+  }
+  #technologies {
+    .title {
+      font-size: 3em;
+      font-weight: 700;
+    }
+    a {
+      img {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  #client {
+
+  }
+  #call {
+    .row {
+      padding-bottom: 40px;
+      h4 {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+#work.tipi {
+  .make-contrast(@tipi_color);
+  .work_styling(@tipi_color);
+}
+
+#work.lacentralcoop {
+  .make-contrast(@lacentralcoop_color);
+  .work_styling(@lacentralcoop_color);
+}
+
+#work.somoscoop {
+  .make-contrast(@somoscoop_color);
+  .work_styling(@somoscoop_color);
+}
+
+#work.enlaorbita {
+  .make-contrast(@enlaorbita_color);
+  .work_styling(@enlaorbita_color);
+}
+
+#work.socialtocrowd {
+  .make-contrast(@socialtocrowd_color);
+  .work_styling(@socialtocrowd_color);
+}
+
+#work.transparenciapresupuestaria {
+  .make-contrast(@transparenciapresupuestaria_color);
+  .work_styling(@transparenciapresupuestaria_color);
+}
+
+#work.clic {
+  .make-contrast(@clic_color);
+  .work_styling(@clic_color);
+}
+
+@media(max-width:767px) {
+  #work {
+    #keys {
+      .key {
+        padding-bottom: 30px;
+      }
+    }
+    #metrics {
+      .metric {
+        padding-bottom: 30px;
+      }
+    }
+  }
+}
+
+
+
 
 /********** FOOTER **********/
 
@@ -441,6 +573,7 @@ footer {
     padding: 30px 0;
     background-color: @dark_color;
     color: @clean_color;
+    .box-shadow(0px, -3px, 3px, 0.8);
 
     .row {
       padding-bottom: 40px;
