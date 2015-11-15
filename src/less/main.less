@@ -25,8 +25,16 @@ h6 {
   color: @primary_color;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .wrapper {
   padding-top: 50px;
+}
+
+.wrapper-content {
+  padding: 100px 0px 100px 0px;
 }
 
 section {
@@ -42,7 +50,7 @@ header {
     font-size: 16px;
     background-color: @dark_color;
     color: @clean_color;
-    .box-shadow(0px, 3px, 3px, 0.8);
+    .box-shadow(0px, 3px, 3px, 0.7);
     
     a {
       color: @clean_color;
@@ -68,7 +76,7 @@ header {
 
 /********** HOME **********/
 
-#home {
+#home-claim {
 
   background-color: @primary_color;
 
@@ -89,8 +97,54 @@ header {
   }
 }
 
+#home-blog {
+  background-color: @dark_color;
+  .itemnews {
+    background-color: darken(@dark_color, 3%);
+    min-height: 180px;
+    color: @secondary_color;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 15px;
+    margin-bottom: 30px;
+    a {
+      color: @secondary_color;
+      font-weight: 700;
+      font-size: 1.5em;
+      &:hover {
+        color: @clean_color;
+      }
+    }
+    small {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: lighten(@dark_color, 20%);
+    }
+  }
+  #loading-blog-items {
+    p {
+      font-style: italic;
+      font-size: 2em;
+      color: lighten(@dark_color, 20%);
+    }
+  }
+}
+
+#home-quote {
+  .gradient (left, @secondary_color, @primary_color);
+  color: @lightgrey_color;
+  .quotesymbol {
+    color: darken(@secondary_color, 15%);
+  }
+  .quotetext {
+    font-size: 2em;
+  }
+  .quoteauthor {
+    font-size: 1.3em;
+  }
+}
+
 @media(max-width:767px) {
-  #home {
+  #home-claim {
     .claim {
       padding-bottom: 15%;
     }
@@ -357,7 +411,7 @@ p.lead {
       
       padding: 100px 0;
       color: @clean_color;
-      background: url('/assets/images/economiasocial_banner.png') no-repeat center center;
+      background: url('/assets/images/lines/economiasocial_banner.png') no-repeat center center;
       background-size: cover;
 
       h2 {
@@ -573,7 +627,7 @@ footer {
     padding: 30px 0;
     background-color: @dark_color;
     color: @clean_color;
-    .box-shadow(0px, -3px, 3px, 0.8);
+    .box-shadow(0px, -3px, 3px, 0.7);
 
     .row {
       padding-bottom: 40px;
@@ -582,6 +636,14 @@ footer {
         font-size: 2em;
         font-weight: bold;
       }
+
+      a {
+          color: @clean_color;
+          &:hover {
+            color: @white_color;
+            text-decoration: none;
+          }
+        }
 
       li {
         a {
