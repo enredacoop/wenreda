@@ -51,9 +51,10 @@
         {"name": "Coop57", "logo": "", "description": " cooperativa de servicios financieros éticos y solidarios que tiene como objetivo principal, contribuir a la transformación social en positivo de nuestra economía y de nuestra sociedad.", "url": "http://www.coop57.coop"},
         {"name": "REAS", "logo": "", "description": "Red de Redes de Economía Alternativa y Solidaria, compuesta por más de trescientas entidades que nos agrupamos en redes territoriales y sectoriales.", "url": "http://www.economiasolidaria.org"},
         {"name": "Mercado Social de Sevilla", "logo": "", "description": "red de producción, distribución y consumo de bienes y servicios con criterios éticos, democráticos, ecológicos y solidarios.El objetivo de esta red es cubrir una parte significativa de las necesidades de sus participantes y desconectar, tanto como sea posible, la economía solidaria de la economía capitalista.", "url": "http://mercadosocialsevilla.org"},
-        {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"},
-        {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabaho de las mismas.", "url": "http://openkratio.org"},
-        {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"}
+        {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"},
+        {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabajo de las mismas.", "url": "http://openkratio.org"},
+        {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"}
+        
       ]
     }
   },
@@ -83,6 +84,7 @@
   },
   "construyendo-la-nueva-economia-social": {
     "line": "Construyendo la nueva Economia Social",
+    "class": "economia-social",
     "claim": "Las personas frente a la acumulación",
     "why": "El cooperativismo consiste en apostar por un modelo de organizaciones democráticas que trabajan por una economía al servicio de las personas. Enreda es cooperativismo y desarrolla diversos proyectos para favorecer la consolidación y desarrollo del mismo.",
     "dialogue": [
@@ -111,6 +113,7 @@
   },
   "transparencia-y-participacion": {
     "line": "Transparencia y Participación",
+    "class": "transparencia-participacion",
     "claim": "Hacia una democracia real",
     "why": "Construimos sistemas que permiten la implementación efectiva de mecanismos de participación y transparencia basados en estándares internacionales. Organizaciones abiertas adaptadas a la realidad.",
     "dialogue": [
@@ -142,6 +145,7 @@
   },
   "innovacion-social-tecnologica": {
     "line": "Innovación Social Tecnológica",
+    "class": "innovacion-social",
     "claim": "...",
     "why": "Aplicamos la tecnología para resolver problemas reales que afectan a la ciudadanía. La innovación en el sector TIC, como herramienta de cambio, es nuestra apuesta básica como entidad.",
     "dialogue": [
@@ -161,6 +165,7 @@
   },
   "la-comunicacion-como-herramienta-de-cambio": {
     "line": "La comunicación como herramienta de cambio",
+    "class": "comunicacion",
     "claim": "La comunicación como herramienta de cambio",
     "why": "Informarse no es un ejercicio pasivo. Requiere empeño, crítica, inconformismo. No hay ciudadanía sin exigencia y sin duda. Busca y reclama información de calidad a los medios de comunicación, a las instituciones públicas, a las empresas. Desecha la basura, ignora el ruido. Expresa tu disconformidad. Dale el valor que tiene a la información. Distínguela de la propaganda.",
     "dialogue": [

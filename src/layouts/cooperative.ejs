@@ -7,14 +7,12 @@
     <section id="intro">
         <div style="padding:0 15px;">
             <div class="row">
-                <div class="col-md-3 name">
-                    <span class="first">Enreda</span>
-                    <br>
-                    <span class="second">Cooperativa</span>
+                <div class="col-sm-3 text-center">
+                    <img src="/assets/images/300x300naranja-01.png" alt="Logo de Enreda" width="240px" />
                 </div>
-                <div class="col-md-9 description">
+                <div class="col-sm-9 description">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
+                        <div class="col-md-6 col-md-offset-5 col-sm-12 text-center">
                             <%= data.intro %>
                         </div>
                     </div>
@@ -38,7 +36,7 @@
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa <%= data.principles[i].icon %> fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="principle-heading"><%= data.principles[i].title %></h4>
+                        <h3 class="principle-heading"><a href="<%= data.principles[i].url %>" target="_blank"><%= data.principles[i].title %></a></h3>
                         <p class="text-muted"><%= data.principles[i].description %></p>
                     </div>
                 <% } %>
@@ -125,8 +123,11 @@
             </div>
             <div class="row">
                 <% for(var i=0; i<data.network.nodes.length; i++) { %>
-                    <div class="col-sm-12">
-                        <strong><%= data.network.nodes[i].name %></strong>: <%= data.network.nodes[i].description %>
+                    <div class="col-md-3">
+                        <div class="node">
+                            <h3><%= data.network.nodes[i].name %></h3>
+                            <p><%= data.network.nodes[i].description %></p>
+                        </div>  
                     </div>
                 <% } %>
             </div>

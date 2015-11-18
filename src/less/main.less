@@ -78,16 +78,19 @@ header {
 
 #home-claim {
 
+  background-image: url('/assets/images/banner_main.png');
   background-color: @primary_color;
+  background-size: cover;
 
   .claim {
     
     text-align: center;
     color: #f8f8f8;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     height: 100%;
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 30%;
+    padding-bottom: 15%;
     text-transform: uppercase;
 
     h2 {
@@ -176,6 +179,7 @@ header {
     .principle-heading {
       margin: 15px 0;
       text-transform: none;
+      font-size: 1.4em;
     }
 
     .team-member {
@@ -208,27 +212,11 @@ header {
 
   #intro {
     padding: 0px;
-    .name {
-      background-color: @dark_color;
-      padding: 80px 15px 30px 15px;
-      height: 240px;
-      .first {
-        color: @primary_color;
-        font-size: 3em;
-        text-transform: uppercase;
-        letter-spacing: -2px;
-      }
-      .second {
-        color: @clean_color;
-        font-size: 2em;
-        letter-spacing: 2px;
-      }
-    }
     .description {
-      background-color: @primary_color;
+      background: @primary_color;
       color: @clean_color;
       font-size: 1.5em;
-      padding: 80px 15px 30px 15px;
+      padding: 50px 15px 30px 15px;
       height: 240px;
     }
   }
@@ -251,8 +239,23 @@ header {
   }
 
   #network {
-    background-color: #020202;
-    color: @clean_color;
+    background: lighten(@dark_color, 5%) url('/assets/images/cooperative/banner_network.png') top left no-repeat;
+    
+    h2.section-heading {
+      color: @clean_color;
+    }
+    
+    h3.section-subheading {
+      color: @lightgrey_color;
+    }
+
+    .node {
+      background-color: lighten(@dark_color, 8%);
+      text-align: center;
+      padding: 5px;
+      margin-bottom: 15px;
+      color: @lightgrey_color;
+    }
   }
 
 }
@@ -261,6 +264,17 @@ header {
   #cooperative {
     section {
       padding: 120px 0;
+    }
+  }
+}
+
+@media(min-width:800px) {
+  #cooperative {
+    #intro {
+      .description {
+        background: @primary_color url('/assets/images/cooperative/banner_corp.png') no-repeat top left;
+        
+      }
     }
   }
 }
@@ -277,10 +291,10 @@ header {
     text-decoration: none;
     &:hover {  }
 
-    .line.economia-social { background: url('/assets/images/lines/economiasocial_banner.png') no-repeat top center; }
-    .line.transparencia-participacion { background-color: lighten(@black_color, 10%); }
-    .line.innovacion-social { background-color: lighten(@black_color, 15%); }
-    .line.comunicacion { background-color: lighten(@black_color, 20%); }
+    .line.economia-social { background: url('/assets/images/lines/banner_economiasocial_small.png') no-repeat top center; z-index: 1; }
+    .line.transparencia-participacion { background: url('/assets/images/lines/banner_transparenciaparticipacion_small.png') no-repeat top center; z-index: 2; .box-shadow(0px, -8px, 5px, 0.8); }
+    .line.innovacion-social { background: url('/assets/images/lines/banner_innovacionsocial_small.png') no-repeat top center; z-index: 3; .box-shadow(0px, -8px, 5px, 0.8); }
+    .line.comunicacion { background: url('/assets/images/lines/banner_comunicacion_small.png') no-repeat top center; z-index: 4; .box-shadow(0px, -8px, 5px, 0.8); }
 
     .work.tipi { background-color: @tipi_color; }
     .work.lacentralcoop { background-color: @lacentralcoop_color; }
@@ -304,7 +318,7 @@ header {
 
         h2 {
           margin: 0;
-          text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+          text-shadow: 2px 2px 3px rgba(0,0,0,1);
           font-size: 3em;
         }
 
@@ -347,7 +361,7 @@ p.lead {
     padding-bottom: 50px;
     text-align: center;
     color: @clean_color;
-    background: url('/assets/images/lines/economiasocial_banner.png') no-repeat top center;
+    background: @dark_color;
     background-size: cover;
 
     .intro-message {
@@ -366,16 +380,29 @@ p.lead {
       .intro-divider {
         width: 400px;
         border-top: 1px solid #f8f8f8;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
+        border-bottom: 1px solid rgba(0,0,0,1);
       }
 
       h3 {
         font-weight: 400;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0,0,0,1);
       }
 
     }
 
+  }
+
+  .intro-header.economia-social {
+    background: url('/assets/images/lines/banner_economiasocial_large.png') no-repeat center center;
+  }
+  .intro-header.transparencia-participacion {
+    background: url('/assets/images/lines/banner_transparenciaparticipacion_large.png') no-repeat center center;
+  }
+  .intro-header.innovacion-social {
+    background: url('/assets/images/lines/banner_innovacionsocial_large.png') no-repeat center center;
+  }
+  .intro-header.comunicacion {
+    background: url('/assets/images/lines/banner_comunicacion_large.png') no-repeat center center;
   }
 
   .main-message {
@@ -411,12 +438,12 @@ p.lead {
       
       padding: 100px 0;
       color: @clean_color;
-      background: url('/assets/images/lines/economiasocial_banner.png') no-repeat center center;
+      background: @dark_color;
       background-size: cover;
 
       h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0,0,0,1);
         font-size: 3em;
       }
 
@@ -446,6 +473,19 @@ p.lead {
         font-weight: 400;
         letter-spacing: 2px;
       }
+  }
+
+  .call.economia-social {
+    background: url('/assets/images/lines/banner_economiasocial_small.png') no-repeat center center;
+  }
+  .call.transparencia-participacion {
+    background: url('/assets/images/lines/banner_transparenciaparticipacion_small.png') no-repeat center center;
+  }
+  .call.innovacion-social {
+    background: url('/assets/images/lines/banner_innovacionsocial_small.png') no-repeat center center;
+  }
+  .call.comunicacion {
+    background: url('/assets/images/lines/banner_comunicacion_small.png') no-repeat center center;
   }
 
 }
@@ -632,18 +672,19 @@ footer {
     .row {
       padding-bottom: 40px;
 
-      .contact {
-        font-size: 2em;
-        font-weight: bold;
-      }
-
       a {
-          color: @clean_color;
+        color: @primary_color;
           &:hover {
-            color: @white_color;
+            color: @secondary_color;
             text-decoration: none;
           }
         }
+
+      a.contact {
+        font-size: 2em;
+        font-weight: bold;
+        color: @clean_color;
+      }
 
       li {
         a {
