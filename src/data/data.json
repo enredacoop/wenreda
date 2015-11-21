@@ -197,7 +197,7 @@
     "items": [
       {
         "title": "TIPI Ciudadano",
-        "logo": "",
+        "logo": "tipi.png",
         "class": "tipi",
         "url": "/trabajos/tipi-ciudadano"
       },
