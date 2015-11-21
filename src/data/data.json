@@ -8,12 +8,18 @@
     "logo": "",
     "claim": "Tecnología para la Transformación Social",
     "intro": "En ENREDA tenemos una mirada distinta de la realidad, de la tecnología y de la comunicación; y eso suele ser el primer paso para poder transformar las cosas.",
-    "principles": [
-      {"title": "Cooperativismo", "description": "Creemos en el valor social y democrático de las empresas. Mejor cooperar que competir.", "icon": "fa-puzzle-piece"},
-      {"title": "Libertad tecnológica", "description": "Apostamos por el Software Libre y la libertad tecnológica en todos los ámbitos.", "icon": "fa-unlock"},
-      {"title": "Compromiso social", "description": "Todas y todos podemos y debemos ser parte del cambio social para mejorar el mundo en el que vivimos. Desde lo local hacia lo global.", "icon": "fa-undo"}
-    ],
+    "principles": {
+      "title": "Nuestros principios",
+      "subtitle": "...y si no te gustan, son los únicos que orgullosamente tenemos.",
+      "items" : [
+        {"title": "Cooperativismo", "description": "Creemos en el valor social y democrático de las empresas. Mejor cooperar que competir.", "icon": "fa-puzzle-piece"},
+        {"title": "Libertad tecnológica", "description": "Apostamos por el Software Libre y la libertad tecnológica en todos los ámbitos.", "icon": "fa-unlock"},
+        {"title": "Compromiso social", "description": "Todas y todos podemos y debemos ser parte del cambio social para mejorar el mundo en el que vivimos. Desde lo local hacia lo global.", "icon": "fa-undo"}
+      ]
+    },
     "team": {
+      "title": "Equipo",
+      "subtitle": "Las personas como centro de toda actividad empresarial.",
       "core": [
         {"name": "Pablo Martín", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://enreda.coop", "twitter": "", "linkedin": "", "github": ""},
         {"name": "Pablo García", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "", "linkedin": "", "github": ""},
@@ -45,7 +51,7 @@
     },
     "network": {
       "title": "Motivaciones de trabajar en red",
-      "description": "Colaborar, cooperar y trabajar con otras organizaciones facilita el cumplimiento de nuestros objetivos y fines; así como intercambiar experiencias; aprender colectivamente; y apoyar otros proyectos con los que nos sentimos identificadas.",
+      "subtitle": "Colaborar, cooperar y trabajar con otras organizaciones facilita el cumplimiento de nuestros objetivos y fines; así como intercambiar experiencias; aprender colectivamente; y apoyar otros proyectos con los que nos sentimos identificadas.",
       "nodes": [
         {"name": "Fiare", "logo": "", "description": "Banca ética y cooperativa constituida como herramienta al servicio de la transformación social a través de la financiación de proyectos de la economía social y solidaria y la promoción de una cultura de la intermediación financiera, bajo los principios de la transparencia, la participación, la democracia y el crédito como derecho.", "url": "http://www.fiarebancaetica.coop"},
         {"name": "Coop57", "logo": "", "description": " cooperativa de servicios financieros éticos y solidarios que tiene como objetivo principal, contribuir a la transformación social en positivo de nuestra economía y de nuestra sociedad.", "url": "http://www.coop57.coop"},
