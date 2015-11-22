@@ -4,11 +4,11 @@ $("#home-blog-items").rss(
   {
     limit: 3,
     layoutTemplate: '<div class="row">{entries}</div>',
-    entryTemplate: '<div class="col-md-4"><div class="itemnews"><a href="{url}" target="_blank">{title}</a><br/><small>{date}<small></div></div>',
+    entryTemplate: '<div class="col-md-4"><div class="itemnews"><a href="{url}" target="_blank">{title}</a><br/><small>{date}</small><br/><span class="label label-custom">tag</span> <span class="label label-custom">tag</span></div></div>',
     // formats the date with moment.js (optional)
     // default: 'dddd MMM Do'
     // valid values: see http://momentjs.com/docs/#/displaying/
-    dateFormat: 'DD/MM/YYYY',
+    dateFormat: 'dddd MMM Do',
     // formats the date in whatever manner you choose. (optional)
     // this function should return your formatted date.
     // this is useful if you want to format dates without moment.js.

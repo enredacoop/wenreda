@@ -14,12 +14,32 @@
     </div>
 </div>
 
-<div id="home-blog" class="wrapper-content">
+<div id="home-blog" class="wrapper">
+    <div id="home-blog-title" class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2><%= data.newstitle %></h2>
+            </div>
+        </div>
+    </div>
     <div id="home-blog-items" class="container">
         <!-- load RSS feeds via JS -->
         <div id="loading-blog-items" class="row">
             <div class="col-xs-12 text-center">
                 <p>Obteniendo noticias...</p>
+            </div>
+        </div>
+    </div>
+    <div id="home-blog-subscribe" class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3><%= data.newssubscribe %></h3>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Escribe aqui tu email">
+                    </div>
+                    <button type="submit" class="btn btn-default">Suscribirme</button>
+                </form>
             </div>
         </div>
     </div>
