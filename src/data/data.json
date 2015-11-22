@@ -255,7 +255,7 @@
     "description": "Proyecto que pretende fortalecer las capacidades de la sociedad civil, para incidir en los procesos de toma de decisión política y en la generación de un debate público informado sobre la pobreza y la justicia social en España.",
     "logo": "tipi.png",
     "background": "",
-    "screenshot": "",
+    "screenshot": "tipi_screenshot.png",
     "url": "http://tipiciudadano.es",
     "keys": [
       {"key": "Poner en valor la política como la solución a los problemas de pobreza y desigualdad."},
@@ -290,7 +290,7 @@
     "description": "",
     "logo": "",
     "background": "",
-    "screenshot": "",
+    "screenshot": "lacentralcoop_screenshot.png",
     "url": "http://lacentral.coop",
     "keys": [
       {"key": "Aumentar la visibilidad y posibilidades de ventas de productos y servicios cooperativos."},
