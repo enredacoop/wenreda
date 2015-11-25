@@ -67,6 +67,8 @@
     }
   },
   "lineas": {
+    "title": "Líneas estratégicas",
+    "subtitle": "Nuestras líneas, los caminos por donde andamos.",
     "items": [
       {
         "title": "Construyendo la nueva Economía Social",
@@ -202,10 +204,12 @@
     }
   },
   "trabajos": {
+    "title": "Trabajos realizados",
+    "subtitle": "El camino se hace al andar.",
     "items": [
       {
         "title": "TIPI Ciudadano",
-        "logo": "",
+        "logo": "tipi.png",
         "class": "tipi",
         "url": "/trabajos/tipi-ciudadano"
       },

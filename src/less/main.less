@@ -38,7 +38,7 @@ h6 {
 }
 
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 
@@ -298,6 +298,7 @@ header {
       padding: 5px;
       margin-bottom: 15px;
       color: @lightgrey_color;
+      height: 300px;
     }
   }
 
@@ -306,7 +307,7 @@ header {
 @media(min-width:768px) {
   #cooperative {
     section {
-      padding: 120px 0;
+      padding: 80px 0;
     }
   }
 }
@@ -315,8 +316,7 @@ header {
   #cooperative {
     #intro {
       .description {
-        background: @primary_color url('/assets/images/cooperative/banner_corp.png') no-repeat top left;
-        
+        background: @primary_color url('/assets/images/cooperative/banner_corp.png') no-repeat top left; 
       }
     }
   }
@@ -325,39 +325,74 @@ header {
 
 
 
-/********** LINES and WORKS **********/
+/********** LINES **********/
 
-#lines, #works {
+#lines {
+
+  background: @lightgrey_color;
+
+  .section-heading {
+    h2 {
+      font-size: 40px;
+      margin-top: 15px;;
+      margin-bottom: 15px;
+    }
+    h3 {
+      font-size: 16px;
+      text-transform: none;
+      font-style: italic;
+      font-weight: 400;
+      margin-bottom: 75px;
+    }
+  }
 
   a.jump {
 
     text-decoration: none;
-    &:hover {  }
 
-    .line.economia-social { background: url('/assets/images/lines/banner_economiasocial_small.png') no-repeat top center; z-index: 1; }
-    .line.transparencia-participacion { background: url('/assets/images/lines/banner_transparenciaparticipacion_small.png') no-repeat top center; z-index: 2; .box-shadow(0px, -8px, 5px, 0.8); }
-    .line.innovacion-social { background: url('/assets/images/lines/banner_innovacionsocial_small.png') no-repeat top center; z-index: 3; .box-shadow(0px, -8px, 5px, 0.8); }
-    .line.comunicacion { background: url('/assets/images/lines/banner_comunicacion_small.png') no-repeat top center; z-index: 4; .box-shadow(0px, -8px, 5px, 0.8); }
+    .container {
+      border: 10px solid @clean_color;
+      margin-bottom: 30px;
+    }
 
-    .work.tipi { background-color: @tipi_color; }
-    .work.lacentralcoop { background-color: @lacentralcoop_color; }
-    .work.somoscoop { background-color: @somoscoop_color; }
-    .work.enlaorbita { background-color: @enlaorbita_color; }
-    .work.socialtocrowd { background-color: @socialtocrowd_color; }
-    .work.transparenciapresupuestaria { background-color: @transparenciapresupuestaria_color; }
-    .work.clic { background-color: @clic_color; }
+    .line {
+      .image, .title {
+        height: 300px;
+      }
+    }
+
+    .line.economia-social {
+      .image {
+        background: url('/assets/images/lines/banner_economiasocial_small.png') no-repeat top left;
+      }
+    }
+    .line.transparencia-participacion {
+      .image {
+        background: url('/assets/images/lines/banner_transparenciaparticipacion_small.png') no-repeat top left;
+      }
+    }
+    .line.innovacion-social {
+      .image {
+        background: url('/assets/images/lines/banner_innovacionsocial_small.png') no-repeat top center;
+      }
+    }
+    .line.comunicacion {
+      .image {
+        background: url('/assets/images/lines/banner_comunicacion_small.png') no-repeat top left;
+      }
+    }
 
     .line, .work {
+
+      background: @clean_color;
       
       text-align: center;
-      color: #f8f8f8;
-      height: 350px;
+      color: @clean_color;
 
-      .message {
+      .title {
 
-        position: relative;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        background-color: @primary_color;
+        padding-top: 50px;
 
         h2 {
           margin: 0;
@@ -371,17 +406,28 @@ header {
 
   }
 
+  a.jump:hover {
+    .line {
+      .message {
+        background-color: @secondary_color;
+      }
+    }
+  }
+
 }
 
 @media(max-width:767px) {
   #lines {
     a {
       .line {
-        height: 250px;
-        .message {
-          padding-bottom: 15%;
+        .image {
+          height: 120px;
+        }
+        .title {
+          padding-top: 20px;
+          height: 120px;
           h2 {
-            font-size: 2em;
+            font-size: 1.8em;
           }
         }
       }
@@ -591,6 +637,129 @@ p.lead {
     }
   }
 }
+
+
+
+/********** WORKS **********/
+
+#works {
+
+  background: @lightgrey_color;
+
+  .section-heading {
+    h2 {
+      font-size: 40px;
+      margin-top: 15px;;
+      margin-bottom: 15px;
+    }
+    h3 {
+      font-size: 16px;
+      text-transform: none;
+      font-style: italic;
+      font-weight: 400;
+      margin-bottom: 75px;
+    }
+  }
+
+  a.jump {
+
+    text-decoration: none;
+
+    .container {
+      border: 10px solid @clean_color;
+      margin-bottom: 30px;
+    }
+
+    .work {
+      .image, .title {
+        height: 300px;
+      }
+    }
+
+    .work.tipi {
+      background-color: @tipi_color;
+      .title {
+        background-color: darken(@tipi_color, 5%);
+        color: make-contrast(@tipi_color);
+      }
+    }
+    .work.lacentralcoop {
+      background-color: @lacentralcoop_color;
+      .title {
+        background-color: darken(@lacentralcoop_color, 5%);
+        color: make-contrast(@lacentralcoop_color);
+      }
+    }
+  
+    .work.somoscoop {
+      background-color: @somoscoop_color;
+      .title {
+        background-color: darken(@somoscoop_color, 5%);
+        color: make-contrast(@somoscoop_color);
+      }
+    }
+  
+    .work.enlaorbita {
+      background-color: @enlaorbita_color;
+      .title {
+        background-color: darken(@enlaorbita_color, 5%);
+        color: make-contrast(@enlaorbita_color);
+      }
+    }
+  
+    .work.socialtocrowd {
+      background-color: @socialtocrowd_color;
+      .title {
+        background-color: darken(@socialtocrowd_color, 5%);
+        color: make-contrast(@socialtocrowd_color);
+      }
+    }
+  
+    .work.transparenciapresupuestaria {
+      background-color: @transparenciapresupuestaria_color;
+      .title {
+        background-color: darken(@transparenciapresupuestaria_color, 5%);
+        color: make-contrast(@transparenciapresupuestaria_color);
+      }
+    }
+    .work.clic {
+      background-color: @clic_color;
+      .title {
+        background-color: darken(@clic_color, 5%);
+        color: make-contrast(@clic_color);
+      }
+    }
+
+    .work {
+
+      background: @clean_color;
+      
+      text-align: center;
+      color: @clean_color;
+
+      .image {
+        text-align: center;
+        padding-top: 50px;
+      }
+
+      .title {
+
+        padding-top: 50px;
+
+        h2 {
+          margin: 0;
+          text-shadow: 2px 2px 3px rgba(0,0,0,1);
+          font-size: 3em;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
 
 
 
