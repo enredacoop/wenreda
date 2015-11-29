@@ -282,7 +282,13 @@ header {
   }
 
   #network {
-    background: lighten(@dark_color, 5%) url('/assets/images/cooperative/banner_network.png') top left no-repeat;
+    background: lighten(@dark_color, 5%);
+
+    img {
+      position: absolute;
+      margin-top: -40px;
+      width: 50%;
+    }
     
     h2.section-heading {
       color: @clean_color;
@@ -308,6 +314,11 @@ header {
   #cooperative {
     section {
       padding: 80px 0;
+    }
+    #network {
+      img {
+        margin-top: -80px;
+      }
     }
   }
 }
