@@ -1,3 +1,10 @@
+// Scroll Up Menu
+$(function() {
+  $('header').scrollUpMenu();
+});
+
+
+
 // RSS
 $("#home-blog-items").rss(
   "http://enreda.coop/feed/",
