@@ -41,6 +41,11 @@ section {
   padding: 40px 0;
 }
 
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
 
 
 /********** HEADER **********/
@@ -56,9 +61,9 @@ header {
     
     a {
       color: @clean_color;
-      &:hover {
+      &:hover, &:active {
         color: @white_color;
-        background-color: @black_color;
+        background-color: @dark_color;
       }
     }
     a.navbar-brand {
@@ -257,6 +262,9 @@ header {
 
   #intro {
     padding: 0px;
+    .title {
+      background: @dark_color;
+    }
     .description {
       background: @primary_color;
       color: @clean_color;
