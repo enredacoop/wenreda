@@ -168,15 +168,29 @@ header {
     input {
       background: transparent none repeat scroll 0% 0%;
       color: @lightgrey_color;
-      border-width: 0px 0px 1px;
-      border-style: none none solid;
-      border-color: -moz-use-text-color -moz-use-text-color @lightgrey_color;
-      -moz-border-top-colors: none;
-      -moz-border-right-colors: none;
-      -moz-border-bottom-colors: none;
-      -moz-border-left-colors: none;
-      border-image: none;
+      border: 0px;
+      border-bottom: 1px solid @lightgrey_color;
       border-radius: 0px;
+      -moz-border-radius: 0px;
+      -webkit-border-radius: 0px;
+      font-weight: bold;
+      &::-webkit-input-placeholder {
+        color: @dark_color;
+      }
+      &::-moz-placeholder {
+        color: @dark_color;
+      }
+      &:focus {
+        box-shadow: 0 0 0;
+        -webkit-box-shadow: 0 0 0;
+        -moz-box-shadow: 0 0 0;
+      }
+    }
+    button {
+      color: @lightgrey_color;
+      background-color: @dark_color;
+      border-color: @lightgrey_color;
+      font-weight: bold;
     }
   }
 
