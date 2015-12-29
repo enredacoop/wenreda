@@ -13,29 +13,29 @@
             </div>
         </div>
     </div>
-    <% for(var i=0; i<data.items.length; i++) { %>
-        <a class="jump" href="<%= data.items[i].url %>" alt="<%= data.items[i].title %>" title="<%= data.items[i].title %>">
-            <div class="container">
-                <div class="row work <%= data.items[i].class %>">
-                    <% if (i % 2 == 0) { %>
-                        <div class="col-sm-6 image">
-                            <img src="/assets/images/works/<%= data.items[i].logo %>" alt="Logo de <%= data.items[i].title %>" height="200" />
+    <div class="container">
+        <div class="row">
+            <% for(var i=0; i<data.items.length; i++) { %>
+                    <div class="col-sm-4">
+                        <a href="<%= data.items[i].url %>" alt="<%= data.items[i].title %>" title="<%= data.items[i].title %>">
+                            <div class="work <%= data.items[i].class %>">
+                                <img src="/assets/images/works/<%= data.items[i].logo %>" alt="Logo de <%= data.items[i].title %>" />
+                            </div>
+                            </a>
+                    </div>
+            <% } %>
+            <div class="col-sm-4">
+                <a href="mailto:<%= global.email %>" alt="Cuéntamos tu idea" title="Cuéntamos tu idea">
+                    <div class="work idea">
+                        <div class="text">
+                            <i class="fa fa-lightbulb-o fa-4x"></i>
+                            <h4>Cuéntamos tu idea</h4>
                         </div>
-                        <div class="col-sm-6 title">
-                            <h2><%= data.items[i].title %></h2>
-                        </div>
-                    <% } else { %>
-                        <div class="col-sm-6 col-sm-push-6 image">
-                            <img src="/assets/images/works/<%= data.items[i].logo %>" alt="Logo de <%= data.items[i].title %>" height="200" />
-                        </div>
-                        <div class="col-sm-6 col-sm-pull-6 title">
-                            <h2><%= data.items[i].title %></h2>
-                        </div>
-                    <% } %>
-                </div>
+                    </div>
+                    </a>
             </div>
-        </a>
-    <% } %>
+        </div>
+    </div>
 </div>
 
 <% include common/footer %>

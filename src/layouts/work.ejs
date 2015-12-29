@@ -7,12 +7,8 @@
     <section id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
-                    <img src="/assets/images/works/<%= data.logo %>" alt="Logo de <%= data.title %>" height="200" />
-                </div>
-                <div class="col-sm-6">
-                    <h2><%= data.title %></h2>
-                    <h4><%= data.subtitle %></h4>
+                <div class="col-xs-12 text-center logo">
+                    <img src="/assets/images/works/<%= data.logo %>" alt="Logo de <%= data.title %>" />
                 </div>
             </div>
         </div>
@@ -22,10 +18,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
+                    <h2><%= data.subtitle %></h2>
+                    <hr/>
                     <p><%= data.description %></p>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img src="/assets/images/works/<%= data.screenshot %>" alt="Logo de <%= data.title %>" height="400" />
+                    <img src="/assets/images/works/<%= data.screenshot %>" alt="Captura de <%= data.title %>" height="400" class="img-responsive" />
                 </div>
             </div>
         </div>
@@ -43,26 +41,28 @@
         </div>
     </section>
 
-    <section id="metrics">
-        <div class="container">
-            <div class="row text-center">
-                <% for(var i=0; i<data.metrics.length; i++) { %>
-                    <div class="col-sm-4">
-                        <h4 class="metric">
-                            <span class="value"><%= data.metrics[i].value %></span>
-                            <br/>
-                            <span class="text"><%= data.metrics[i].metric %></span>
-                        </h4>
+    <% if (data.metricsinfo != "") { %>
+        <section id="metrics">
+            <div class="container">
+                <div class="row text-center">
+                    <% for(var i=0; i<data.metrics.length; i++) { %>
+                        <div class="col-sm-4">
+                            <h4 class="metric">
+                                <span class="value"><%= data.metrics[i].value %></span>
+                                <br/>
+                                <span class="text"><%= data.metrics[i].metric %></span>
+                            </h4>
+                        </div>
+                    <% } %>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center metricsinfo">
+                        <small><%= data.metricsinfo %></small>
                     </div>
-                <% } %>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center metricsinfo">
-                    <small><%= data.metricsinfo %><small>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    <% } %>
 
     <section id="technologies">
         <div class="container">
@@ -74,8 +74,9 @@
                     <div class="row">
                         <% for(var i=0; i<data.technologies.length; i++) { %>
                             <div class="col-sm-3 text-center">
-                                <a href="<%= data.technologies[i].url %>" target="_blank" title="<%= data.technologies[i].technology %>">
+                                <a class="tech" href="<%= data.technologies[i].url %>" target="_blank" title="<%= data.technologies[i].technology %>">
                                     <img src="<%= data.technologies[i].logo %>" alt="Logo de <%= data.technologies[i].technology %>" />
+                                    <h6><%= data.technologies[i].technology %></h6>
                                 </a>
                             </div>
                         <% } %>
@@ -87,19 +88,22 @@
 
     <% if (data.own == "no") { %>
         <section id="client">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <a href="<%= data.clienturl %>" target="_blank"><%= data.clientname %></a>
-                    <br/>
-                    <%= data.clientdescription %>
-                    <br/>
-                    <%= data.clientyear %>
-                    <br/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <h6 class="title">CLIENTE</h6>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <a class="name" href="<%= data.clienturl %>" target="_blank"><%= data.clientname %></a>
+                        <br/>
+                        <span class="description"><%= data.clientdescription %></span>
+                        <br/>
+                        <span class="year"><i class="fa fa-calendar"></i> <%= data.clientyear %></span>
+                        <br/>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     <% } %>
 
     <section id="call">

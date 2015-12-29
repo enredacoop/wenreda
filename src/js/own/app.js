@@ -4,14 +4,21 @@ $(function() {
 });
 
 
+$(function() {
+  var oneDay = 24*60*60*1000;
+  var firstDate = new Date(2007,01,01);
+  var secondDate = Date.now();
+  $('.daysnumber').html(Math.round(Math.abs((firstDate.getTime() - secondDate)/(oneDay))));
+});
+
 
 // RSS
 $("#home-blog-items").rss(
-  "http://enreda.coop/feed/",
+  "http://blog.enreda.coop/rss/",
   {
     limit: 3,
     layoutTemplate: '<div class="row">{entries}</div>',
-    entryTemplate: '<div class="col-md-4"><div class="itemnews"><a href="{url}" target="_blank">{title}</a><br/><small>{date}</small><br/><span class="label label-custom">tag</span> <span class="label label-custom">tag</span></div></div>',
+    entryTemplate: '<div class="col-md-4"><div class="itemnews"><a href="{url}" target="_blank">{title}</a><br/><small>{date}</small><!--<br/><span class="label label-custom-secondary">tag</span>--></div></div>',
     // formats the date with moment.js (optional)
     // default: 'dddd MMM Do'
     // valid values: see http://momentjs.com/docs/#/displaying/

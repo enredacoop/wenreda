@@ -36,6 +36,9 @@
 
 
 .work_styling (@ref_color: #fff) {
+  hr {
+    border-top-color: contrast(@ref_color, @black_color, @white_color);
+  }
   #intro {
     background-color: @ref_color;
   }
@@ -65,8 +68,15 @@
     color: @clean_color;
   }
   #client {
+    background-color: @lightgrey_color;
+    color: @dark_color;
   }
   #call {
     background-color: @ref_color;
   }
 }
+
+.title-letter-spacing () {
+  letter-spacing: -1px;
+}
+

@@ -1,77 +1,77 @@
 {
   "home": {
-    "title": "Inicio",
+    "title": "Tecnología para la Transformación Social",
     "description": "Tecnología para la Transformación Social",
     "keywords": "cooperativa, tecnología, social"
   },
   "cooperativa": {
     "title": "La cooperativa",
-    "description": "",
-    "keywords": ""
+    "description": "ENREDA Cooperativa. Sus principios. Sus personas. Una forma de trabajar en red.",
+    "keywords": "cooperativa, tecnología, social"
   },
   "lineas": {
     "title": "Líneas estratégicas",
-    "description": "",
-    "keywords": ""
+    "description": "Líneas de trabajo que desarrolla la cooperativa Enreda",
+    "keywords": "economíai social, transparencia, participación, innovación, innovación social, tecnología, comunicación"
   },
-  "construyendo-la-nueva-economia-social": {
-    "title": "Construyendo la nueva Economía Social",
-    "description": "",
-    "keywords": ""
+  "economia-social": {
+    "title": "Economía Social",
+    "description": "El cooperativismo consiste en apostar por un modelo de organizaciones democráticas que trabajan por una economía al servicio de las personas.",
+    "keywords": "economíai social, economía, social, cooperativismo, cooperativas"
   },
   "transparencia-y-participacion": {
     "title": "Transparencia y Participación",
-    "description": "",
-    "keywords": ""
+    "description": "Construimos sistemas que permiten la implementación efectiva de mecanismos de participación y transparencia basados en estándares internacionales. Organizaciones abiertas adaptadas a la realidad.",
+    "keywords": "transparencia, participación, goboerno abierto, opendata, datos abiertos, visualización"
   },
   "innovacion-social-tecnologica": {
     "title": "Innovación Social Tecnológica",
-    "description": "",
-    "keywords": ""
+    "description": "Aplicamos la tecnología para resolver problemas reales que afectan a la ciudadanía. La innovación en el sector TIC, como herramienta de cambio, es nuestra apuesta básica como entidad.",
+    "keywords": "innovación social, innovación, social, tecnología"
   },
-  "la-comunicacion-como-herramienta-de-cambio": {
-    "title": "La Comunicacion como Herramienta de Cambio",
-    "description": "",
-    "keywords": ""
+  "comunicacion": {
+    "title": "Comunicacion",
+    "description": "Informarse no es un ejercicio pasivo. Requiere empeño, crítica, inconformismo. No hay ciudadanía sin exigencia y sin duda. Busca y reclama información de calidad a los medios de comunicación, a las instituciones públicas, a las empresas. Desecha la basura, ignora el ruido. Expresa tu disconformidad. Dale el valor que tiene a la información. Distínguela de la propaganda.",
+    "keywords": "comunicación"
   },
   "trabajos": {
     "title": "Trabajos realizados",
-    "description": "",
-    "keywords": ""
+    "description": "Trabajos que hemos realizado en la cooperativa Enreda",
+    "keywords": "trabajos, works, enreda, cooperativa"
   },
   "tipi-ciudadano": {
     "title": "TIPI Ciudadano",
-    "description": "",
-    "keywords": ""
+    "description": "Transparencia, Información, Participación e Incidencia.",
+    "keywords": "transparencia, infomación pública, participación, incidencia, incidencia política, congreso de los diputados, pobreza, exclusión social, ong, rendición de cuentas, visualización datos, dataviz"
   },
   "lacentralcoop": {
     "title": "LaCentral.coop",
-    "description": "",
-    "keywords": ""
+    "description": "Productos y servicios cooperativos.",
+    "keywords": "cooperativas, cooperativismo, economía social, productos, servicios, promociones, casos de éxito, intercooperación"
   },
   "somoscoop": {
     "title": "Somos.coop",
-    "description": "",
-    "keywords": ""
+    "description": "Somos cooperativistas, usa la marca coop.",
+    "keywords": "dominios, cooperativas, cooperativismo, registro dominios, marca cooperativa, identidad cooperativa"
   },
   "enlaorbita": {
     "title": "En la Órbita",
-    "description": "",
-    "keywords": ""
+    "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
+    "keywords": "presencia digital, web, digital, pymes, micropymes, asociaciones, cooperativas, site builder"
   },
   "socialtocrowd": {
     "title": "social to Crowd",
     "description": "El crowdfunding de las cosas",
-    "keywords": ""
+    "keywords": "donación materiales, transparencia, rendición cuentas, solidaridad, crowdfunding, economía colaborativa, impacto social, innovación social"
   },
   "transparencia-presupuestaria": {
     "title": "Espacio Web de Transparencia Presupuestaria",
-    "description": "",
-    "keywords": ""
+    "description": "Herramienta web de visualización de presupuestos de organizaciones y/o administraciones públicas",
+    "keywords": "presupuesto, ayuntamientos, organizaciones, visualización datos, dataviz, transparencia, ogov, gobierno abierto, opendata, datos abiertos"
   },
   "clic-cervantes": {
     "title": "CLIC Cervantes",
-    "description": "",
-    "keywords": ""
+    "description": "Comercio online, internacionalización e integración de sistemas",
+    "keywords": "comercio electrónico, drupal, ubercart, internacionalización, i18n, pasarelas de pago"
   }
 }

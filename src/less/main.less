@@ -29,6 +29,15 @@ h6 {
   text-align: right;
 }
 
+.label-custom-primary {
+  background-color: @primary_color;
+  color: @lightgrey_color;
+}
+.label-custom-secondary {
+  background-color: @secondary_color;
+  color: @lightgrey_color;
+}
+
 .wrapper {
   padding-top: 20px;
 }
@@ -85,23 +94,22 @@ header {
 
 #home-claim {
 
-  background-image: url('/assets/images/banner_main.png');
+  background-image: url('/assets/images/banner_main_extra.png');
   background-color: @primary_color;
   background-size: cover;
 
   .claim {
     
-    text-align: center;
     color: #f8f8f8;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     height: 100%;
     position: relative;
-    padding-top: 30%;
-    padding-bottom: 15%;
+    padding-top: 60%;
     text-transform: uppercase;
 
     h2 {
-      font-size: 3em;
+      font-size: 3.5em;
+      .title-letter-spacing;
     }
 
   }
@@ -115,7 +123,7 @@ header {
   #home-blog-title {
     h2 {
       color: @lightgrey_color;
-      font-size: 40px;
+      font-size: 28px;
       margin-top: 15px;
       margin-bottom: 45px;
     }
@@ -142,10 +150,6 @@ header {
         font-size: 0.8em;
         color: lighten(@dark_color, 20%);
       }
-      .label-custom {
-        background-color: @secondary_color;
-        color: @lightgrey_color;
-      }
     }
     #loading-blog-items {
       p {
@@ -165,7 +169,7 @@ header {
       font-weight: 700;
       margin-bottom: 15px;
     }
-    input {
+    input.email {
       background: transparent none repeat scroll 0% 0%;
       color: @lightgrey_color;
       border: 0px;
@@ -175,10 +179,14 @@ header {
       -webkit-border-radius: 0px;
       font-weight: bold;
       &::-webkit-input-placeholder {
-        color: @dark_color;
+        color: lighten(@dark_color, 30%);
+        font-style: italic;
+        font-weight: normal;
       }
       &::-moz-placeholder {
-        color: @dark_color;
+        color: lighten(@dark_color, 30%);
+        font-style: italic;
+        font-weight: normal;
       }
       &:focus {
         box-shadow: 0 0 0;
@@ -186,7 +194,7 @@ header {
         -moz-box-shadow: 0 0 0;
       }
     }
-    button {
+    input.button {
       color: @lightgrey_color;
       background-color: @dark_color;
       border-color: @lightgrey_color;
@@ -210,10 +218,33 @@ header {
   }
 }
 
+#home-days {
+  .gradient (left, @secondary_color, @primary_color);
+  color: @lightgrey_color;
+  .daysnumber {
+    font-size: 7em;
+    font-weight: bold;
+    .title-letter-spacing;
+    padding-right: 40px;
+  }
+  .daystext {
+    font-size: 2em;
+  }
+}
+
 @media(max-width:767px) {
   #home-claim {
     .claim {
       padding-bottom: 15%;
+    }
+  }
+  #home-days {
+    .daysnumber {
+      text-align: center;
+      paddding-right: 0;
+    }
+    .daystext {
+      text-align: center;
     }
   }
 }
@@ -230,6 +261,7 @@ header {
       font-size: 40px;
       margin-top: 0;
       margin-bottom: 15px;
+      .title-letter-spacing;
     }
     
     h3.section-subheading {
@@ -275,7 +307,7 @@ header {
   }
 
   #intro {
-    padding: 0px;
+    padding-top: 30px;
     .title {
       background: @dark_color;
     }
@@ -322,14 +354,29 @@ header {
       color: @lightgrey_color;
     }
 
-    .node {
-      background-color: lighten(@dark_color, 8%);
-      text-align: center;
-      padding: 5px;
-      margin-bottom: 15px;
-      color: @lightgrey_color;
-      height: 300px;
+    a {
+
+      .node {
+        background-color: lighten(@dark_color, 8%);
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 15px;
+        color: @lightgrey_color;
+        height: 300px;
+      }
+      
+      &:hover {
+        text-decoration: none;
+        .node {
+          background-color: lighten(@dark_color, 12%);
+          h3 {
+            color: @primary_color;
+          }
+        }
+      }
+
     }
+
   }
 
 }
@@ -337,7 +384,7 @@ header {
 @media(min-width:768px) {
   #cooperative {
     section {
-      padding: 80px 0;
+      padding: 80px 0px;
     }
     #network {
       img {
@@ -347,7 +394,7 @@ header {
   }
 }
 
-@media(min-width:800px) {
+@media(min-width:1000px) {
   #cooperative {
     #intro {
       .description {
@@ -371,6 +418,7 @@ header {
       font-size: 40px;
       margin-top: 15px;;
       margin-bottom: 15px;
+      .title-letter-spacing;
     }
     h3 {
       font-size: 16px;
@@ -398,26 +446,26 @@ header {
 
     .line.economia-social {
       .image {
-        background: url('/assets/images/lines/banner_economiasocial_small.png') no-repeat top left;
+        background: url('/assets/images/lines/banner_economiasocial_intro.png') no-repeat top left;
       }
     }
     .line.transparencia-participacion {
       .image {
-        background: url('/assets/images/lines/banner_transparenciaparticipacion_small.png') no-repeat top left;
+        background: url('/assets/images/lines/banner_transparenciaparticipacion_intro.png') no-repeat top left;
       }
     }
     .line.innovacion-social {
       .image {
-        background: url('/assets/images/lines/banner_innovacionsocial_small.png') no-repeat top center;
+        background: url('/assets/images/lines/banner_innovacionsocial_intro.png') no-repeat top center;
       }
     }
     .line.comunicacion {
       .image {
-        background: url('/assets/images/lines/banner_comunicacion_small.png') no-repeat top left;
+        background: url('/assets/images/lines/banner_comunicacion_intro.png') no-repeat top left;
       }
     }
 
-    .line, .work {
+    .line {
 
       background: @clean_color;
       
@@ -550,6 +598,7 @@ p.lead {
 
   .section-heading {
       margin-bottom: 30px;
+      .title-letter-spacing;
   }
 
   .section-heading-spacer {
@@ -686,6 +735,7 @@ p.lead {
       font-size: 40px;
       margin-top: 15px;;
       margin-bottom: 15px;
+      .title-letter-spacing;
     }
     h3 {
       font-size: 16px;
@@ -696,101 +746,106 @@ p.lead {
     }
   }
 
-  a.jump {
+  .work.tipi {
+    background-color: @tipi_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@tipi_color, 5%);
+      color: make-contrast(@tipi_color);
+    }
+  }
+  .work.lacentralcoop {
+    background-color: @lacentralcoop_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@lacentralcoop_color, 5%);
+      color: make-contrast(@lacentralcoop_color);
+    }
+  }
 
+  .work.somoscoop {
+    background-color: @somoscoop_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@somoscoop_color, 5%);
+      color: make-contrast(@somoscoop_color);
+    }
+  }
+
+  .work.enlaorbita {
+    background-color: @enlaorbita_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@enlaorbita_color, 5%);
+      color: make-contrast(@enlaorbita_color);
+    }
+  }
+
+  .work.socialtocrowd {
+    background-color: @socialtocrowd_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@socialtocrowd_color, 5%);
+      color: make-contrast(@socialtocrowd_color);
+    }
+  }
+
+  .work.transparenciapresupuestaria {
+    background-color: @transparenciapresupuestaria_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@transparenciapresupuestaria_color, 5%);
+      color: make-contrast(@transparenciapresupuestaria_color);
+    }
+  }
+  .work.clic {
+    background-color: @clic_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@clic_color, 5%);
+      color: make-contrast(@clic_color);
+    }
+  }
+  .work.idea {
+    background-color: @lightgrey_color;
+    color: @dark_color;
+    .text {
+      padding: 20px 0px 20px 0px;
+    }
+  }
+
+  a {
+    
     text-decoration: none;
-
-    .container {
-      border: 10px solid @clean_color;
-      margin-bottom: 30px;
-    }
-
-    .work {
-      .image, .title {
-        height: 300px;
-      }
-    }
-
-    .work.tipi {
-      background-color: @tipi_color;
-      .title {
-        background-color: darken(@tipi_color, 5%);
-        color: make-contrast(@tipi_color);
-      }
-    }
-    .work.lacentralcoop {
-      background-color: @lacentralcoop_color;
-      .title {
-        background-color: darken(@lacentralcoop_color, 5%);
-        color: make-contrast(@lacentralcoop_color);
-      }
-    }
-  
-    .work.somoscoop {
-      background-color: @somoscoop_color;
-      .title {
-        background-color: darken(@somoscoop_color, 5%);
-        color: make-contrast(@somoscoop_color);
-      }
-    }
-  
-    .work.enlaorbita {
-      background-color: @enlaorbita_color;
-      .title {
-        background-color: darken(@enlaorbita_color, 5%);
-        color: make-contrast(@enlaorbita_color);
-      }
-    }
-  
-    .work.socialtocrowd {
-      background-color: @socialtocrowd_color;
-      .title {
-        background-color: darken(@socialtocrowd_color, 5%);
-        color: make-contrast(@socialtocrowd_color);
-      }
-    }
-  
-    .work.transparenciapresupuestaria {
-      background-color: @transparenciapresupuestaria_color;
-      .title {
-        background-color: darken(@transparenciapresupuestaria_color, 5%);
-        color: make-contrast(@transparenciapresupuestaria_color);
-      }
-    }
-    .work.clic {
-      background-color: @clic_color;
-      .title {
-        background-color: darken(@clic_color, 5%);
-        color: make-contrast(@clic_color);
-      }
-    }
 
     .work {
 
       background: @clean_color;
-      
+      border: 10px solid @clean_color;
+      margin-bottom: 30px;
       text-align: center;
       color: @clean_color;
+      height: 150px;
 
-      .image {
-        text-align: center;
-        padding-top: 50px;
-      }
-
-      .title {
-
-        padding-top: 50px;
-
-        h2 {
-          margin: 0;
-          text-shadow: 2px 2px 3px rgba(0,0,0,1);
-          font-size: 3em;
-        }
-
+      img {
+        padding: 40px 10px 40px 10px;
       }
 
     }
-
   }
 
 }
@@ -801,12 +856,14 @@ p.lead {
 /********** WORK **********/
 
 #work {
-  #intro {
 
+  section {
+    padding: 80px 0px;
   }
+  
   #info {
     p {
-      font-size: 1.7em;
+      font-size: 1.5em;
     }
   }
   #keys {
@@ -840,16 +897,40 @@ p.lead {
       img {
         padding-bottom: 15px;
       }
+      font-style: italic;
+      color: @lightgrey_color;
+      &:hover, &:visited {
+        text-decoration: none;
+        color: @lightgrey_color;
+      }
     }
   }
   #client {
-
+    .title {
+      font-size: 3em;
+      font-weight: 700;
+    }
+    a.name {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: @dark_color;
+      &:hover, &:active {
+        color: @dark_color;
+      }
+    }
+    .description {
+      font-size: 1.2em;
+    }
+    .year {
+      font-size: 1.2em;
+    }
   }
   #call {
     .row {
       padding-bottom: 40px;
       h4 {
         font-style: italic;
+        font-size: 2.5em;
       }
     }
   }
@@ -858,40 +939,92 @@ p.lead {
 #work.tipi {
   .make-contrast(@tipi_color);
   .work_styling(@tipi_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.lacentralcoop {
   .make-contrast(@lacentralcoop_color);
   .work_styling(@lacentralcoop_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.somoscoop {
   .make-contrast(@somoscoop_color);
   .work_styling(@somoscoop_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.enlaorbita {
   .make-contrast(@enlaorbita_color);
   .work_styling(@enlaorbita_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.socialtocrowd {
   .make-contrast(@socialtocrowd_color);
   .work_styling(@socialtocrowd_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.transparenciapresupuestaria {
   .make-contrast(@transparenciapresupuestaria_color);
   .work_styling(@transparenciapresupuestaria_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 #work.clic {
   .make-contrast(@clic_color);
   .work_styling(@clic_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
 }
 
 @media(max-width:767px) {
   #work {
+    section {
+      padding: 40px 0px;
+    }
     #keys {
       .key {
         padding-bottom: 30px;

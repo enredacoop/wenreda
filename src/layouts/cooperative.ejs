@@ -7,10 +7,10 @@
     <section id="intro">
         <div style="padding:0 15px;">
             <div class="row">
-                <div class="col-sm-3 text-center title">
-                    <img src="/assets/images/cooperative/300x300fondogriscompleto.png" alt="Logo de Enreda" width="240px" />
+                <div class="col-md-3 text-center title">
+                    <img src="/assets/images/cooperative/<%= data.logo %>" alt="Logo de Enreda" width="240px" />
                 </div>
-                <div class="col-sm-9 description">
+                <div class="col-md-9 description">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-5 col-sm-12 text-center">
                             <%= data.intro %>
@@ -53,46 +53,25 @@
                 </div>
             </div>
             <div class="row">
-                <% for(var i=0; i<data.team.core.length; i++) { %>
+                <% for(var i=0; i<data.team.people.length; i++) { %>
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="http://lorempixel.com/200/200/people" class="img-responsive img-circle" alt="">
-                            <h4><%= data.team.core[i].name %></h4>
-                            <p class="text-muted">Whatever</p>
+                            <img src="/assets/images/cooperative/user_placeholder.png" class="img-responsive img-circle" alt="Foto de <%= data.team.people[i].name %>" width="200" height="200" />
+                            <h4><%= data.team.people[i].name %></h4>
+                            <p class="text-muted"><%= data.team.people[i].position %></p>
+                            <p><span class="label label-custom-primary"><%= data.team.people[i].role %></span></p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="<%= data.team.core[i].email %>"><i class="fa fa-envelope"></i></a></li>
-                                <li><a href="<%= data.team.core[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="<%= data.team.core[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="<%= data.team.people[i].email %>"><i class="fa fa-envelope"></i></a></li>
+                                <li><a href="<%= data.team.people[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="<%= data.team.people[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 <% } %>
             </div>
             <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2 class="section-heading">Colaboradores</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <% for(var i=0; i<data.team.collaborators.length; i++) { %>
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="http://lorempixel.com/200/200/people" class="img-responsive img-circle" alt="">
-                            <h4><%= data.team.collaborators[i].name %></h4>
-                            <p class="text-muted">Whatever</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="<%= data.team.collaborators[i].email %>"><i class="fa fa-envelope"></i></a></li>
-                                <li><a href="<%= data.team.collaborators[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="<%= data.team.collaborators[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                <% } %>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <p class="large text-muted"><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.--></p>
                 </div>
             </div>
         </div>
@@ -125,10 +104,12 @@
             <div class="row">
                 <% for(var i=0; i<data.network.nodes.length; i++) { %>
                     <div class="col-md-3">
-                        <div class="node">
+                        <a href="<%= data.network.nodes[i].url %>" target="_blank">
+                          <div class="node">
                             <h3><%= data.network.nodes[i].name %></h3>
                             <p><%= data.network.nodes[i].description %></p>
-                        </div>  
+                          </div>
+                        </a>
                     </div>
                 <% } %>
             </div>

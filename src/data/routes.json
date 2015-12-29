@@ -23,12 +23,12 @@
       {"src/data/data.json": "lineas"}
     ]
   },
-  "lineas/construyendo-la-nueva-economia-social": {
+  "lineas/economia-social": {
     "path_to_layout": "src/layouts/line.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "construyendo-la-nueva-economia-social"},
-      {"src/data/data.json": "construyendo-la-nueva-economia-social"}
+      {"src/data/meta.json": "economia-social"},
+      {"src/data/data.json": "economia-social"}
     ]
   },
   "lineas/transparencia-y-participacion": {
@@ -47,12 +47,12 @@
       {"src/data/data.json": "innovacion-social-tecnologica"}
     ]
   },
-  "lineas/la-comunicacion-como-herramienta-de-cambio": {
+  "lineas/comunicacion": {
     "path_to_layout": "src/layouts/line.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "la-comunicacion-como-herramienta-de-cambio"},
-      {"src/data/data.json": "la-comunicacion-como-herramienta-de-cambio"}
+      {"src/data/meta.json": "comunicacion"},
+      {"src/data/data.json": "comunicacion"}
     ]
   },
   "trabajos": {

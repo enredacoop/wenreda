@@ -7,7 +7,7 @@
     "quoteauthor": "Tim Berners-Lee"
   },
   "cooperativa": {
-    "logo": "",
+    "logo": "300x300fondogriscompleto.png",
     "claim": "Tecnología para la Transformación Social",
     "intro": "En ENREDA tenemos una mirada distinta de la realidad, de la tecnología y de la comunicación; y eso suele ser el primer paso para poder transformar las cosas.",
     "principles": {
@@ -22,21 +22,19 @@
     "team": {
       "title": "Equipo",
       "subtitle": "Las personas como centro de toda actividad empresarial.",
-      "core": [
-        {"name": "Pablo Martín", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://enreda.coop", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Pablo García", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "José Rubén Garrido", "photo": "", "email": "joser.garrido@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Daniel Melendro", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": ""}
-      ],
-      "collaborators": [
-        {"name": "Toni Morillas", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Ángel Munarriz", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Javier Moreno", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Daniel Pérez", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "David Aurusa", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Isabel Benitez", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Quique", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""},
-        {"name": "Silvia", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": ""}
+      "people": [
+        {"name": "Pablo Martín", "position": " ", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://enreda.coop", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "Pablo García", "position": " ", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "José Rubén Garrido", "position": " ", "photo": "", "email": "joser.garrido@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "Daniel Melendro", "position": " ", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "Quique Ruíz", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+
+        {"name": "Toni Morillas", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "David Aurusa", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Ángel Munarriz", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Daniel Pérez", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Javier Moreno", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Isabel Benitez", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"}
       ]
     },
     "join": {
@@ -56,12 +54,13 @@
       "subtitle": "Colaborar, cooperar y trabajar con otras organizaciones facilita el cumplimiento de nuestros objetivos y fines; así como intercambiar experiencias; aprender colectivamente; y apoyar otros proyectos con los que nos sentimos identificadas.",
       "nodes": [
         {"name": "Fiare", "logo": "", "description": "Banca ética y cooperativa constituida como herramienta al servicio de la transformación social a través de la financiación de proyectos de la economía social y solidaria y la promoción de una cultura de la intermediación financiera, bajo los principios de la transparencia, la participación, la democracia y el crédito como derecho.", "url": "http://www.fiarebancaetica.coop"},
-        {"name": "Coop57", "logo": "", "description": " cooperativa de servicios financieros éticos y solidarios que tiene como objetivo principal, contribuir a la transformación social en positivo de nuestra economía y de nuestra sociedad.", "url": "http://www.coop57.coop"},
+        {"name": "Coop57", "logo": "", "description": " Cooperativa de servicios financieros éticos y solidarios que tiene como objetivo principal, contribuir a la transformación social en positivo de nuestra economía y de nuestra sociedad.", "url": "http://www.coop57.coop"},
         {"name": "REAS", "logo": "", "description": "Red de Redes de Economía Alternativa y Solidaria, compuesta por más de trescientas entidades que nos agrupamos en redes territoriales y sectoriales.", "url": "http://www.economiasolidaria.org"},
-        {"name": "Mercado Social de Sevilla", "logo": "", "description": "red de producción, distribución y consumo de bienes y servicios con criterios éticos, democráticos, ecológicos y solidarios.El objetivo de esta red es cubrir una parte significativa de las necesidades de sus participantes y desconectar, tanto como sea posible, la economía solidaria de la economía capitalista.", "url": "http://mercadosocialsevilla.org"},
+        {"name": "MS Sevilla", "logo": "", "description": "Red de producción, distribución y consumo de bienes y servicios con criterios éticos, democráticos, ecológicos y solidarios.El objetivo de esta red es cubrir una parte significativa de las necesidades de sus participantes y desconectar, tanto como sea posible, la economía solidaria de la economía capitalista.", "url": "http://mercadosocialsevilla.org"},
         {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"},
         {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabajo de las mismas.", "url": "http://openkratio.org"},
-        {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"}
+        {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"},
+        {"name": "Som Conexió", "logo": "", "description": "Cooperativa de consumo de productos de telecomunicaciones"}
         
       ]
     }
@@ -71,9 +70,9 @@
     "subtitle": "Nuestras líneas, los caminos por donde andamos.",
     "items": [
       {
-        "title": "Construyendo la nueva Economía Social",
+        "title": "Economía Social",
         "class": "economia-social",
-        "url": "/lineas/construyendo-la-nueva-economia-social"
+        "url": "/lineas/economia-social"
       },
       {
         "title": "Transparencia y Participación",
@@ -86,16 +85,16 @@
         "url": "/lineas/innovacion-social-tecnologica"
       },
       {
-        "title": "La comunicación como herramienta de cambio",
+        "title": "Comunicación",
         "class": "comunicacion",
-        "url": "/lineas/la-comunicacion-como-herramienta-de-cambio"
+        "url": "/lineas/comunicacion"
       }
     ]
   },
-  "construyendo-la-nueva-economia-social": {
-    "line": "Construyendo la nueva Economia Social",
+  "economia-social": {
+    "line": "Economia Social",
     "class": "economia-social",
-    "claim": "Las personas frente a la acumulación",
+    "claim": "Construyendo la nueva economia social",
     "why": "El cooperativismo consiste en apostar por un modelo de organizaciones democráticas que trabajan por una economía al servicio de las personas. Enreda es cooperativismo y desarrolla diversos proyectos para favorecer la consolidación y desarrollo del mismo.",
     "dialogue": [
       {
@@ -116,7 +115,7 @@
       {"name": "somos.coop", "image": "", "description": "Espacio web para difundir la marca cooperativa", "url": "http://somos.coop"}
     ],
     "calltoaction": {
-      "call": "Avanza en el desarrollo de tu proyecto cooperativo",
+      "call": "Las personas frente a la acumulación",
       "email": "info@enreda.coop",
       "phone": ""
     }
@@ -124,7 +123,7 @@
   "transparencia-y-participacion": {
     "line": "Transparencia y Participación",
     "class": "transparencia-participacion",
-    "claim": "Hacia una democracia real",
+    "claim": "Avanzando hacia una democracia real",
     "why": "Construimos sistemas que permiten la implementación efectiva de mecanismos de participación y transparencia basados en estándares internacionales. Organizaciones abiertas adaptadas a la realidad.",
     "dialogue": [
       {
@@ -173,8 +172,8 @@
       "phone": ""
     }
   },
-  "la-comunicacion-como-herramienta-de-cambio": {
-    "line": "La comunicación como herramienta de cambio",
+  "comunicacion": {
+    "line": "Comunicación",
     "class": "comunicacion",
     "claim": "La comunicación como herramienta de cambio",
     "why": "Informarse no es un ejercicio pasivo. Requiere empeño, crítica, inconformismo. No hay ciudadanía sin exigencia y sin duda. Busca y reclama información de calidad a los medios de comunicación, a las instituciones públicas, a las empresas. Desecha la basura, ignora el ruido. Expresa tu disconformidad. Dale el valor que tiene a la información. Distínguela de la propaganda.",
@@ -209,43 +208,43 @@
     "items": [
       {
         "title": "TIPI Ciudadano",
-        "logo": "tipi.png",
+        "logo": "logo-tipi.png",
         "class": "tipi",
         "url": "/trabajos/tipi-ciudadano"
       },
       {
         "title": "LaCentral.coop",
-        "logo": "",
+        "logo": "logo-lacentralcoop.png",
         "class": "lacentralcoop",
         "url": "/trabajos/lacentralcoop"
       },
       {
         "title": "Somos.coop",
-        "logo": "",
+        "logo": "logo-somoscoop.png",
         "class": "somoscoop",
         "url": "/trabajos/somoscoop"
       },
       {
         "title": "En la Órbita",
-        "logo": "",
+        "logo": "logo-elo.png",
         "class": "enlaorbita",
         "url": "/trabajos/enlaorbita"
       },
       {
         "title": "Social to Crowd",
-        "logo": "",
+        "logo": "logo-stc.png",
         "class": "socialtocrowd",
         "url": "/trabajos/socialtocrowd"
       },
       {
         "title": "Transparencia Presupuestaria",
-        "logo": "",
+        "logo": "logo-tp.png",
         "class": "transparenciapresupuestaria",
         "url": "/trabajos/transparencia-presupuestaria"
       },
       {
         "title": "CLIC Cervantes",
-        "logo": "",
+        "logo": "logo-cervantes.png",
         "class": "clic",
         "url": "/trabajos/clic-cervantes"
       }
@@ -257,9 +256,8 @@
     "class": "tipi",
     "subtitle": "Transparencia, Información, Participación e Incidencia.",
     "description": "Proyecto que pretende fortalecer las capacidades de la sociedad civil, para incidir en los procesos de toma de decisión política y en la generación de un debate público informado sobre la pobreza y la justicia social en España.",
-    "logo": "tipi.png",
-    "background": "",
-    "screenshot": "tipi_screenshot.png",
+    "logo": "logo-tipi.png",
+    "screenshot": "screenshot-tipi.png",
     "url": "http://tipiciudadano.es",
     "keys": [
       {"key": "Poner en valor la política como la solución a los problemas de pobreza y desigualdad."},
@@ -271,7 +269,7 @@
       {"metric": "Eventos", "value": "50"},
       {"metric": "ONGs", "value": "300"}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
       {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
@@ -280,7 +278,6 @@
     "own": "no",
     "clientname": "CIECODE",
     "clientdescription": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
-    "clientlogo": "",
     "client-url": "http://unmundosalvadorsoler.org/ciecode",
     "clientyear": "2015",
     "calltoaction": {
@@ -290,11 +287,10 @@
   "lacentralcoop": {
     "title": "LaCentral.coop",
     "class": "lacentralcoop",
-    "subtitle": "Plataforma de productos y servicios cooperativos.",
-    "description": "",
-    "logo": "",
-    "background": "",
-    "screenshot": "lacentralcoop_screenshot.png",
+    "subtitle": "Productos y servicios cooperativos.",
+    "description": "Plataforma digital que permite el consumo responsable de productos y servicios cooperativos. Además permite la intercooperación de sus usuarios y entidades desde un sistema altamente novedoso y sencillo de usar. Pensada para el valor más importante de las cooperativas: las personas.",
+    "logo": "logo-lacentralcoop.png",
+    "screenshot": "screenshot-lacentralcoop.png",
     "url": "http://lacentral.coop",
     "keys": [
       {"key": "Aumentar la visibilidad y posibilidades de ventas de productos y servicios cooperativos."},
@@ -302,11 +298,11 @@
       {"key": "Posibilitar el conocimiento por parte de una ciudadanía, cada vez más concienciada, del catálogo cooperativo más amplio e integral de todo el Estado y facilitar el acceso/compra de productos y servicios basados en los principios y valores del cooperativismo."}
     ],
     "metrics": [
-      {"metric": "Cooperativas", "value": ""},
-      {"metric": "Usuarios", "value": ""},
-      {"metric": "Productos y Servicios", "value": ""}
+      {"metric": "Cooperativas", "value": "1187"},
+      {"metric": "Usuarios", "value": " 1291"},
+      {"metric": "Productos/Servicios", "value": "372"}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
@@ -315,7 +311,6 @@
     "own": "no",
     "clientname": "FAECTA",
     "clientdescription": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.",
-    "clientlogo": "",
     "clienturl": "http://faecta.coop",
     "clientyear": "2015",
     "calltoaction": {
@@ -327,9 +322,8 @@
     "class": "somoscoop",
     "subtitle": "Somos cooperativistas, usa la marca coop.",
     "description": "Espacio web para difundir la marca cooperativa. Principios, identidad y recursos del cooperativismo.",
-    "logo": "",
-    "background": "",
-    "screenshot": "",
+    "logo": "logo-somoscoop.png",
+    "screenshot": "screenshot-somoscoop.png",
     "url": "http://somos.coop",
     "keys": [
       {"key": "Principios e identidad de la marca cooperativa."},
@@ -341,7 +335,7 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "",
     "technologies": [
       {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
@@ -350,7 +344,6 @@
     "own": "si",
     "clientname": "",
     "clientdescription": "",
-    "clientlogo": "",
     "clienturl": "",
     "clientyear": "",
     "calltoaction": {
@@ -362,9 +355,8 @@
     "class": "enlaorbita",
     "subtitle": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet.",
     "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
-    "logo": "",
-    "background": "",
-    "screenshot": "",
+    "logo": "logo-elo.png",
+    "screenshot": "screenshot-elo.png",
     "url": "http://enlaorbita.com",
     "keys": [
       {"key": "Facilita posicionamiento digital a empresas y entidades."},
@@ -376,7 +368,7 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "",
     "technologies": [
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
@@ -388,7 +380,6 @@
     "own": "si",
     "clientname": "",
     "clientdescription": "",
-    "clientlogo": "",
     "clienturl": "",
     "clientyear": "",
     "calltoaction": {
@@ -400,9 +391,8 @@
     "class": "socialtocrowd",
     "subtitle": "El crowdfunding de las cosas",
     "description": "Plataforma para facilitar la solidaridad directa entre organizaciones y personas, sin la dependencia del dinero y generando un nuevo valor en la reutilización de las cosas.",
-    "logo": "",
-    "background": "",
-    "screenshot": "",
+    "logo": "logo-stc.png",
+    "screenshot": "screenshot-stc.png",
     "url": "http://socialtocrowd.org",
     "keys": [
       {"key": "Plataforma de solidaridad con proyectos sociales sin dependencia del dinero."},
@@ -414,8 +404,7 @@
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "",
     "technologies": [
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
@@ -424,7 +413,6 @@
     "own": "si",
     "clientname": "",
     "clientdescription": "",
-    "clientlogo": "",
     "clienturl": "",
     "clientyear": "",
     "calltoaction": {
@@ -434,36 +422,33 @@
   "transparencia-presupuestaria": {
     "title": "Transparencia Presupuestaria",
     "class": "transparenciapresupuestaria",
-    "subtitle": "",
-    "description": "",
-    "logo": "",
-    "background": "",
-    "screenshot": "",
+    "subtitle": "Visualiza su presupuesto",
+    "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad. Además se compara con años anteriores para generar referencias y contextos en los datos. Una oportunidad para empezar a explicar los números.",
+    "logo": "logo-tp.png",
+    "screenshot": "screenshot-tp.png",
     "url": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
+      {"key": "Mecanismo de comparación de datos"},
+      {"key": "Herramienta orientada a lo gráfico"},
+      {"key": "100% compatible con cualquier tecnología web"}
     ],
     "metrics": [
       {"metric": "", "value": ""},
       {"metric": "", "value": ""},
       {"metric": "", "value": ""}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "",
     "technologies": [
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "HTML5", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "D3js", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
     "clientdescription": "",
-    "clientlogo": "",
     "clienturl": "",
     "clientyear": "",
     "calltoaction": {
-      "call": ""
+      "call": "Compara y comprende desde lo visual"
     }
   },
   "clic-cervantes": {
@@ -471,9 +456,8 @@
     "class": "clic",
     "subtitle": "Comercio online, internacionalización e integración de sistemas",
     "description": "Proyecto para la comercialización de productos del Instituto Cervantes en sus centros repartidos por el mundo. Un ejemplo de internacionalización y gestión coordinada de la información a través de Internet.",
-    "logo": "",
-    "background": "",
-    "screenshot": "",
+    "logo": "logo-cervantes.png",
+    "screenshot": "screenshot-cervantes.png",
     "url": "http://clic.cervantes.es",
     "keys": [
       {"key": "Integración de sistemas de gestión propios del cliente y con diversos servicios de banca online"},
@@ -485,7 +469,7 @@
       {"metric": "Formas de pago online", "value": "+20"},
       {"metric": "Idiomas traducido", "value": "20"}
     ],
-    "metricsinfo": "Datos obtenidos en octubre de 2015",
+    "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
       {"technology": "Drupal", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
@@ -493,7 +477,6 @@
     "own": "no",
     "clientname": "Instituto Cervantes",
     "clientdescription": "Organismo público español para la promoción y enseñanza de la lengua española, y la difusión de la cultura de España e Hispanoamérica",
-    "clientlogo": "instituto-cervantes.png",
     "clienturl": "http://www.cervantes.es",
     "clientyear": "2011-2015",
     "calltoaction": {
