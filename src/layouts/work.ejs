@@ -21,6 +21,10 @@
                     <h2><%= data.subtitle %></h2>
                     <hr/>
                     <p><%= data.description %></p>
+                    <% if (data.url != '') { %>
+                        <br>
+                        <p><a href="<%= data.url %>" class="btn btn-default">Ver en vivo</a></p>
+                    <% } %>
                 </div>
                 <div class="col-sm-6 text-center">
                     <img src="/assets/images/works/<%= data.screenshot %>" alt="Captura de <%= data.title %>" height="400" class="img-responsive" />

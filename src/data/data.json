@@ -155,12 +155,16 @@
   "innovacion-social-tecnologica": {
     "line": "Innovación Social Tecnológica",
     "class": "innovacion-social",
-    "claim": "...",
+    "claim": "La tecnología al servicio de la sociedad",
     "why": "Aplicamos la tecnología para resolver problemas reales que afectan a la ciudadanía. La innovación en el sector TIC, como herramienta de cambio, es nuestra apuesta básica como entidad.",
     "dialogue": [
       {
         "ask": "¿Cómo podemos aplicar la tecnología para la resolución de problemas sociales?",
-        "answer": ""
+        "answer": "La tecnología es cada vez más importante y afecta a multitud de circunstancias de la vida cotidiana. Nosotros creemos que la tecnología debe estar al servicio de la sociedad y con esta visión, es posible aplicarla para transformar realidades y mejorar la vida de las personas."
+      },
+      {
+        "ask": "¿Por qué es tan importante la tecnología en la innovación social?",
+        "answer": "La tecnología nos ha permitido romper barreras en la comunicación, abaratar procesos y eliminar fronteras. Todos esos avances tecnológicos que en muchas ocasiones no están pensados en el benefició común, deben aprovecharse para crear las iniciativas y proyectos de innovación social que centren el foco en las personas."
       }
     ],
     "works": [
@@ -295,7 +299,7 @@
     "keys": [
       {"key": "Aumentar la visibilidad y posibilidades de ventas de productos y servicios cooperativos."},
       {"key": "Facilitar la interacción y la búsqueda de intercooperación entre cooperativas y cooperativistas."},
-      {"key": "Posibilitar el conocimiento por parte de una ciudadanía, cada vez más concienciada, del catálogo cooperativo más amplio e integral de todo el Estado y facilitar el acceso/compra de productos y servicios basados en los principios y valores del cooperativismo."}
+      {"key": "Catálogo de consumo responsable más amplio e integral de todo el Estado, basados en los principios y valores del cooperativismo."}
     ],
     "metrics": [
       {"metric": "Cooperativas", "value": "1187"},
@@ -353,8 +357,8 @@
   "enlaorbita": {
     "title": "En la Órbita",
     "class": "enlaorbita",
-    "subtitle": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet.",
-    "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
+    "subtitle": "Crea tu sitio web de forma fácil",
+    "description": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet. En la órbita es una herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
     "logo": "logo-elo.png",
     "screenshot": "screenshot-elo.png",
     "url": "http://enlaorbita.com",
@@ -471,8 +475,10 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
+      {"technology": "PHP", "url": "http://php.net", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Drupal", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
     "clientname": "Instituto Cervantes",

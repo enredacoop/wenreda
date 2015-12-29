@@ -232,12 +232,23 @@ header {
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:991px) {
   #home-claim {
+    background-position: center;
     .claim {
+      text-align: center;
+      height: 100%;
+      position: relative;
+      padding-top: 40%;
       padding-bottom: 15%;
+      h2 {
+        font-size: 2.5em;
+      }
     }
   }
+}
+
+@media(max-width:767px) {
   #home-days {
     .daysnumber {
       text-align: center;
@@ -483,7 +494,6 @@ header {
 
         h2 {
           margin: 0;
-          text-shadow: 2px 2px 3px rgba(0,0,0,1);
           font-size: 3em;
         }
 
@@ -888,7 +898,7 @@ p.lead {
       }
     }
     .metricsinfo {
-      padding-top: 15px;
+      padding-top: 30px;
       font-style: italic;
     }
   }
@@ -950,6 +960,14 @@ p.lead {
       }
     }
   }
+  #info {
+    .btn {
+      .make-contrast(@tipi_color);
+      .make-contrast-border-button(@tipi_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
 }
 
 #work.lacentralcoop {
@@ -960,6 +978,14 @@ p.lead {
       img {
         width: 450px;
       }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@lacentralcoop_color);
+      .make-contrast-border-button(@lacentralcoop_color);
+      background-color: transparent;
+      font-weight: bold;
     }
   }
 }
@@ -974,6 +1000,14 @@ p.lead {
       }
     }
   }
+  #info {
+    .btn {
+      .make-contrast(@somoscoop_color);
+      .make-contrast-border-button(@somoscoop_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
 }
 
 #work.enlaorbita {
@@ -984,6 +1018,14 @@ p.lead {
       img {
         width: 450px;
       }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@enlaorbita_color);
+      .make-contrast-border-button(@enlaorbita_color);
+      background-color: transparent;
+      font-weight: bold;
     }
   }
 }
@@ -998,6 +1040,14 @@ p.lead {
       }
     }
   }
+  #info {
+    .btn {
+      .make-contrast(@socialtocrowd_color);
+      .make-contrast-border-button(@socialtocrowd_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
 }
 
 #work.transparenciapresupuestaria {
@@ -1010,6 +1060,14 @@ p.lead {
       }
     }
   }
+  #info {
+    .btn {
+      .make-contrast(@transparenciapresupuestaria_color);
+      .make-contrast-border-button(@transparenciapresupuestaria_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
 }
 
 #work.clic {
@@ -1020,6 +1078,14 @@ p.lead {
       img {
         width: 450px;
       }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@clic_color);
+      .make-contrast-border-button(@clic_color);
+      background-color: transparent;
+      font-weight: bold;
     }
   }
 }
