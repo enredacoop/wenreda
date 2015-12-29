@@ -39,13 +39,13 @@
     },
     "join": {
       "title": "Únete",
-      "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, ponte en contacto con nosotras.",
+      "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, <a href='mailto:info@enreda.coop' target='_blank'>ponte en contacto con nosotras</a>.",
       "contact": "Escríbenos",
       "url": "mailto:info@enreda.coop"
     },
     "collaborate": {
       "title": "Colabora",
-      "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de Social Inn, un espacio de creación colectiva enfocado a la innovación social.",
+      "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de <a href='https://www.loomio.org/g/VcGPxekv/socialinn' target='_blank'>Social Inn</a>, un espacio de creación colectiva enfocado a la innovación social.",
       "contact": "Deseo participar",
       "url": ""
     },
