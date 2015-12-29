@@ -61,9 +61,21 @@
                             <p class="text-muted"><%= data.team.people[i].position %></p>
                             <p><span class="label label-custom-primary"><%= data.team.people[i].role %></span></p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="<%= data.team.people[i].email %>"><i class="fa fa-envelope"></i></a></li>
-                                <li><a href="<%= data.team.people[i].twitter %>"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="<%= data.team.people[i].linkedin %>"><i class="fa fa-linkedin"></i></a></li>
+                                <% if (data.team.people[i].web != '') { %>
+                                    <li><a href="<%= data.team.people[i].web %>" target="_blank" title="web de <%= data.team.people[i].name %>"><i class="fa fa-external-link-square"></i></a></li>
+                                <% } %>
+                                <% if (data.team.people[i].email != '') { %>
+                                    <li><a href="mailto:<%= data.team.people[i].email %>" target="_blank" title="<%= data.team.people[i].email %>"><i class="fa fa-envelope"></i></a></li>
+                                <% } %>
+                                <% if (data.team.people[i].twitter != '') { %>
+                                    <li><a href="https://twitter.com/<%= data.team.people[i].twitter %>" target="_blank" title="twitter de <%= data.team.people[i].name %>"><i class="fa fa-twitter"></i></a></li>
+                                <% } %>
+                                <% if (data.team.people[i].linkedin != '') { %>
+                                    <li><a href="<%= data.team.people[i].linkedin %>" target="_blank" title="linkedin de <%= data.team.people[i].name %>"><i class="fa fa-linkedin"></i></a></li>
+                                <% } %>
+                                <% if (data.team.people[i].github != '') { %>
+                                    <li><a href="https://github.com/<%= data.team.people[i].github %>" target="_blank" title="github de <%= data.team.people[i].name %>"><i class="fa fa-github"></i></a></li>
+                                <% } %>
                             </ul>
                         </div>
                     </div>

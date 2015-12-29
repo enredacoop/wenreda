@@ -23,18 +23,18 @@
       "title": "Equipo",
       "subtitle": "Las personas como centro de toda actividad empresarial.",
       "people": [
-        {"name": "Pablo Martín", "position": " ", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://enreda.coop", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "Pablo García", "position": " ", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "José Rubén Garrido", "position": " ", "photo": "", "email": "joser.garrido@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "Daniel Melendro", "position": " ", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "Quique Ruíz", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Pablo Martín", "position": " ", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://edipotrebol.es", "twitter": "pr3ssh", "linkedin": "", "github": "pr3ssh", "role": "Socio"},
+        {"name": "Pablo García", "position": " ", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
+        {"name": "Daniel Melendro", "position": " ", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "daniconil", "linkedin": "", "github": "daniconil", "role": "Socio"},
+        {"name": "José Rubén Garrido", "position": " ", "photo": "", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "Quique Ruíz", "position": " ", "photo": "", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
 
-        {"name": "Toni Morillas", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "David Aurusa", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Ángel Munarriz", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Daniel Pérez", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Javier Moreno", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Isabel Benitez", "position": " ", "photo": "", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"}
+        {"name": "Toni Morillas", "position": " ", "photo": "", "email": "toni.morillas@enreda.coop", "web": "", "twitter": "antoniamorillas", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "David Aurusa", "position": " ", "photo": "", "email": "david.aurusa@enreda.coop", "web": "", "twitter": "aurusa", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Ángel Munarriz", "position": " ", "photo": "", "email": "angel.munarriz@enreda.coop", "web": "", "twitter": "angel_munarriz", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Daniel Pérez", "position": " ", "photo": "", "email": "daniel.perez@enreda.coop", "web": "", "twitter": "daniescribe", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Javier Moreno", "position": " ", "photo": "", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Isabel Benitez", "position": " ", "photo": "", "email": "isabel.benitez@lacentral.coop", "web": "", "twitter": "isabelrbenitez", "linkedin": "", "github": "", "role": "Colaboradora"}
       ]
     },
     "join": {
