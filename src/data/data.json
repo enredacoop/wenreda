@@ -277,6 +277,7 @@
     "technologies": [
       {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
@@ -310,7 +311,8 @@
     "technologies": [
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
     "clientname": "FAECTA",
@@ -341,9 +343,7 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -377,6 +377,7 @@
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
 
@@ -412,7 +413,8 @@
     "technologies": [
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -443,8 +445,9 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "HTML5", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "D3js", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "D3js", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "si",
     "clientname": "",
@@ -478,7 +481,8 @@
       {"technology": "PHP", "url": "http://php.net", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Drupal", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "own": "no",
     "clientname": "Instituto Cervantes",
