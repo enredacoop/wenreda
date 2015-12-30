@@ -474,7 +474,7 @@
     "metrics": [
       {"metric": "Portales operativos", "value": "47"},
       {"metric": "Formas de pago online", "value": "+20"},
-      {"metric": "Idiomas traducido", "value": "20"}
+      {"metric": "Idiomas traducidos", "value": "20"}
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
