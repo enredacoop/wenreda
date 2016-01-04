@@ -18,6 +18,7 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'src/css/', src: ['**'], dest: 'dist/assets/css/'},
           {expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'dist/assets/fonts/'},
           {expand: true, cwd: 'src/js/vendor/', src: ['**'], dest: 'dist/assets/js/'},
+          {expand: true, cwd: 'src/', src: ['robots.txt'], dest: 'dist/'},
         ],
       },
     },
