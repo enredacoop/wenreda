@@ -47,6 +47,23 @@ module.exports = function(grunt) {
         }
       }
     },
+    xml_sitemap: {
+      default_options: {
+        options: {
+          dest: 'dist/',
+          siteRoot: 'http://enreda.coop/'
+        },
+        files: [
+          {
+          expand: false,
+          cwd: 'dist/',
+          src: [
+            '**/*.html'
+          ]
+          }
+        ]
+      }
+    },
     clean: ["dist/assets/css/styles.less"],
     uglify: {
       dist: {
@@ -90,8 +107,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-xml-sitemap');
 
   grunt.registerTask('default', ['concat', 'less', 'copy', 'ejs_static', 'watch']);
-  grunt.registerTask('build', ['concat', 'less', 'copy', 'ejs_static', 'uglify', 'cssmin', 'clean']);
+  grunt.registerTask('build', ['concat', 'less', 'copy', 'ejs_static', 'xml_sitemap', 'uglify', 'cssmin', 'clean']);
 
 }
