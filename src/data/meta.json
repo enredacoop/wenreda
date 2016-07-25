@@ -73,5 +73,10 @@
     "title": "CLIC Cervantes",
     "description": "Comercio online, internacionalización e integración de sistemas",
     "keywords": "comercio electrónico, drupal, ubercart, internacionalización, i18n, pasarelas de pago"
+  },
+  "conil-hospeda": {
+    "title": "Conil Hospeda",
+    "description": "Motor de reservas online para Conil de la Frontera (Cádiz)",
+    "keywords": "comercio electrónico, turismo, reservas, alojamiento, hoteles, hostales, apartamentos, fincas"
   }
 }

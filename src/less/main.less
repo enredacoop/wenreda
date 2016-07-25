@@ -835,6 +835,16 @@ p.lead {
       color: make-contrast(@clic_color);
     }
   }
+  .work.conilhospeda {
+    background-color: @conilhospeda_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@conilhospeda_color, 5%);
+      color: make-contrast(@conilhospeda_color);
+    }
+  }
   .work.idea {
     background-color: @lightgrey_color;
     color: @dark_color;
@@ -1085,6 +1095,26 @@ p.lead {
     .btn {
       .make-contrast(@clic_color);
       .make-contrast-border-button(@clic_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.conilhospeda {
+  .make-contrast(@conilhospeda_color);
+  .work_styling(@conilhospeda_color);
+  #intro {
+    .logo {
+      img {
+        width: 450px;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@conilhospeda_color);
+      .make-contrast-border-button(@conilhospeda_color);
       background-color: transparent;
       font-weight: bold;
     }

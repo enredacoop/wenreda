@@ -252,6 +252,12 @@
         "logo": "logo-cervantes.png",
         "class": "clic",
         "url": "/trabajos/clic-cervantes"
+      },
+      {
+        "title": "Conil Hospeda",
+        "logo": "logo-conilhospeda.svg",
+        "class": "conilhospeda",
+        "url": "/trabajos/conil-hospeda"
       }
     ]
   },
@@ -491,7 +497,41 @@
     "clienturl": "http://www.cervantes.es",
     "clientyear": "2011-2015",
     "calltoaction": {
-      "call": "te ayudamos a desarrollar tu estrategia de comercio online."
+      "call": "Te ayudamos a desarrollar tu estrategia de comercio online."
+    }
+  },
+  "conil-hospeda": {
+    "title": "Conil Hospeda",
+    "class": "conilhospeda",
+    "subtitle": "El lugar donde empiezan tus vacaciones",
+    "description": "Proyecto de desarrollo de un motor propio de reservas online para los alojamientos de Conil de la Frontera (Cádiz), con su toque de economía social.",
+    "logo": "logo-conilhospeda.svg",
+    "screenshot": "screenshot-conil.png",
+    "url": "https://conilhospeda.com",
+    "keys": [
+      {"key": "Motor propio de reservas online con buscador integrado en cada uno de los sitios web de los alojamientos"},
+      {"key": "Extranet para que cada alojamiento pueda gestionar su información, las habitaciones con tarifas, reservas y disponibilidades"},
+      {"key": "Diseño adaptativo a diversos dispositivos para que el cliente pueda hacer su reserva desde cualquier lugar"}
+    ],
+    "metrics": [
+      {"metric": "Alojamientos", "value": "48"},
+      {"metric": "Habitaciones", "value": "~1000"},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "Datos obtenidos en junio de 2016",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+    ],
+    "own": "no",
+    "clientname": "Cooperativa Turística de Conil de la Frontera",
+    "clientdescription": "",
+    "clienturl": "",
+    "clientyear": "2016",
+    "calltoaction": {
+      "call": "El turismo visto desde la economía social y local"
     }
   }
 }

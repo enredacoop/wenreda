@@ -118,5 +118,13 @@
       {"src/data/meta.json": "clic-cervantes"},
       {"src/data/data.json": "clic-cervantes"}
     ]
+  },
+  "trabajos/conil-hospeda": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "conil-hospeda"},
+      {"src/data/data.json": "conil-hospeda"}
+    ]
   }
 }
