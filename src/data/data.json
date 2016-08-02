@@ -439,7 +439,7 @@
     "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad. Además se compara con años anteriores para generar referencias y contextos en los datos. Una oportunidad para empezar a explicar los números.",
     "logo": "logo-tp.png",
     "screenshot": "screenshot-tp.png",
-    "url": "",
+    "url": "http://transparenciapresupuestaria.enreda.coop/",
     "keys": [
       {"key": "Mecanismo de comparación de datos"},
       {"key": "Herramienta orientada a lo gráfico"},
