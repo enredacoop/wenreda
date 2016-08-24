@@ -84,30 +84,56 @@
 
     <% } %>
 
-    <div id="works" class="works-line">
-        <div class="section-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h4>Algunos de nuestros trabajos</h4>
+    <% if (data.servicios.length > 0) { %>
+        <div id="works" class="services-line">
+            <div class="section-heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2>Servicios que ofrecemos</h2>
+                        </div>
+                        <div class="col-lg-8">
+                            <ul>
+                            <% for(var i=0; i<data.servicios.length; i++) { %>
+                                    <div class="col-sm-4">
+                                        <li> > <%= data.servicios[i].serv %></li>
+                                    </div>
+                            <% } %>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <% for(var i=0; i<data.works.length; i++) { %>
-                        <div class="col-sm-4">
-                            <a href="<%= data.works[i].url %>" alt="<%= data.works[i].description %>" title="<%= data.works[i].description %>">
-                                <div class="work <%= data.works[i].class %>">
-                                    <img src="/assets/images/works/<%= data.works[i].image %>" alt="Logo de <%= data.works[i].description %>" />
-                                </div>
-                                </a>
+    <% } %>
+
+    <% if (data.works.length > 0) { %>
+
+        <div id="works" class="works-line">
+            <div class="section-heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4>Algunos de nuestros trabajos</h4>
                         </div>
-                <% } %>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <% for(var i=0; i<data.works.length; i++) { %>
+                            <div class="col-sm-4">
+                                <a href="<%= data.works[i].url %>" alt="<%= data.works[i].description %>" title="<%= data.works[i].description %>">
+                                    <div class="work <%= data.works[i].class %>">
+                                        <img src="/assets/images/works/<%= data.works[i].image %>" alt="Logo de <%= data.works[i].description %>" />
+                                    </div>
+                                    </a>
+                            </div>
+                    <% } %>
+                </div>
             </div>
         </div>
-    </div>
+    <% } %>
 
     <div class="call <%= data.class %>">
 

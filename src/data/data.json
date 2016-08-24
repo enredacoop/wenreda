@@ -111,6 +111,14 @@
         "answer": "No hay nada más democrático que la propia democracia. Y ésta debe ser aplicada en todas nuestras relaciones humanas. Y el consumo, con el poder que ello conlleva, no podría dejarse de lado. Detrás de cada decisión de consumo está la emancipación de la humanidad. De una familia que cooperativizó su sudor con la intención de dejar de estar explotada. De la posibilidad de al menos buscar la dignidad como fin último de cada ser humano. Hay que poner la economía al servicio de las personas y del medio ambiente. Si estas dos últimas se ven perjudicadas, el modelo económico implementado no nos vale y hay que cambiarlo. Y en ese cambio estamos porque se ha visto que la economía hegemónica actual solo destruye como mecanismo de subsistencia."
       }
     ],
+    "servicios": [
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},      
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+    ],    
     "works": [
       {"name": "lacentral.coop", "class": "lacentralcoop", "image": "logo-lacentralcoop.png", "description": "Plataforma de productos y servicios cooperativos", "url": "/trabajos/lacentralcoop/"},
       {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
@@ -147,6 +155,14 @@
         "answer": "Siendo ciudadanía activa, reclamando y organizándonos para el cumplimiento efectivo de los derechos."
       }
     ],
+    "servicios": [
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},      
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+    ],
     "works": [
       {"name": "TiPi", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
       {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"}
@@ -172,6 +188,14 @@
         "ask": "¿Por qué es tan importante la tecnología en la innovación social?",
         "answer": "La tecnología nos ha permitido romper barreras en la comunicación, abaratar procesos y eliminar fronteras. Todos esos avances tecnológicos que en muchas ocasiones no están pensados en el benefició común, deben aprovecharse para crear las iniciativas y proyectos de innovación social que centren el foco en las personas."
       }
+    ],
+    "servicios": [
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},      
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
     ],
     "works": [
       {"name": "Social to Crowd", "class": "socialtocrowd", "image": "logo-stc.png", "description": "El crowdfunding de las cosas", "url": "/trabajos/socialtocrowd/"}
@@ -204,6 +228,14 @@
         "ask": "¿Qué nos hace diferentes?",
         "answer": "Nuestro interés en la comunicación es puramente lógico, porque entra en contacto con todos los campos de nuestra actividad: transparencia, participación, democracia, información, tecnología... Ponemos al servicio de la comunicación todo nuestro bagaje tecnológico y la experiencia de periodistas con trayectoria tanto en medios de comunicación como en instituciones. Combinamos el conocimiento de los fenómenos comunicativos con una elevada competencia tecnológica. Así ofrecemos criterio y ejecución profesional de la estrategia de comunicación, partiendo de un diagnóstico de las necesidades y de una definición de los objetivos. Y mantenemos nuestra escala de valores y prioridades: cercanía, compromiso, eficacia. Enreda asesora a empresas e instituciones para que acierten con sus decisiones en materia de comunicación, al tiempo que hacemos un seguimiento detallado de la eficacia de las acciones puestas en marcha."
       }
+    ],
+    "servicios": [
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},      
+      {"serv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
     ],
     "works": [
       {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
