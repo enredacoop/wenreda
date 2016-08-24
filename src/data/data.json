@@ -112,10 +112,10 @@
       }
     ],
     "works": [
-      {"name": "lacentral.coop", "class": "lacentralcoop", "image": "logo-lacentralcoop.png", "description": "Plataforma de productos y servicios cooperativos", "url": "http://lacentral.coop"},
-      {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "http://somos.coop"},
-      {"name": "Conil Hospeda", "class": "conilhospeda", "image": "logo-conilhospeda.svg", "description": "Motor propio de reservas online para los alojamientos de Conil de la Frontera", "url": "https://conilhospeda.com"},
-      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "http://enlaorbita.com"}
+      {"name": "lacentral.coop", "class": "lacentralcoop", "image": "logo-lacentralcoop.png", "description": "Plataforma de productos y servicios cooperativos", "url": "/trabajos/lacentralcoop/"},
+      {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
+      {"name": "Conil Hospeda", "class": "conilhospeda", "image": "logo-conilhospeda.svg", "description": "Motor propio de reservas online para los alojamientos de Conil de la Frontera", "url": "/trabajos/conil-hospeda/"},
+      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "/trabajos/enlaorbita/"}
 
     ],
     "calltoaction": {
@@ -148,8 +148,8 @@
       }
     ],
     "works": [
-      {"name": "TiPi", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "http://tipiciudadano.es"},
-      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria"}
+      {"name": "TiPi", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
+      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"}
 
     ],
     "calltoaction": {
@@ -174,7 +174,7 @@
       }
     ],
     "works": [
-      {"name": "Social to Crowd", "class": "socialtocrowd", "image": "logo-stc.png", "description": "El crowdfunding de las cosas", "url": "http://socialtocrowd.org"}
+      {"name": "Social to Crowd", "class": "socialtocrowd", "image": "logo-stc.png", "description": "El crowdfunding de las cosas", "url": "/trabajos/socialtocrowd/"}
     ],
     "calltoaction": {
       "call": "Imaginemos que está en nuestras manos",
@@ -206,8 +206,8 @@
       }
     ],
     "works": [
-      {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "http://somos.coop"},
-      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "http://enlaorbita.com"}
+      {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
+      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "/trabajos/enlaorbita/"}
     ],
     "calltoaction": {
       "call": "Comunica y actúa",
