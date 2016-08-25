@@ -573,5 +573,23 @@
     "calltoaction": {
       "call": "El turismo visto desde la economía social y local"
     }
+  },
+  "cookies": {
+    "title": "Política de cookies",
+    "class": "cookies",
+    "dialogue": [
+      {
+        "ask": "¿Qué es una cookie?",
+        "answer": "Una cookie es una pequeña pieza de texto enviada a tu navegador por una web que has visitado. Ayuda a la web a recordar información sobre tu visita, como tu idioma preferente y otros ajutes. Esto puede hacer tu próxima visita más sencila y el sitio más útil para ti. Las cookies jugan un rol importante. Sin ellas, usar la web sería una experiencia mucho más frustante."
+      },
+      {
+        "ask": "Google Analytics cookies",
+        "answer": "Este sitio usa Google Analytics para entender mejor cómo usas el portal. El objetivo principal con Google Analytics es aprender y mejorar el sitio para así poder obtener lo mejor de este."
+      },
+      {
+        "ask": "Deshabilitar cookies",
+        "answer": "Sin embargio, si quieres puedes deshabilitar las cookies de este sitio o otro, recomendamos que compruebes la sección dea ayuda de tu navegador para así poder deshabilitarlas."
+      }
+    ]
   }
 }

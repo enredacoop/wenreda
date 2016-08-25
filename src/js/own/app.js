@@ -46,3 +46,14 @@ $("#home-blog-items").rss(
   // called after feeds are successfully loaded and after animations are done
   function callback() {}
 )
+
+//CONTROL COOKIES
+  //CONTROL COOKIES
+  if (localStorage.enreda_cookies>0)
+    $('.cookies-wrapper').hide();
+
+  $('.cookies-wrapper .btn').on('click', function(e) {
+    e.preventDefault();
+    localStorage.enreda_cookies = 1;
+    $('.cookies-wrapper').hide();
+  });
