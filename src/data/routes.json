@@ -126,5 +126,13 @@
       {"src/data/meta.json": "conil-hospeda"},
       {"src/data/data.json": "conil-hospeda"}
     ]
+  },
+  "cookies": {
+    "path_to_layout": "src/layouts/cookies.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "cookies"},
+      {"src/data/data.json": "cookies"}
+    ]
   }
 }

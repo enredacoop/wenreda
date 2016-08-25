@@ -1,0 +1,40 @@
+<% include common/start %>
+
+<% include common/header %>
+
+
+<div id="lines" class="wrapper-content">
+    <div class="intro-header <%= data.class %>">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2><%= data.title %></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Content -->
+
+    <% for(var i=0; i<data.dialogue.length; i++) { %>
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                            <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading"><%= data.dialogue[i].ask %></h3>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                            <p class="lead"><%= data.dialogue[i].answer %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                  
+        <% } %>
+
+<% include common/footer %>
+
+<% include common/end %>
