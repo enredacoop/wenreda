@@ -84,8 +84,8 @@
 
     <% } %>
 
-    <% if (data.servicios.length > 0) { %>
-        <div id="works" class="services-line">
+    <% if (data.services.length > 0) { %>
+        <div id="services" class="services-line">
             <div class="section-heading">
                 <div class="container">
                     <div class="row">
@@ -94,10 +94,15 @@
                         </div>
                         <div class="col-lg-8">
                             <ul>
-                            <% for(var i=0; i<data.servicios.length; i++) { %>
-                                    <div class="col-sm-4">
-                                        <li> > <%= data.servicios[i].serv %></li>
+                            <% for(var i=0; i<data.services.length; i++) { %>
+                                <% if(data.services[i].title) { %>
+                                    <div class="col-sm-12">
+                                        <li class="title"> > <%= data.services[i].title %></li>
+                                        <li> <%= data.services[i].description %></li>                                        
                                     </div>
+                                <% } else { %>
+                                        <li> > <%= data.services[i].description %></li>
+                                <% } %>
                             <% } %>
                             </ul>
                         </div>
