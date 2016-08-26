@@ -95,14 +95,11 @@
                         <div class="col-lg-8">
                             <ul>
                             <% for(var i=0; i<data.services.length; i++) { %>
-                                <% if(data.services[i].title) { %>
-                                    <div class="col-sm-12">
-                                        <li class="title"> > <%= data.services[i].title %></li>
-                                        <li> <%= data.services[i].description %></li>                                        
-                                    </div>
-                                <% } else { %>
-                                        <li> > <%= data.services[i].description %></li>
-                                <% } %>
+                                <li>
+                                <span class="title"><%= data.services[i].title %></span>
+                                <br/>
+                                <small><%= data.services[i].description %></small>
+                                </li>
                             <% } %>
                             </ul>
                         </div>

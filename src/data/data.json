@@ -218,10 +218,10 @@
       }
     ],
     "services": [
-      {"title": "", "description": "Marketing online"},
-      {"title": "", "description": "Social media Marketing"},
-      {"title": "", "description": "Posicionamiento en buscadores (estrategias SEO y SEM)"},
-      {"title": "", "description": "Campañas multicanal  (diseño de cartelería, boletines, redacción de notas de prensa, elaboración de videos, mailing...)"}
+      {"title": "Marketing online", "description": ""},
+      {"title": "Social media Marketing", "description": ""},
+      {"title": "Posicionamiento en buscadores (estrategias SEO y SEM)", "description": ""},
+      {"title": "Campañas multicanal  (diseño de cartelería, boletines, redacción de notas de prensa, elaboración de videos, mailing...)", "description": ""}
     ],
     "works": [
       {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
