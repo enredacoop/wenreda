@@ -110,6 +110,34 @@
         </section>
     <% } %>
 
+    <% if (data.media.length > 0) { %>
+
+        <section id="media" class="media-line">
+            <div class="section-heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4>Algunas apariciones en medios</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <% for(var i=0; i<data.media.length; i++) { %>
+                            <div class="col-sm-4">
+                                <a href="<%= data.media[i].url %>" alt="<%= data.media[i].name %>" title="<%= data.media[i].name %>">
+                                    <div class="media <%= data.media[i].class %>">
+                                        <img src="/assets/images/media/<%= data.media[i].image %>" alt="Logo de <%= data.media[i].name %>" />
+                                    </div>
+                                    </a>
+                            </div>
+                    <% } %>
+                </div>
+            </div>
+        </section>
+    <% } %>
+
     <section id="call">
         <div class="container">
             <div class="row">

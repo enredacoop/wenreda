@@ -313,6 +313,10 @@
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
+    "media": [
+      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/ciudadania_informada-poder-diputados-politica_vigilada-rendicion_de_cuentas_6_566653330.html"},
+      {"name": "publico", "class": "publico", "image": "logo_publico.png", "url": "http://www.publico.es/sociedad/ensanchar-democracia-golpe-dato.html"}
+    ],
     "own": "no",
     "clientname": "CIECODE",
     "clientdescription": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
@@ -347,6 +351,9 @@
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
+    "media": [
+      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/inspira/red-social-cooperativas_6_401469885.html"}
+    ],    
     "own": "no",
     "clientname": "FAECTA",
     "clientdescription": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.",
@@ -378,6 +385,8 @@
     "technologies": [
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
+    "media": [
+    ],    
     "own": "si",
     "clientname": "",
     "clientdescription": "",
@@ -415,6 +424,8 @@
       {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
 
     ],
+    "media": [
+    ],
     "own": "si",
     "clientname": "",
     "clientdescription": "",
@@ -449,6 +460,8 @@
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
+    "media": [
+    ],
     "own": "si",
     "clientname": "",
     "clientdescription": "",
@@ -481,6 +494,8 @@
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "D3js", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+    ],
+    "media": [
     ],
     "own": "si",
     "clientname": "",
@@ -517,6 +532,8 @@
       {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
+    "media": [
+    ],
     "own": "no",
     "clientname": "Instituto Cervantes",
     "clientdescription": "Organismo público español para la promoción y enseñanza de la lengua española, y la difusión de la cultura de España e Hispanoamérica",
@@ -550,6 +567,10 @@
       {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+    ],
+    "media": [
+      {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/turismo/destino-espana/costa-luz/noticia-empresarios-locales-crean-cooperativa-turistica-conil-hospeda-20160511195958.html"},
+      {"name": "20minutos", "class": "20minutos", "image": "logo_20minutos.jpg", "url": "http://www.20minutos.es/noticia/2744560/0/turismo-empresarios-locales-crean-cooperativa-turistica-conil-hospeda/"}
     ],
     "own": "no",
     "clientname": "Cooperativa Turística de Conil de la Frontera",
