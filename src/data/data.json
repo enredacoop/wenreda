@@ -352,7 +352,9 @@
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "media": [
-      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/inspira/red-social-cooperativas_6_401469885.html"}
+      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/inspira/red-social-cooperativas_6_401469885.html"},
+      {"name": "tercerainformacion", "class": "tercerainformacion", "image": "logo_tercerainformacion.png", "url": "http://tercerainformacion.es/antigua/spip.php?article88313"},
+      {"name": "economiasolidaria", "class": "economiasolidaria", "image": "logo_economiasolidaria.jpg", "url": "http://www.economiasolidaria.org/noticias/lacentralcoop_plataforma_de_productos_y_servicios_cooperativos"}
     ],    
     "own": "no",
     "clientname": "FAECTA",
@@ -461,6 +463,10 @@
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "media": [
+      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/andalucia/Social-Crowd-micromecenazgo-materiales-ONG_0_272972821.html"},
+      {"name": "publico", "class": "publico", "image": "logo_publico.png", "url": "http://blogs.publico.es/el-cuarto-poder-en-red/2014/06/25/el-crowdfunding-de-las-cosas/"},
+      {"name": "elpais", "class": "elpais", "image": "logo_elpais.jpg", "url": "http://blogs.elpais.com/alterconsumismo/2014/06/social-to-crowd-el-crowdfunding-de-las-cosas.html"},
+      {"name": "diarioresponsable", "class": "diarioresponsable", "image": "logo_diarioresponsable.png", "url": "http://diarioresponsable.com/noticias/17860-social-to-crowd-ong-solidaridad-recogida-materiales"}
     ],
     "own": "si",
     "clientname": "",
@@ -570,7 +576,9 @@
     ],
     "media": [
       {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/turismo/destino-espana/costa-luz/noticia-empresarios-locales-crean-cooperativa-turistica-conil-hospeda-20160511195958.html"},
-      {"name": "20minutos", "class": "20minutos", "image": "logo_20minutos.jpg", "url": "http://www.20minutos.es/noticia/2744560/0/turismo-empresarios-locales-crean-cooperativa-turistica-conil-hospeda/"}
+      {"name": "20minutos", "class": "20minutos", "image": "logo_20minutos.jpg", "url": "http://www.20minutos.es/noticia/2744560/0/turismo-empresarios-locales-crean-cooperativa-turistica-conil-hospeda/"},
+      {"name": "diariodecadiz", "class": "diariodecadiz", "image": "logo_diariodecadiz.jpg", "url": "http://www.diariodecadiz.es/article/provincia/2288284/nace/portal/inmobiliario/conil/hospeda.html"},
+      {"name": "diariodeconil", "class": "diariodeconil", "image": "logo_diariodeconil.jpg", "url": "http://www.diariodeconil.es/articulo/turismo/conil-hospeda-primera-cooperativa-turistica-andalucia/20160509162323000950.html"}    
     ],
     "own": "no",
     "clientname": "Cooperativa Turística de Conil de la Frontera",
