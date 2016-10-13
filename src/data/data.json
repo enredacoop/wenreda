@@ -315,7 +315,8 @@
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/ciudadania_informada-poder-diputados-politica_vigilada-rendicion_de_cuentas_6_566653330.html"},
-      {"name": "publico", "class": "publico", "image": "logo_publico.png", "url": "http://www.publico.es/sociedad/ensanchar-democracia-golpe-dato.html"}
+      {"name": "publico", "class": "publico", "image": "logo_publico.png", "url": "http://www.publico.es/sociedad/ensanchar-democracia-golpe-dato.html"},
+      {"name": "eldiario", "class": "eldiario", "image": "logo_elperiodico.png", "url": "http://www.elperiodico.com/es/noticias/apps-para-el-ciudadano-comprometido/tipi-informacion-congreso-diputados-luchar-pobreza-5431385"}
     ],
     "own": "no",
     "clientname": "CIECODE",
