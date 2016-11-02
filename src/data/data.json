@@ -158,7 +158,7 @@
       {"title": "Planes de Participación Juvenil", "description": "Educación para la participación, tanto en el aula como fuera de ella"}
     ],
     "works": [
-      {"name": "TiPi", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
+      {"name": "TIPI Ciudadano", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
       {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"}
 
     ],
@@ -296,6 +296,7 @@
     "logo": "logo-tipi.png",
     "screenshot": "screenshot-tipi.png",
     "url": "http://tipiciudadano.es",
+    "sourcecode": "https://github.com/ciecode-madrid/",
     "keys": [
       {"key": "Poner en valor la política como la solución a los problemas de pobreza y desigualdad."},
       {"key": "Dotar a la ciudadanía de herramientas para poder exigir a los diputados que se avance en dar soluciones políticas a la pobreza y la exclusión social."},
@@ -311,7 +312,11 @@
       {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Redis", "url": "http://redis.io/", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Scrapy", "url": "https://scrapy.org/", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Luigi", "url": "https://github.com/spotify/luigi", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/ciudadania_informada-poder-diputados-politica_vigilada-rendicion_de_cuentas_6_566653330.html"},
@@ -335,6 +340,7 @@
     "logo": "logo-lacentralcoop.png",
     "screenshot": "screenshot-lacentralcoop.png",
     "url": "http://lacentral.coop",
+    "sourcecode": "",
     "keys": [
       {"key": "Aumentar la visibilidad y posibilidades de ventas de productos y servicios cooperativos."},
       {"key": "Facilitar la interacción y la búsqueda de intercooperación entre cooperativas y cooperativistas."},
@@ -374,6 +380,7 @@
     "logo": "logo-somoscoop.png",
     "screenshot": "screenshot-somoscoop.png",
     "url": "http://somos.coop",
+    "sourcecode": "",
     "keys": [
       {"key": "Principios e identidad de la marca cooperativa."},
       {"key": "Dominios .coop como elemento diferenciador del cooperativismo en la red."},
@@ -407,6 +414,7 @@
     "logo": "logo-elo.png",
     "screenshot": "screenshot-elo.png",
     "url": "http://enlaorbita.com",
+    "sourcecode": "",
     "keys": [
       {"key": "Facilita posicionamiento digital a empresas y entidades."},
       {"key": "Solución responsive para la visualización en todo tipo de dispositivos."},
@@ -446,6 +454,7 @@
     "logo": "logo-stc.png",
     "screenshot": "screenshot-stc.png",
     "url": "http://socialtocrowd.org",
+    "sourcecode": "https://github.com/socialinn/socialtocrowd",
     "keys": [
       {"key": "Plataforma de solidaridad con proyectos sociales sin dependencia del dinero."},
       {"key": "Transparencia para facilitar la donación de materiales a ONG's."},
@@ -486,6 +495,7 @@
     "logo": "logo-tp.png",
     "screenshot": "screenshot-tp.png",
     "url": "http://transparenciapresupuestaria.enreda.coop/",
+    "sourcecode": "https://github.com/enredacoop/transparencia-presupuestaria",
     "keys": [
       {"key": "Mecanismo de comparación de datos"},
       {"key": "Herramienta orientada a lo gráfico"},
@@ -521,6 +531,7 @@
     "logo": "logo-cervantes.png",
     "screenshot": "screenshot-cervantes.png",
     "url": "http://clic.cervantes.es",
+    "sourcecode": "",
     "keys": [
       {"key": "Integración de sistemas de gestión propios del cliente y con diversos servicios de banca online"},
       {"key": "Internacionalización de los centros en múltiples idiomas"},
@@ -558,6 +569,7 @@
     "logo": "logo-conilhospeda.svg",
     "screenshot": "screenshot-conil.png",
     "url": "https://conilhospeda.com",
+    "sourcecode": "",
     "keys": [
       {"key": "Motor propio de reservas online con buscador integrado en cada uno de los sitios web de los alojamientos"},
       {"key": "Extranet para que cada alojamiento pueda gestionar su información, las habitaciones con tarifas, reservas y disponibilidades"},
