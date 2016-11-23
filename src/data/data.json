@@ -30,7 +30,7 @@
         {"name": "Azahara", "position": " ", "photo": "user_placeholder.png", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Sergio Polo", "position": " ", "photo": "spolpen.jpg", "email": "sergio.polo@enreda.coop", "web": "", "twitter": "likordelpolo", "linkedin": "", "github": "spolpen", "role": "Trabajador"},
         {"name": "Sole", "position": " ", "photo": "user_placeholder.png", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
-        {"name": "Aleixx Piero", "position": " ", "photo": "user_placeholder.png", "email": "aleix.peiro@enreda.coop", "web": "", "twitter": "aleixdev", "linkedin": "", "github": "spolpen", "role": "Trabajador"},
+        {"name": "Aleixx Piero", "position": " ", "photo": "aleixdev.jpg", "email": "aleix.peiro@enreda.coop", "web": "", "twitter": "aleixdev", "linkedin": "", "github": "spolpen", "role": "Trabajador"},
         {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
         {"name": "Isabel Benitez", "position": " ", "photo": "isabelrbenitez.jpg", "email": "isabel.benitez@lacentral.coop", "web": "", "twitter": "isabelrbenitez", "linkedin": "", "github": "", "role": "Colaboradora"},
