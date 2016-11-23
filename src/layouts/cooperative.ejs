@@ -53,10 +53,11 @@
                 </div>
             </div>
             <div class="row">
+                <!-- For converting photos: convert pic.jpg -colorspace Gray -resize 300x300^ -gravity Center -crop 300x300+0+0 +repage picnew.jpg -->
                 <% for(var i=0; i<data.team.people.length; i++) { %>
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="/assets/images/cooperative/user_placeholder.png" class="img-responsive img-circle" alt="Foto de <%= data.team.people[i].name %>" width="200" height="200" />
+                            <img src="/assets/images/cooperative/people/<%= data.team.people[i].photo %>" class="img-responsive img-circle" alt="Foto de <%= data.team.people[i].name %>" width="200" height="200" />
                             <h4><%= data.team.people[i].name %></h4>
                             <p class="text-muted"><%= data.team.people[i].position %></p>
                             <p><span class="label label-custom-primary"><%= data.team.people[i].role %></span></p>

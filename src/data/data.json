@@ -23,19 +23,19 @@
       "title": "Equipo",
       "subtitle": "Las personas como centro de toda actividad empresarial.",
       "people": [
-        {"name": "Pablo Martín", "position": " ", "photo": "", "email": "pablo.martin@enreda.coop", "web": "http://edipotrebol.es", "twitter": "pr3ssh", "linkedin": "", "github": "pr3ssh", "role": "Socio"},
-        {"name": "Pablo García", "position": " ", "photo": "", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
-        {"name": "Daniel Melendro", "position": " ", "photo": "", "email": "daniel.melendro@enreda.coop", "web": "", "twitter": "daniconil", "linkedin": "", "github": "daniconil", "role": "Socio"},
-        {"name": "José Rubén Garrido", "position": " ", "photo": "", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "Quique Ruíz", "position": " ", "photo": "", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
-
-        {"name": "David Aurusa", "position": " ", "photo": "", "email": "david.aurusa@enreda.coop", "web": "", "twitter": "aurusa", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Ángel Munarriz", "position": " ", "photo": "", "email": "angel.munarriz@enreda.coop", "web": "", "twitter": "angel_munarriz", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Jaime de Miguel", "position": " ", "photo": "", "email": "demiguel.jaime@gmail.com", "web": "http://417i.com", "twitter": "417tw", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Pedro Rincón", "position": " ", "photo": "", "email": "pedro@tarifasblancas.com", "web": "", "twitter": "pedroerincon", "linkedin": "http://es.linkedin.com/in/pedroerincon", "github": "", "role": "Colaborador"},
-        {"name": "Daniel Pérez", "position": " ", "photo": "", "email": "daniel.perez@enreda.coop", "web": "", "twitter": "daniescribe", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Javier Moreno", "position": " ", "photo": "", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Isabel Benitez", "position": " ", "photo": "", "email": "isabel.benitez@lacentral.coop", "web": "", "twitter": "isabelrbenitez", "linkedin": "", "github": "", "role": "Colaboradora"}
+        {"name": "Pablo Martín", "position": " ", "photo": "pr3ssh.jpg", "email": "pablo.martin@enreda.coop", "web": "http://edipotrebol.es", "twitter": "pr3ssh", "linkedin": "", "github": "pr3ssh", "role": "Socio"},
+        {"name": "Pablo García", "position": " ", "photo": "user_placeholder.png", "email": "pablo.garcia@enreda.coop", "web": "http://pablo.gg", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
+        {"name": "José Rubén Garrido", "position": " ", "photo": "joserubengar.jpeg", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "David Aurusa", "position": " ", "photo": "user_placeholder.png", "email": "david.aurusa@enreda.coop", "web": "", "twitter": "aurusa", "linkedin": "", "github": "", "role": "Socio"},
+        {"name": "Azahara", "position": " ", "photo": "user_placeholder.png", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "Sergio Polo", "position": " ", "photo": "spolpen.jpg", "email": "sergio.polo@enreda.coop", "web": "", "twitter": "likordelpolo", "linkedin": "", "github": "spolpen", "role": "Trabajador"},
+        {"name": "Sole", "position": " ", "photo": "user_placeholder.png", "email": "", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "Aleixx Piero", "position": " ", "photo": "user_placeholder.png", "email": "aleix.peiro@enreda.coop", "web": "", "twitter": "aleixdev", "linkedin": "", "github": "spolpen", "role": "Trabajador"},
+        {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
+        {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Isabel Benitez", "position": " ", "photo": "isabelrbenitez.jpg", "email": "isabel.benitez@lacentral.coop", "web": "", "twitter": "isabelrbenitez", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "Ángel Munarriz", "position": " ", "photo": "user_placeholder.png", "email": "angel.munarriz@enreda.coop", "web": "", "twitter": "angel_munarriz", "linkedin": "", "github": "", "role": "Colaborador"},
+        {"name": "Daniel Pérez", "position": " ", "photo": "user_placeholder.png", "email": "daniel.perez@enreda.coop", "web": "", "twitter": "daniescribe", "linkedin": "", "github": "", "role": "Colaborador"}
       ]
     },
     "join": {
