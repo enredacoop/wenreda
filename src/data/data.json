@@ -24,7 +24,7 @@
       "subtitle": "Las personas como centro de toda actividad empresarial.",
       "people": [
         {"name": "Pablo Martín", "position": " ", "photo": "pr3ssh.jpg", "email": "pablo.martin@enreda.coop", "web": "http://pr3ssh.net", "twitter": "pr3ssh", "linkedin": "", "github": "pr3ssh", "role": "Socio"},
-        {"name": "Pablo García", "position": " ", "photo": "user_placeholder.png", "email": "pablo.garcia@enreda.coop", "web": "http://pablogg.com", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
+        {"name": "Pablo García", "position": " ", "photo": "pablogg.jpg", "email": "pablo.garcia@enreda.coop", "web": "http://pablogg.com", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
         {"name": "José Rubén Garrido", "position": " ", "photo": "joserubengar.jpeg", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
         {"name": "David Aurusa", "position": " ", "photo": "aurusa.jpg", "email": "david.aurusa@enreda.coop", "web": "http://hazlotransparente.es/", "user_placeholder.pngtwitter": "aurusa", "linkedin": "", "github": "", "role": "Socio"},
         {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
