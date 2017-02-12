@@ -1216,6 +1216,39 @@ p.lead {
   }
 }
 
+
+/********** PREFOOTER **********/
+
+#prefooter {
+    padding: 30px 0;
+    background-color: @dark_color;
+    color: @clean_color;
+    img {
+        padding-top: 20px;
+    }
+    a {
+        color: @primary_color;
+        font-weight: bold;
+        font-size: 1.2em;
+        &:hover, &:link, &:visited {
+            color: @primary_color;
+        }
+    }
+    strong {
+        a {
+            color: @clean_color;
+            &:hover, &:link, &:visited {
+                color: @clean_color;
+            }
+        }
+    }
+    .separator {
+        padding: 30px 0;
+        border-bottom: 2px solid lighten(@dark_color, 10%);
+    }
+}
+
+
 /********** FOOTER **********/
 
 footer {
