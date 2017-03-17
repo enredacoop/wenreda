@@ -62,7 +62,7 @@
         {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"},
         {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabajo de las mismas.", "url": "http://openkratio.org"},
         {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"},
-        {"name": "Som Conexió", "logo": "", "description": "Cooperativa de consumo de productos de telecomunicaciones"}
+        {"name": "Som Connexió", "logo": "", "description": "Cooperativa de consumo de productos de telecomunicaciones", "url": "https://eticom.coop/es/"}
         
       ]
     }
