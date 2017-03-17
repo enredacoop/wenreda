@@ -6,7 +6,7 @@ $(function() {
 
 $(function() {
   var oneDay = 24*60*60*1000;
-  var firstDate = new Date(2007,01,01);
+  var firstDate = new Date(2008,02,21);
   var secondDate = Date.now();
   $('.daysnumber').html(Math.round(Math.abs((firstDate.getTime() - secondDate)/(oneDay))));
 });
