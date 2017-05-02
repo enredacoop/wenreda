@@ -14,6 +14,7 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
+          {expand: true, cwd: 'src/', src: ['favicon.ico'], dest: 'dist/'},
           {expand: true, cwd: 'src/images/', src: ['**'], dest: 'dist/assets/images/'},
           {expand: true, cwd: 'src/css/', src: ['**'], dest: 'dist/assets/css/'},
           {expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'dist/assets/fonts/'},
