@@ -39,6 +39,15 @@
         {"name": "Daniel Pérez", "position": " ", "photo": "user_placeholder.png", "email": "daniel.perez@enreda.coop", "web": "", "twitter": "daniescribe", "linkedin": "", "github": "", "role": "Colaborador"}
       ]
     },
+    "offices": {
+        "title": "Dónde estamos",
+        "places": [
+            {"city": "Sevilla", "address": "Avda. República Argentina 25 Planta 9", "zipcode": "41011", "officename": "Espacio RES", "officeurl": "http://espaciores.org", "othercontact": ""},
+            {"city": "Huelva", "address": "Paseo Santa Fe 7", "zipcode": "21003", "officename": "Desatando SociaLab", "officeurl": "http://desatando.org", "othercontact": ""},
+            {"city": "Malaga", "address": "", "zipcode": "", "officename": "", "officeurl": "", "othercontact": "malaga@enreda.coop"},
+            {"city": "Madrid", "address": "", "zipcode": "", "officename": "", "officeurl": "", "othercontact": "madrid@enreda.coop"}
+        ]
+    },
     "join": {
       "title": "Únete",
       "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, <a href='mailto:info@enreda.coop' target='_blank'>ponte en contacto con nosotras</a>.",
