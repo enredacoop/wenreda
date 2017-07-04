@@ -169,7 +169,8 @@
     ],
     "works": [
       {"name": "TIPI Ciudadano", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
-      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"}
+      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"},
+      {"name": "Poletika", "class": "poletika", "image": "logo-poletika.png", "description": "Vigilancia y presión ciudadana para el cambio político", "url": "/trabajos/poletika/"}
 
     ],
     "calltoaction": {
