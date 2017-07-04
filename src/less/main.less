@@ -1,5 +1,4 @@
 /********** GENERAL **********/
-
 @font: 'Open Sans';
 
 body,
@@ -918,6 +917,16 @@ p.lead {
       color: make-contrast(@conilhospeda_color);
     }
   }
+  .work.poletika {
+    background-color: @poletika_color;
+    img {
+      width: 300px;
+    }
+    .title {
+      background-color: darken(@poletika_color, 5%);
+      color: make-contrast(@poletika_color);
+    }
+  }
   .work.idea {
     background-color: @lightgrey_color;
     color: @dark_color;
@@ -1203,6 +1212,26 @@ p.lead {
     .btn {
       .make-contrast(@conilhospeda_color);
       .make-contrast-border-button(@conilhospeda_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.poletika {
+  .make-contrast(@poletika_color);
+  .work_styling(@poletika_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@poletika_color);
+      .make-contrast-border-button(@poletika_color);
       background-color: transparent;
       font-weight: bold;
     }

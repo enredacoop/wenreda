@@ -127,6 +127,14 @@
       {"src/data/data.json": "conil-hospeda"}
     ]
   },
+  "trabajos/poletika": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "poletika"},
+      {"src/data/data.json": "poletika"}
+    ]
+  },
   "cookies": {
     "path_to_layout": "src/layouts/cookies.ejs",
     "path_to_data": [
