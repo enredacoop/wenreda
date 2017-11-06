@@ -169,7 +169,8 @@
     ],
     "works": [
       {"name": "TIPI Ciudadano", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
-      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"}
+      {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"},
+      {"name": "Poletika", "class": "poletika", "image": "logo-poletika.png", "description": "Vigilancia y presión ciudadana para el cambio político", "url": "/trabajos/poletika/"}
 
     ],
     "calltoaction": {
@@ -266,10 +267,10 @@
         "url": "/trabajos/somoscoop"
       },
       {
-        "title": "En la Órbita",
-        "logo": "logo-elo.png",
-        "class": "enlaorbita",
-        "url": "/trabajos/enlaorbita"
+        "title": "Poletika",
+        "logo": "logo-poletika.png",
+        "class": "poletika",
+        "url": "/trabajos/poletika"
       },
       {
         "title": "Social to Crowd",
@@ -294,10 +295,15 @@
         "logo": "logo-conilhospeda.svg",
         "class": "conilhospeda",
         "url": "/trabajos/conil-hospeda"
+      },
+      {
+        "title": "En la Órbita",
+        "logo": "logo-elo.png",
+        "class": "enlaorbita",
+        "url": "/trabajos/enlaorbita"
       }
     ]
   },
-
   "tipi-ciudadano": {
     "title": "TIPI Ciudadano",
     "class": "tipi",
@@ -610,6 +616,47 @@
     "clientyear": "2016",
     "calltoaction": {
       "call": "El turismo visto desde la economía social y local"
+    }
+  },
+  "poletika": {
+    "title": "Poletika",
+    "class": "poletika",
+    "subtitle": "Vigilancia y presión ciudadana para el cambio político",
+    "description": "Proyecto que pretende vigilar y presionar a los partidos políticos para que las personas estén en el centro de las políticas y alcanzar una sociedad más justa y menos desigual, vigilando el trabajo parlamentario y ejecutivo a través de organizaciones, plataformas y movimientos de la sociedad civil.",
+    "logo": "logo-poletika.png",
+    "screenshot": "screenshot-poletika.png",
+    "url": "http://poletika.org",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Proyecto donde vigilar la actividad parlamentaria y ejecutiva, así como presionar para que los políticos y los partidos cumplan con sus compromisos y adquieran nuevos o mejores compromisos"},
+      {"key": "Toda la información del proyecto está a disposición de las personas usuarias, que pueden descargársela en formatos fácilmente reutilizables y con los que pueden contrastar los resultados y obtener sus propias conclusiones"},
+      {"key": "Múltiples vías de colaboración: suscripción, vigilante 2.0 (activista digital), comunicadora, diseñador, periodista, etc"}
+    ],
+    "metrics": [
+      {"metric": "Organizaciones", "value": "+500"},
+      {"metric": "Temáticas", "value": "11"},
+      {"metric": "Partidos políticos", "value": "5"}
+    ],
+    "metricsinfo": "Datos obtenidos en junio de 2017",
+    "technologies": [
+      {"technology": "PHP", "url": "http://php.net", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Drupal", "url": "https://www.drupal.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "API REST", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Bot Telegram", "url": "https://telegram.org/blog/bot-revolution", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+    ],
+    "media": [
+      {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/epsocial/derechos-humanos/noticia-labor-gobierno-primeros-100-dias-insuficiente-materia-pobreza-desigualdad-20170209090249.html"},
+      {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/Poletika-vigila-luces-sombras-Gobierno_6_610398988.html"}    
+    ],
+    "own": "no",
+    "clientname": "OXFAM Intermon",
+    "clientdescription": "",
+    "clienturl": "http://www.oxfamintermon.org",
+    "clientyear": "2017",
+    "calltoaction": {
+      "call": "Política + Ética = Poletika.org"
     }
   },
   "cookies": {
