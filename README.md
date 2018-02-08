@@ -3,7 +3,7 @@ WENREDA
 
 Enreda Webpage Builder
 
-##Load environment
+## Load environment
 
 Clone this repo and then execute inside the folder...
 
@@ -13,7 +13,7 @@ npm install
 
 ```
 
-##Build
+## Build
 
 Just run this command
 
@@ -21,7 +21,7 @@ Just run this command
 grunt build
 ```
 
-or
+or just
 
 ```
 grunt
@@ -29,6 +29,6 @@ grunt
 
 if you want to watch all changes and refresh the project.
 
-##Run
+## Run
 
 Run a HTTP server into dist folder (we recommend [live-server](https://www.npmjs.com/package/live-server)).
