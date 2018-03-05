@@ -1343,3 +1343,47 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+#splash {
+    background-color: #9665a7;
+    color: @clean_color;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 100000;
+    img {
+        width: 30%;
+    }
+    .links {
+        padding-top: 40px;
+        a {
+            display: block;
+            color: @clean_color;
+            font-weight: bold;
+            font-size: 1.2em;
+            &:hover, &:link, &:visited {
+                color: @clean_color;
+            }
+        }
+    }
+        
+}
+
+@media(max-width:768px) {
+  #splash {
+      img {
+          width: 60%;
+      }
+  }
+}
+@media(max-width:498px) {
+  #splash {
+      img {
+          width: 90%;
+      }
+  }
+}

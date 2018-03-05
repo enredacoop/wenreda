@@ -57,3 +57,13 @@ $("#home-blog-items").rss(
     localStorage.enreda_cookies = 1;
     $('.cookies-wrapper').hide();
   });
+
+
+// HUELGA FEMINISTA
+$('#splash_more-info').click(function() {
+    $('#splash img').attr('src', '/assets/images/huelga-masinfo.jpeg');
+    $(this).hide();
+});
+$('#splash_go-to-site').click(function() {
+    $('#splash').fadeOut(500);
+});
