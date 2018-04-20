@@ -60,6 +60,7 @@ $("#home-blog-items").rss(
 
 
 // HUELGA FEMINISTA
+()
 $('#splash_more-info').click(function() {
     $('#splash img').attr('src', '/assets/images/huelga-masinfo.jpeg');
     $(this).hide();
