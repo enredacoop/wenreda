@@ -243,6 +243,10 @@
       "phone": ""
     }
   },
+  "legal": {
+    "title": "Política de seguridad de ENREDA SCA",
+    "subtitle": "Aviso y condiciones legales."
+  },
   "trabajos": {
     "title": "Trabajos realizados",
     "subtitle": "El camino se hace al andar.",

@@ -63,6 +63,14 @@
       {"src/data/data.json": "trabajos"}
     ]
   },
+    "legal": {
+    "path_to_layout": "src/layouts/legal.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "legal"},
+      {"src/data/data.json": "legal"}
+    ]
+  },
   "trabajos/tipi-ciudadano": {
     "path_to_layout": "src/layouts/work.ejs",
     "path_to_data": [
