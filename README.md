@@ -4,9 +4,9 @@ WENREDA
 Enreda Webpage Builder
 
 ## NECESARY
-...
+```
 SSH Key in Github
-...
+```
 
 ## Load environment
 
