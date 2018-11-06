@@ -3,6 +3,11 @@ WENREDA
 
 Enreda Webpage Builder
 
+## NECESARY
+...
+SSH Key in Github
+...
+
 ## Load environment
 
 Clone this repo and then execute inside the folder...
