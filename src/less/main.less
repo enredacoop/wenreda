@@ -8,8 +8,8 @@ html {
     font-family: @font, sans-serif;
 }
 
-::-moz-selection { color: @dark_color; background-color: @primary_color; }
-::selection { color: @dark_color; background-color: @primary_color; }
+::-moz-selection { color: @white_color; background-color: @primary_color; }
+::selection { color: @white_color; background-color: @primary_color; }
 
 h1,
 h2,
@@ -38,8 +38,11 @@ h6 {
 }
 
 .wrapper {
-  padding-top: 20px;
+  padding-top: 70px;
 }
+  #cooperative.wrapper {
+    padding-top: 20px;
+  }
 
 .wrapper-content {
   padding: 100px 0px 100px 0px;
@@ -54,6 +57,11 @@ img.center {
   margin: 0 auto;
 }
 
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
 
 
 /********** HEADER **********/
@@ -64,15 +72,39 @@ header {
     background-color: @dark_color;
     color: @clean_color;
     border-radius: 0px;
-    /*.box-shadow(0px, 3px, 3px, 0.7);*/
+    box-shadow: 0px 0px 13px #000;
     margin-bottom: -20px;
+    padding: 15px 0;
+
+    ul.navbar-nav {
+      margin-top: 7px;
+    }
     
     a {
       font-weight: bolder;
       color: @clean_color;
+      font-size: 13px;
+      padding: 10px;
+      margin: 0 10px;
+      transition: all ease .3s;
+
+      &:focus {
+        color: @clean_color;
+        background: none;
+        outline: none;
+      }
+
       &:hover, &:active {
-        color: @white_color;
-        background-color: @dark_color;
+        color: @dark_color;
+        background-color: @white_color;
+        border-radius: 3px;
+      }
+
+      &.topnav {
+        background: none;
+        &:hover {
+          background: none;
+        }
       }
     }
     a.navbar-brand {
@@ -85,6 +117,20 @@ header {
       }
     }
     
+    @media(max-width:767px) {
+      .navbar-collapse {
+        top: 17px;
+        position: relative;
+      }
+
+      ul.navbar-nav li {
+        margin: 10px;
+
+        a {
+          padding: 15px;
+        }
+      }
+    }
   }
 }
 
@@ -125,12 +171,12 @@ header {
 
 #home-blog {
 
-  background-color: @dark_color;
+  background-color: @lightgrey_color;
   padding-bottom: 75px;
 
   #home-blog-title {
     h2 {
-      color: @lightgrey_color;
+      color: @dark_color;
       font-size: 28px;
       margin-top: 15px;
       margin-bottom: 45px;
@@ -140,17 +186,19 @@ header {
   #home-blog-items {
     
     .itemnews {
-      background-color: darken(@dark_color, 3%);
+      background-color: @white_color;
+      border: 6px solid @clean_color;
       min-height: 250px;
       padding: 15px 30px 15px 15px;
       margin-bottom: 15px;
+
       a {
         text-transform: uppercase;
-        color: @primary_color;
+        color: @dark_color;
         font-weight: 700;
         font-size: 1.5em;
         &:hover {
-          color: @clean_color;
+          color: @dark_color;
         }
       }
       small {
@@ -171,7 +219,7 @@ header {
   #home-blog-subscribe {
     margin-top: 30px;
     h3 {
-      color: @lightgrey_color;
+      color: @dark_color;
       font-size: 22px;
       font-style: italic;
       font-weight: 700;
@@ -179,9 +227,9 @@ header {
     }
     input.email {
       background: transparent none repeat scroll 0% 0%;
-      color: @lightgrey_color;
+      color: @dark_color;
       border: 0px;
-      border-bottom: 1px solid @lightgrey_color;
+      border-bottom: 1px solid @dark_color;
       border-radius: 0px;
       -moz-border-radius: 0px;
       -webkit-border-radius: 0px;
@@ -200,6 +248,7 @@ header {
         box-shadow: 0 0 0;
         -webkit-box-shadow: 0 0 0;
         -moz-box-shadow: 0 0 0;
+        outline: none;
       }
     }
     input.button {
@@ -334,7 +383,7 @@ header {
   }
 
   #intro {
-    padding-top: 30px;
+    padding-top: 60px;
     .title {
       background: @dark_color;
     }
@@ -446,6 +495,7 @@ header {
 #lines {
 
   background: @lightgrey_color;
+  padding-top: 120px;
 
   .section-heading {
     h2 {
@@ -800,6 +850,11 @@ p.lead {
     margin-left: 15px;
     background-color: @primary_color;
     color: @white_color;
+    border: none;
+
+    &:hover {
+      background: @primary_color_hover;
+    }
   }
   a {
     color: @primary_color;
@@ -820,6 +875,7 @@ p.lead {
 #works {
 
   background: @lightgrey_color;
+  padding-top: 120px;
 
   .section-heading {
     h2 {
@@ -919,6 +975,7 @@ p.lead {
     background-color: @conilhospeda_color;
     img {
       width: 200px;
+      padding-top: 30px;
     }
     .title {
       background-color: darken(@conilhospeda_color, 5%);
@@ -936,10 +993,74 @@ p.lead {
     }
   }
   .work.idea {
-    background-color: @lightgrey_color;
+    background-color: @white_color;
     color: @dark_color;
     .text {
       padding: 20px 0px 20px 0px;
+    }
+  }
+  .work.icas {
+    background-color: @icas_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@icas_color, 5%);
+      color: make-contrast(@icas_color);
+    }
+  }
+  .work.festivalcine {
+    background-color: @festivalcine_color;
+    img {
+      height: 120%;
+      padding-top: 20px;
+    }
+    .title {
+      background-color: darken(@festivalcine_color, 5%);
+      color: make-contrast(@festivalcine_color);
+    }
+  }
+  .work.aytoelpuerto {
+    background-color: @aytoelpuerto_color;
+    img {
+      width: 200px;
+      padding-top: 30px;
+    }
+    .title {
+      background-color: darken(@aytoelpuerto_color, 5%);
+      color: make-contrast(@aytoelpuerto_color);
+    }
+  }
+  .work.decideoviedo {
+    background-color: @decideoviedo_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@decideoviedo_color, 5%);
+      color: make-contrast(@decideoviedo_color);
+    }
+  }
+  .work.decidearcos {
+    background-color: @decidearcos_color;
+    img {
+      width: 200px;
+    }
+    .title {
+      background-color: darken(@decidearcos_color, 5%);
+      color: make-contrast(@decidearcos_color);
+    }
+  }
+  .work.decidecadiz {
+    background-color: @decidecadiz_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@decidecadiz_color, 5%);
+      color: make-contrast(@decidecadiz_color);
     }
   }
 
@@ -962,6 +1083,11 @@ p.lead {
 
     }
   }
+  a:hover {
+    .work {
+      box-shadow: 0 0 13px rgba(0,0,0,.33);
+    }
+  }
 
 }
 
@@ -972,8 +1098,13 @@ p.lead {
 
 #work {
 
+  &.wrapper {
+    padding-top: 0px;
+  }
+
   section {
     padding: 80px 0px;
+    padding-top: 150px;
   }
   
   #info {
@@ -1240,6 +1371,127 @@ p.lead {
     .btn {
       .make-contrast(@poletika_color);
       .make-contrast-border-button(@poletika_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.icas {
+  .make-contrast(@icas_color);
+  .work_styling(@icas_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@icas_color);
+      .make-contrast-border-button(@icas_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.festivalcine {
+  .make-contrast(@festivalcine_color);
+  .work_styling(@festivalcine_color);
+  #intro {
+    background: #171717;
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@festivalcine_color);
+      .make-contrast-border-button(@festivalcine_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.aytoelpuerto {
+  .make-contrast(@aytoelpuerto_color);
+  .work_styling(@aytoelpuerto_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@aytoelpuerto_color);
+      .make-contrast-border-button(@aytoelpuerto_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.decideoviedo {
+  .make-contrast(@decideoviedo_color);
+  .work_styling(@decideoviedo_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@decideoviedo_color);
+      .make-contrast-border-button(@decideoviedo_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.decidearcos {
+  .make-contrast(@decidearcos_color);
+  .work_styling(@decidearcos_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@decidearcos_color);
+      .make-contrast-border-button(@decidearcos_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.decidecadiz {
+  .make-contrast(@decidecadiz_color);
+  .work_styling(@decidecadiz_color);
+  #intro {
+    .logo {
+      img {
+        width: @default-work-logo-size;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@decidecadiz_color);
+      .make-contrast-border-button(@decidecadiz_color);
       background-color: transparent;
       font-weight: bold;
     }

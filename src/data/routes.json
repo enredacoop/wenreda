@@ -143,6 +143,55 @@
       {"src/data/data.json": "poletika"}
     ]
   },
+  "trabajos/icas": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "icas"},
+      {"src/data/data.json": "icas"}
+    ]
+  },
+  "trabajos/festivalcine": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "festivalcine"},
+      {"src/data/data.json": "festivalcine"}
+    ]
+  },
+  "trabajos/consul-puerto-santa-maria": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-puerto-santa-maria"},
+      {"src/data/data.json": "consul-puerto-santa-maria"}
+    ]
+  },
+  "trabajos/consul-oviedo": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-oviedo"},
+      {"src/data/data.json": "consul-oviedo"}
+    ]
+  },
+  "trabajos/consul-arcos-frontera": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-arcos-frontera"},
+      {"src/data/data.json": "consul-arcos-frontera"}
+    ]
+  },
+  "trabajos/consul-cadiz": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-cadiz"},
+      {"src/data/data.json": "consul-cadiz"}
+    ]
+  },
+
   "cookies": {
     "path_to_layout": "src/layouts/cookies.ejs",
     "path_to_data": [

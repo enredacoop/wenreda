@@ -1,6 +1,11 @@
-// Scroll Up Menu
 $(function() {
+  
+  // Scroll Up Menu
   $('header').scrollUpMenu();
+
+  // Wow animation ==============================================
+  new WOW().init(); 
+
 });
 
 
@@ -35,7 +40,7 @@ $("#home-blog-items").rss(
     // the effect, which is used to let the entries appear
     // default: 'show'
     // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
-    effect: 'slideFastSynced',
+    //effect: 'slideFastSynced',
     error: function(){},
     success: function(){},
     // a callback, which gets triggered once data was received but before the rendering.

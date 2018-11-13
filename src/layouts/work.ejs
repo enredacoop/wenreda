@@ -7,7 +7,7 @@
     <section id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-center logo">
+                <div class="col-xs-12 text-center logo wow pulse">
                     <img src="/assets/images/works/<%= data.logo %>" alt="Logo de <%= data.title %>" />
                 </div>
             </div>
@@ -17,7 +17,7 @@
     <section id="info">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 wow fadeInLeft">
                     <h2><%= data.subtitle %></h2>
                     <hr/>
                     <p><%= data.description %></p>
@@ -31,7 +31,7 @@
                             </p>
                     <% } %>
                 </div>
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center wow fadeInRight">
                     <img src="/assets/images/works/<%= data.screenshot %>" alt="Captura de <%= data.title %>" height="400" class="img-responsive" />
                 </div>
             </div>
@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <% for(var i=0; i<data.keys.length; i++) { %>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 wow pulse" data-wow-delay="0.<%= i*3 %>s">
                         <div class="key"><%= data.keys[i].key %></div>
                     </div>
                 <% } %>
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="row text-center">
                     <% for(var i=0; i<data.metrics.length; i++) { %>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.<%= i*3 %>s">
                             <h4 class="metric">
                                 <span class="value"><%= data.metrics[i].value %></span>
                                 <br/>
@@ -65,7 +65,7 @@
                     <% } %>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center metricsinfo">
+                    <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center metricsinfo wow fadeIn">
                         <small><%= data.metricsinfo %></small>
                     </div>
                 </div>
@@ -76,10 +76,10 @@
     <section id="technologies">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center wow fadeInLeft">
                     <h6 class="title">TECH</h6>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 wow fadeInRight">
                     <div class="row">
                         <% for(var i=0; i<data.technologies.length; i++) { %>
                             <div class="col-sm-3 text-center">
@@ -99,10 +99,10 @@
         <section id="client">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 text-center">
+                    <div class="col-sm-6 text-center wow fadeInLeft">
                         <h6 class="title">CLIENTE</h6>
                     </div>
-                    <div class="col-sm-6 text-center">
+                    <div class="col-sm-6 text-center wow fadeInRight">
                         <a class="name" href="<%= data.clienturl %>" target="_blank"><%= data.clientname %></a>
                         <br/>
                         <span class="description"><%= data.clientdescription %></span>
@@ -119,7 +119,7 @@
 
         <section id="media" class="media-line">
             <div class="section-heading">
-                <div class="container">
+                <div class="container wow fadeInUp">
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <h4>Algunas apariciones en medios</h4>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container wow fadeInUp">
                 <div class="row">
                     <% for(var i=0; i<data.media.length; i++) { %>
                             <div class="col-sm-3">
@@ -146,7 +146,7 @@
     <section id="call">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center wow fadeInUp">
                     <h4><%= data.calltoaction.call %></h4>
                 </div>
             </div>

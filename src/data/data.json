@@ -1,4 +1,6 @@
 {
+
+
   "home": {
     "claim": "Tecnología para la Transformación Social",
     "newstitle": "Nuestras últimas noticias",
@@ -6,6 +8,8 @@
     "quotetext": "You affect the world by what you browse.",
     "quoteauthor": "Tim Berners-Lee"
   },
+
+
   "cooperativa": {
     "logo": "300x300fondogriscompleto.png",
     "claim": "Tecnología para la Transformación Social",
@@ -19,6 +23,8 @@
         {"title": "Compromiso social", "description": "Todas y todos podemos y debemos ser parte del cambio social para mejorar el mundo en el que vivimos. Desde lo local hacia lo global.", "icon": "fa-undo"}
       ]
     },
+
+  
     "team": {
       "title": "Equipo",
       "subtitle": "Las personas como centro de toda actividad empresarial.",
@@ -38,6 +44,8 @@
         {"name": "Daniel Pérez", "position": " ", "photo": "user_placeholder.png", "email": "daniel.perez@enreda.coop", "web": "", "twitter": "daniescribe", "linkedin": "", "github": "", "role": "Colaborador"}
       ]
     },
+
+
     "offices": {
         "title": "Dónde estamos",
         "places": [
@@ -47,18 +55,24 @@
             {"city": "Madrid", "address": "", "zipcode": "", "officename": "", "officeurl": "", "othercontact": "madrid@enreda.coop"}
         ]
     },
+
+
     "join": {
       "title": "Únete",
       "description": "Si quieres trabajar con nosotras, y desarrollar tu empleabilidad haciendo lo que más te gusta, <a href='mailto:info@enreda.coop' target='_blank'>ponte en contacto con nosotras</a>.",
       "contact": "Escríbenos",
       "url": "mailto:info@enreda.coop"
     },
+
+
     "collaborate": {
       "title": "Colabora",
       "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de <a href='https://www.loomio.org/g/VcGPxekv/socialinn' target='_blank'>Social Inn</a>, un espacio de creación colectiva enfocado a la innovación social.",
       "contact": "Deseo participar",
       "url": ""
     },
+
+
     "network": {
       "title": "Motivaciones de trabajar en red",
       "subtitle": "Colaborar, cooperar y trabajar con otras organizaciones facilita el cumplimiento de nuestros objetivos y fines; así como intercambiar experiencias; aprender colectivamente; y apoyar otros proyectos con los que nos sentimos identificadas.",
@@ -75,6 +89,8 @@
       ]
     }
   },
+
+
   "lineas": {
     "title": "Líneas estratégicas",
     "subtitle": "Nuestras líneas, los caminos por donde andamos.",
@@ -101,6 +117,8 @@
       }
     ]
   },
+
+
   "economia-social": {
     "line": "Economia Social",
     "class": "economia-social",
@@ -135,6 +153,8 @@
       "phone": ""
     }
   },
+
+
   "transparencia-y-participacion": {
     "line": "Transparencia y Participación",
     "class": "transparencia-participacion",
@@ -169,7 +189,11 @@
     "works": [
       {"name": "TIPI Ciudadano", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
       {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"},
-      {"name": "Poletika", "class": "poletika", "image": "logo-poletika.png", "description": "Vigilancia y presión ciudadana para el cambio político", "url": "/trabajos/poletika/"}
+      {"name": "Poletika", "class": "poletika", "image": "logo-poletika.png", "description": "Vigilancia y presión ciudadana para el cambio político", "url": "/trabajos/poletika/"},
+      {"name": "Consul - El Puerto de Santa María", "class": "aytoelpuerto", "image": "logo-ayto-elpuerto.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-puerto-santa-maria/"},
+      {"name": "Consul - Oviedo", "class": "decideoviedo", "image": "logo-ayto-oviedo.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-oviedo/"},
+      {"name": "Consul - Arcos de la Frontera", "class": "decidearcos", "image": "logo-ayto-arcos.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-arcos-frontera/"},
+      {"name": "Consul - Cádiz", "class": "decidecadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-cadiz/"}
 
     ],
     "calltoaction": {
@@ -178,6 +202,8 @@
       "phone": ""
     }
   },
+
+
   "innovacion-social-tecnologica": {
     "line": "Innovación Social Tecnológica",
     "class": "innovacion-social",
@@ -204,6 +230,8 @@
       "phone": ""
     }
   },
+
+
   "comunicacion": {
     "line": "Comunicación",
     "class": "comunicacion",
@@ -235,7 +263,9 @@
     ],
     "works": [
       {"name": "somos.coop", "class": "somoscoop", "image": "logo-somoscoop.png", "description": "Espacio web para difundir la marca cooperativa", "url": "/trabajos/somoscoop/"},
-      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "/trabajos/enlaorbita/"}
+      {"name": "En la órbita", "class": "enlaorbita", "image": "logo-elo.png", "description": "Herramienta online para mejorar la presencia digital de empresas y organizaciones", "url": "/trabajos/enlaorbita/"},
+      {"name": "ICAS", "class": "icas", "image": "logo-icas.png", "description": "Espacio web para el ICAS", "url": "/trabajos/icas/"},
+      {"name": "Festival de Sevilla", "class": "festivalcine", "image": "logo-festivalcine.png", "description": "Espacio web para el Festival de Sevilla de cine europeo ", "url": "/trabajos/icas/"}
     ],
     "calltoaction": {
       "call": "Comunica y actúa",
@@ -243,14 +273,42 @@
       "phone": ""
     }
   },
+
+
   "legal": {
     "title": "Política de seguridad de ENREDA SCA",
     "subtitle": "Aviso y condiciones legales."
   },
+
+
   "trabajos": {
     "title": "Trabajos realizados",
     "subtitle": "El camino se hace al andar.",
     "items": [
+      {
+        "title": "Consul - El Puerto de Santa María",
+        "logo": "logo-ayto-elpuerto.png",
+        "class": "aytoelpuerto",
+        "url": "/trabajos/consul-puerto-santa-maria"
+      },
+      {
+        "title": "Consul - Oviedo",
+        "logo": "logo-ayto-oviedo.png",
+        "class": "decideoviedo",
+        "url": "/trabajos/consul-oviedo"
+      },
+      {
+        "title": "Consul - Arcos de la Frontera",
+        "logo": "logo-ayto-arcos.png",
+        "class": "decidearcos",
+        "url": "/trabajos/consul-arcos-frontera"
+      },
+      {
+        "title": "Consul - Cádiz",
+        "logo": "logo-ayto-cadiz.png",
+        "class": "decidecadiz",
+        "url": "/trabajos/consul-cadiz"
+      },
       {
         "title": "TIPI Ciudadano",
         "logo": "logo-tipi.png",
@@ -304,9 +362,23 @@
         "logo": "logo-elo.png",
         "class": "enlaorbita",
         "url": "/trabajos/enlaorbita"
+      },
+      {
+        "title": "ICAS",
+        "logo": "logo-icas.png",
+        "class": "icas",
+        "url": "/trabajos/icas"
+      },
+      {
+        "title": "Festival de Sevilla de Cine",
+        "logo": "logo-festivalcine.png",
+        "class": "festivalcine",
+        "url": "/trabajos/festivalcine"
       }
     ]
   },
+
+
   "tipi-ciudadano": {
     "title": "TIPI Ciudadano",
     "class": "tipi",
@@ -345,12 +417,14 @@
     "own": "no",
     "clientname": "CIECODE",
     "clientdescription": "Centro de Investigación y Estudios sobre Coherencia y Desarrollo",
-    "client-url": "http://unmundosalvadorsoler.org/ciecode",
+    "clienturl": "http://unmundosalvadorsoler.org/ciecode",
     "clientyear": "2015",
     "calltoaction": {
       "call": "La pobreza es cosa de todas y todos ¡participa!"
     }
   },
+
+
   "lacentralcoop": {
     "title": "LaCentral.coop",
     "class": "lacentralcoop",
@@ -391,6 +465,8 @@
       "call": "Contribuye al consumo responsable"
     }
   },
+
+
   "somoscoop": {
     "title": "Somos.coop",
     "class": "somoscoop",
@@ -425,6 +501,8 @@
       "call": "¡Construyamos cooperativismo!"
     }
   },
+
+
   "enlaorbita": {
     "title": "En la Órbita",
     "class": "enlaorbita",
@@ -465,6 +543,8 @@
       "call": "¡Mejora tu presencia en la red!"
     }
   },
+
+
   "socialtocrowd": {
     "title": "Social to Crowd",
     "class": "socialtocrowd",
@@ -506,6 +586,8 @@
       "call": "Solidiaridad, transparencia e independencia."
     }
   },
+
+
   "transparencia-presupuestaria": {
     "title": "Transparencia Presupuestaria",
     "class": "transparenciapresupuestaria",
@@ -542,6 +624,8 @@
       "call": "Compara y comprende desde lo visual"
     }
   },
+
+
   "clic-cervantes": {
     "title": "CLIC Cervantes",
     "class": "clic",
@@ -580,6 +664,8 @@
       "call": "Te ayudamos a desarrollar tu estrategia de comercio online."
     }
   },
+
+
   "conil-hospeda": {
     "title": "Conil Hospeda",
     "class": "conilhospeda",
@@ -621,6 +707,8 @@
       "call": "El turismo visto desde la economía social y local"
     }
   },
+
+
   "poletika": {
     "title": "Poletika",
     "class": "poletika",
@@ -662,6 +750,254 @@
       "call": "Política + Ética = Poletika.org"
     }
   },
+
+
+  "icas": {
+    "title": "ICAS",
+    "class": "icas",
+    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-icas.png",
+    "screenshot": "screenshot-elo.png",
+    "url": "http://www.icas-sevilla.org",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "ICAS",
+    "clientdescription": "Instituto de la Cultura y las Artes de Sevilla",
+    "clienturl": "http://www.icas-sevilla.org",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "La cultura es información."
+    }
+  },
+
+  "festivalcine": {
+    "title": "Festival de Sevilla",
+    "class": "festivalcine",
+    "subtitle": "Festival de Sevilla de Cine Europeo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-festivalcine.png",
+    "screenshot": "screenshot-festivalcine.png",
+    "url": "http://festivalcinesevilla.eu",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "ICAS",
+    "clientdescription": "Instituto de la Cultura y las Artes de Sevilla",
+    "clienturl": "http://www.icas-sevilla.org",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Tienes una cita con el cine europeo en Sevilla"
+    }
+  },
+
+  "consul-puerto-santa-maria": {
+    "title": "Consul - El Puerto de Santa María",
+    "class": "aytoelpuerto",
+    "subtitle": "Consul",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-ayto-elpuerto.png",
+    "screenshot": "screenshot-elpuerto.png",
+    "url": "https://participa.elpuertodesantamaria.es",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de El Puerto de Santa María",
+    "clientdescription": "Institución pública",
+    "clienturl": "https://www.elpuertodesantamaria.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
+  "consul-oviedo": {
+    "title": "Consul - Oviedo",
+    "class": "decideoviedo",
+    "subtitle": "Consul",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-ayto-oviedo.png",
+    "screenshot": "screenshot-oviedo.png",
+    "url": "http://www.consultaoviedo.es",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Oviedo",
+    "clientdescription": "Institución pública",
+    "clienturl": "https://www.oviedo.es",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
+  "consul-arcos-frontera": {
+    "title": "Consul - Arcos de la Frontera",
+    "class": "decidearcos",
+    "subtitle": "Consul",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-ayto-arcos.png",
+    "screenshot": "screenshot-arcos.png",
+    "url": "http://decidearcos.es",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Arcos de la Frontera",
+    "clientdescription": "Institución pública",
+    "clienturl": "http://www.arcosdelafrontera.es",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
+  "consul-cadiz": {
+    "title": "Consul - Cádiz",
+    "class": "decidecadiz",
+    "subtitle": "Consul",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "logo": "logo-ayto-cadiz.png",
+    "screenshot": "screenshot-cadiz.png",
+    "url": "",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+      {"key": "Phasellus convallis euismod congue."},
+      {"key": "In sed cursus est, bibendum euismod augue."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Cádiz",
+    "clientdescription": "Institución pública",
+    "clienturl": "http://institucional.cadiz.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
   "cookies": {
     "title": "Política de cookies",
     "class": "cookies",

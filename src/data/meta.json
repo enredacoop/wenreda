@@ -34,6 +34,8 @@
     "description": "Informarse no es un ejercicio pasivo. Requiere empeño, crítica, inconformismo. No hay ciudadanía sin exigencia y sin duda. Busca y reclama información de calidad a los medios de comunicación, a las instituciones públicas, a las empresas. Desecha la basura, ignora el ruido. Expresa tu disconformidad. Dale el valor que tiene a la información. Distínguela de la propaganda.",
     "keywords": "comunicación"
   },
+
+  
   "trabajos": {
     "title": "Trabajos realizados",
     "description": "Trabajos que hemos realizado en la cooperativa Enreda",
@@ -88,10 +90,42 @@
     "title": "Poletika",
     "description": "Motor de reservas online para Conil de la Frontera (Cádiz)",
     "keywords": "comercio electrónico, turismo, reservas, alojamiento, hoteles, hostales, apartamentos, fincas"
+  }, 
+  "icas": {
+    "title": "ICAS",
+    "description": "Instituto de la Cultura y las Artes de Sevilla",
+    "keywords": "plone, cultura, artes, eventos, turismo, reservas, ayuntamientos, gobierno"
   },  
+  "festivalcine": {
+    "title": "Festival de Sevilla",
+    "description": "Festival de Sevilla de Cine Europeo",
+    "keywords": "drupal, cultura, artes, eventos, turismo, reservas, ayuntamientos, gobierno, cine, peĺicula, europa, europeo"
+  }, 
+  "consul-puerto-santa-maria": {
+    "title": "Consul - El Puerto de Santa María",
+    "description": "Web de participación ciudadana",
+    "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, puerto, santa, maria, cadiz"
+  }, 
+  "consul-oviedo": {
+    "title": "Consul - Oviedo",
+    "description": "Web de participación ciudadana",
+    "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, oviedo"
+  },
+  "consul-arcos-frontera": {
+    "title": "Consul - Arcos de la Frontera",
+    "description": "Web de participación ciudadana",
+    "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, arcos, frontera, cadiz"
+  },
+  "consul-cadiz": {
+    "title": "Consul - Cádiz",
+    "description": "Web de participación ciudadana",
+    "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, cadiz"
+  },
+
+
   "cookies": {
-  "title": "Política de cookies",
-  "description": "Política de cookies",
-  "keywords": "cookies"
+    "title": "Política de cookies",
+    "description": "Política de cookies",
+    "keywords": "cookies"
   }
 }
