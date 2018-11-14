@@ -33,15 +33,15 @@
         {"name": "José Rubén Garrido", "position": " ", "photo": "joserubengar.jpeg", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
         {"name": "David Aurusa", "position": " ", "photo": "aurusa.jpg", "email": "david.aurusa@enreda.coop", "web": "http://hazlotransparente.es/", "user_placeholder.pngtwitter": "aurusa", "linkedin": "", "github": "", "role": "Socio"},
         {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
-        {"name": "Arantza LZ", "position": " ", "photo": "spolpen.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": "likordelpolo", "linkedin": "", "github": "spolpen", "role": "Trabajadora"},
         {"name": "Lucía Cano", "position": " ", "photo": "luciacano.png", "email": "lucia.cano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "Arantza Lozano", "position": " ", "photo": "user_placeholder.png", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": " ", "role": "Trabajadora"},
         {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
         {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Fátima Martínez", "position": " ", "photo": " ", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias", "github": "https://github.com/fmmsvq", "role": "Colaboradora"},
-        {"name": "Carlos Campos", "position": " ", "photo": " ", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/ ", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "https://github.com/carcamcue", "role": "Trabajador"},
-        {"name": "Alejandro Rodríguez", "position": " ", "photo": " ", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "https://github.com/alerodrom", "role": "Trabajador"},
+        {"name": "Fátima Martínez", "position": " ", "photo": "fatima.jpg", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial/", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias/", "github": "https://github.com/fmmsvq/", "role": "Colaboradora"},
+        {"name": "Carlos Campos", "position": " ", "photo": "carloscampos.jpg", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "https://github.com/carcamcue", "role": "Trabajador"},
+        {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "https://github.com/alerodrom", "role": "Trabajador"}
       ]
     },
 
@@ -84,8 +84,7 @@
         {"name": "Andalibre", "logo": "", "description": "Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones informáticas basadas en las tecnologías disruptivas del software libre y los estándares abiertos.", "url": "http://www.andalibre.org"},
         {"name": "Openkratio", "logo": "", "description": "Asociación en pro de la transparencia de las administraciones públcas y la participación de la ciudadanía en el trabajo de las mismas.", "url": "http://openkratio.org"},
         {"name": "Faecta", "logo": "", "description": "Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.", "url": "http://www.faecta.coop"},
-        {"name": "Som Connexió", "logo": "", "description": "Cooperativa de consumo de productos de telecomunicaciones", "url": "https://eticom.coop/es/"}
-        
+        {"name": "Som Connexió", "logo": "", "description": "Cooperativa de consumo de productos de telecomunicaciones", "url": "https://eticom.coop/es/"}       
       ]
     }
   },
@@ -530,7 +529,6 @@
       {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
       {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
-
     ],
     "media": [
     ],
@@ -778,8 +776,8 @@
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
       {"technology": "AJAX", "url": "https://es.wikipedia.org/wiki/AJAX", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/120px-AJAX_logo_by_gengns.svg.png"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
-      {"technology": "Bootstrap", "url": "https://getbootstrap.com", "logo": "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png"},
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
+      {"technology": "Bootstrap", "url": "https://getbootstrap.com", "logo": "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png"}
     ],
     "media": [
     ],
@@ -858,7 +856,7 @@
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
       {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
 
     ],
@@ -900,7 +898,7 @@
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
       {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
 
     ],
@@ -942,7 +940,7 @@
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
       {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
 
     ],
@@ -984,7 +982,7 @@
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
       {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
 
     ],
