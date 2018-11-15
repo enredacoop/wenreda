@@ -35,7 +35,7 @@
         {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Lucía Cano", "position": " ", "photo": "luciacano.png", "email": "lucia.cano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "Arantza Lozano", "position": " ", "photo": "user_placeholder.png", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": " ", "role": "Trabajadora"},
+        {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": " ", "role": "Trabajadora"},
         {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
         {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
@@ -192,8 +192,19 @@
       {"name": "Consul - El Puerto de Santa María", "class": "aytoelpuerto", "image": "logo-ayto-elpuerto.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-puerto-santa-maria/"},
       {"name": "Consul - Oviedo", "class": "decideoviedo", "image": "logo-ayto-oviedo.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-oviedo/"},
       {"name": "Consul - Arcos de la Frontera", "class": "decidearcos", "image": "logo-ayto-arcos.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-arcos-frontera/"},
-      {"name": "Consul - Cádiz", "class": "decidecadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-cadiz/"}
-
+      {"name": "Consul - Santiago de Compostela", "class": "decidesantiago", "image": "logo-ayto-santiago.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-santiago/"},
+      {"name": "Consul - Cádiz", "class": "decidecadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-cadiz/"},
+      
+      {"name": "Foro Andaluz de Gobiernos Locales y Procesos Participativos", "class": "foroparticipacion", "image": "logo-foro-participacion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/foro-participacion/"},
+      {"name": "Aula Digital de Participación", "class": "aulaparticipacion", "image": "logo-aula-participacion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/aula-participacion/"},
+      {"name": "Reglamento de Participación de la Diputación de Cádiz", "class": "dipuparticipacioncadiz", "image": "logo-diputacion-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/dipu-participacion-cadiz/"},
+      {"name": "Reglamento de Participación del Ayuntamiento de Cádiz", "class": "aytoparticipacioncadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/ayto-participacion-cadiz/"},
+      {"name": "Formación sobre la Ley Andaluza de Participación ", "class": "formacionleyparticipacion", "image": "logo-junta.png", "description": "Web de participación ciudadana.", "url": "/trabajos/formacion-ley-participacion/"},
+      {"name": "Sistema Público de Participación Digital de Andalucía", "class": "sistemaparticipacion", "image": "logo-junta.png", "description": "Web de participación ciudadana.", "url": "/trabajos/sistema-participacion/"},
+      {"name": "Participación para la planificación urbanística", "class": "ciudadamable", "image": "ciudad-amable.png", "description": "Web de participación ciudadana.", "url": "/trabajos/ciudad-amable/"},
+      {"name": "Presupuesto Participativos de Marbella", "class": "presupuestomarbella", "image": "camion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-marbella/"},
+      {"name": "Presupuesto Participativos de MIjas", "class": "presupuestomijas", "image": "presupuesto-mijas.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-mijas/"},
+      {"name": "Plan de intervención", "class": "planintervencion", "image": "logo-ayto-coria.png", "description": "Web de participación ciudadana.", "url": "/trabajos/plan-intervencion/"}
     ],
     "calltoaction": {
       "call": "Reclama información, organízate para conseguirla",
@@ -286,25 +297,31 @@
     "items": [
       {
         "title": "Consul - El Puerto de Santa María",
-        "logo": "logo-ayto-elpuerto.png",
+        "logo": "consul_logo.png",
         "class": "aytoelpuerto",
         "url": "/trabajos/consul-puerto-santa-maria"
       },
       {
         "title": "Consul - Oviedo",
-        "logo": "logo-ayto-oviedo.png",
+        "logo": "consul_logo.png",
         "class": "decideoviedo",
         "url": "/trabajos/consul-oviedo"
       },
       {
         "title": "Consul - Arcos de la Frontera",
-        "logo": "logo-ayto-arcos.png",
+        "logo": "consul_logo.png",
         "class": "decidearcos",
         "url": "/trabajos/consul-arcos-frontera"
       },
       {
+        "title": "Consul - Santiago de Compostela",
+        "logo": "consul_logo.png",
+        "class": "decidesantiago",
+        "url": "/trabajos/consul-santiago"
+      },
+      {
         "title": "Consul - Cádiz",
-        "logo": "logo-ayto-cadiz.png",
+        "logo": "consul_logo.png",
         "class": "decidecadiz",
         "url": "/trabajos/consul-cadiz"
       },
@@ -373,6 +390,66 @@
         "logo": "logo-festivalcine.png",
         "class": "festivalcine",
         "url": "/trabajos/festivalcine"
+      },
+      {
+        "title": "Foro Andaluz de Gobiernos Locales y Procesos Participativos",
+        "logo": "logo-foro-participacion.png",
+        "class": "foroparticipacion",
+        "url": "/trabajos/foro-participacion/"
+      }, 
+      {
+        "title": "Aula Digital de Participación",
+        "logo": "logo-aula-participacion.png",
+        "class": "aulaparticipacion",
+        "url": "/trabajos/aula-participacion"
+      }, 
+      {
+        "title": "Reglamento de Participación de la Diputación de Cádiz",
+        "logo": "logo-diputacion-cadiz.png",
+        "class": "dipuparticipacioncadiz",
+        "url": "/trabajos/dipu-participacion-cadiz"
+      }, 
+      {
+        "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
+        "logo": "logo-ayto-cadiz.png",
+        "class": "aytoparticipacioncadiz",
+        "url": "/trabajos/ayto-participacion-cadiz"
+      }, 
+      {
+        "title": "Formación sobre la Ley Andaluza de Participación",
+        "logo": "logo-junta.png",
+        "class": "formacionleyparticipacion",
+        "url": "/trabajos/formacion-ley-participacion"
+      }, 
+      {
+        "title": "Sistema Público de Participación Digital de Andalucía",
+        "logo": "logo-junta.png",
+        "class": "sistemaparticipacion",
+        "url": "/trabajos/sistema-participacion"
+      }, 
+      {
+        "title": "Participación para la planificación urbanística",
+        "logo": "ciudad-amable.png",
+        "class": "ciudadamable",
+        "url": "/trabajos/ciudad-amable"
+      }, 
+      {
+        "title": "Presupuesto Participativos de Marbella",
+        "logo": "camion.png",
+        "class": "presupuestomarbella",
+        "url": "/trabajos/presupuesto-marbella"
+      }, 
+      {
+        "title": "Presupuesto Participativos de Mijas",
+        "logo": "presupuesto-mijas.png",
+        "class": "presupuestomijas",
+        "url": "/trabajos/presupuesto-mijas"
+      }, 
+      {
+        "title": "Plan de intervención",
+        "logo": "logo-ayto-coria.png",
+        "class": "planintervencion",
+        "url": "/trabajos/plan-intervencion"
       }
     ]
   },
@@ -384,6 +461,7 @@
     "subtitle": "Transparencia, Información, Participación e Incidencia.",
     "description": "Proyecto que pretende fortalecer las capacidades de la sociedad civil, para incidir en los procesos de toma de decisión política y en la generación de un debate público informado sobre la pobreza y la justicia social en España.",
     "logo": "logo-tipi.png",
+    "name":"TIPI Ciudadano",
     "screenshot": "screenshot-tipi.png",
     "url": "http://tipiciudadano.es",
     "sourcecode": "https://github.com/ciecode-madrid/",
@@ -399,14 +477,14 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
-      {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "D3js", "url": "http://d3js.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Redis", "url": "http://redis.io/", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Scrapy", "url": "https://scrapy.org/", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Luigi", "url": "https://github.com/spotify/luigi", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://d14jjfgstdxsoz.cloudfront.net/assets/logo.svg"},
+      {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "D3js", "url": "http://d3js.org", "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"},
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Redis", "url": "http://redis.io/", "logo": "https://redis.io/images/redis-white.png"},
+      {"technology": "Scrapy", "url": "https://scrapy.org/", "logo": "https://scrapy.org/img/scrapylogo.png"},
+      {"technology": "Luigi", "url": "https://github.com/spotify/luigi", "logo": "https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"}
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/ciudadania_informada-poder-diputados-politica_vigilada-rendicion_de_cuentas_6_566653330.html"},
@@ -430,6 +508,7 @@
     "subtitle": "Productos y servicios cooperativos.",
     "description": "Plataforma digital que permite el consumo responsable de productos y servicios cooperativos. Además permite la intercooperación de sus usuarios y entidades desde un sistema altamente novedoso y sencillo de usar. Pensada para el valor más importante de las cooperativas: las personas.",
     "logo": "logo-lacentralcoop.png",
+    "name":"LaCentral.coop",
     "screenshot": "screenshot-lacentralcoop.png",
     "url": "http://lacentral.coop",
     "sourcecode": "",
@@ -445,10 +524,10 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/inspira/red-social-cooperativas_6_401469885.html"},
@@ -472,6 +551,7 @@
     "subtitle": "Somos cooperativistas, usa la marca coop.",
     "description": "Espacio web para difundir la marca cooperativa. Principios, identidad y recursos del cooperativismo.",
     "logo": "logo-somoscoop.png",
+    "name":"Somos.coop",
     "screenshot": "screenshot-somoscoop.png",
     "url": "http://somos.coop",
     "sourcecode": "",
@@ -487,7 +567,7 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
     ],
     "media": [
     ],    
@@ -508,6 +588,7 @@
     "subtitle": "Crea tu sitio web de forma fácil",
     "description": "¿Necesitas que te encuentren? Ponte en la órbita digital y asume el control de tu empresa u organización en internet. En la órbita es una herramienta online para mejorar la presencia digital de empresas y organizaciones. Tu entidad en la red de forma sencilla, accesible y profesional.",
     "logo": "logo-elo.png",
+    "name":"En la Órbita",
     "screenshot": "screenshot-elo.png",
     "url": "http://enlaorbita.com",
     "sourcecode": "",
@@ -523,12 +604,12 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://angularjs.org/img/AngularJS-large.png"},
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "http://3.bp.blogspot.com/-G1Nosx99Td0/UwtphL0KbxI/AAAAAAAAUP4/0P2mG3qjvB4/s1600/EJS.PNG"}
     ],
     "media": [
     ],
@@ -549,6 +630,7 @@
     "subtitle": "El crowdfunding de las cosas",
     "description": "Plataforma para facilitar la solidaridad directa entre organizaciones y personas, sin la dependencia del dinero y generando un nuevo valor en la reutilización de las cosas.",
     "logo": "logo-stc.png",
+    "name":"Social to Crowd",
     "screenshot": "screenshot-stc.png",
     "url": "http://socialtocrowd.org",
     "sourcecode": "https://github.com/socialinn/socialtocrowd",
@@ -564,10 +646,10 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/andalucia/Social-Crowd-micromecenazgo-materiales-ONG_0_272972821.html"},
@@ -592,6 +674,7 @@
     "subtitle": "Visualiza su presupuesto",
     "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad. Además se compara con años anteriores para generar referencias y contextos en los datos. Una oportunidad para empezar a explicar los números.",
     "logo": "logo-tp.png",
+    "name":"Transparencia presupuestaria",
     "screenshot": "screenshot-tp.png",
     "url": "http://transparenciapresupuestaria.enreda.coop/",
     "sourcecode": "https://github.com/enredacoop/transparencia-presupuestaria",
@@ -607,9 +690,9 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "D3js", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "D3js", "url": "", "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"},
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"}
     ],
     "media": [
     ],
@@ -630,6 +713,7 @@
     "subtitle": "Comercio online, internacionalización e integración de sistemas",
     "description": "Proyecto para la comercialización de productos del Instituto Cervantes en sus centros repartidos por el mundo. Un ejemplo de internacionalización y gestión coordinada de la información a través de Internet.",
     "logo": "logo-cervantes.png",
+    "name":"CLIC Cervantes",
     "screenshot": "screenshot-cervantes.png",
     "url": "http://clic.cervantes.es",
     "sourcecode": "",
@@ -645,11 +729,11 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
-      {"technology": "PHP", "url": "http://php.net", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Drupal", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Ubercart", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "PHP", "url": "http://php.net", "logo": "http://php.net/images/logos/php-logo.svg"},
+      {"technology": "Drupal", "url": "https://www.drupal.org/", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
+      {"technology": "Ubercart", "url": "https://www.drupal.org/project/ubercart", "logo": "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/logo_6.png"},
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.mysql.com/common/logos/includes-mysql-167x86-bow.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
     ],
     "media": [
     ],
@@ -670,6 +754,7 @@
     "subtitle": "El lugar donde empiezan tus vacaciones",
     "description": "Proyecto de desarrollo de un motor propio de reservas online para los alojamientos de Conil de la Frontera (Cádiz), con su toque de economía social.",
     "logo": "logo-conilhospeda.svg",
+    "name":"Conil Hospeda",
     "screenshot": "screenshot-conil.png",
     "url": "https://conilhospeda.com",
     "sourcecode": "",
@@ -685,10 +770,10 @@
     ],
     "metricsinfo": "Datos obtenidos en junio de 2016",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
     ],
     "media": [
       {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/turismo/destino-espana/costa-luz/noticia-empresarios-locales-crean-cooperativa-turistica-conil-hospeda-20160511195958.html"},
@@ -713,6 +798,7 @@
     "subtitle": "Vigilancia y presión ciudadana para el cambio político",
     "description": "Proyecto que pretende vigilar y presionar a los partidos políticos para que las personas estén en el centro de las políticas y alcanzar una sociedad más justa y menos desigual, vigilando el trabajo parlamentario y ejecutivo a través de organizaciones, plataformas y movimientos de la sociedad civil.",
     "logo": "logo-poletika.png",
+    "name":"Poletika",
     "screenshot": "screenshot-poletika.png",
     "url": "http://poletika.org",
     "sourcecode": "",
@@ -728,12 +814,12 @@
     ],
     "metricsinfo": "Datos obtenidos en junio de 2017",
     "technologies": [
-      {"technology": "PHP", "url": "http://php.net", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Drupal", "url": "https://www.drupal.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "API REST", "url": "", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
-      {"technology": "Bot Telegram", "url": "https://telegram.org/blog/bot-revolution", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"}
+      {"technology": "PHP", "url": "http://php.net", "logo": "http://php.net/images/logos/php-logo.svg"},
+      {"technology": "Drupal", "url": "https://www.drupal.org", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.mysql.com/common/logos/includes-mysql-167x86-bow.png"},
+      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "API REST", "url": "https://www.restapitutorial.com/", "logo": "https://miro.medium.com/max/790/1*uHzooF1EtgcKn9_XiSST4w.png"},
+      {"technology": "Bot Telegram", "url": "https://telegram.org/blog/bot-revolution", "logo": "https://infosertecblog.files.wordpress.com/2016/08/bot-de-telegram.jpg"}
     ],
     "media": [
       {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/epsocial/derechos-humanos/noticia-labor-gobierno-primeros-100-dias-insuficiente-materia-pobreza-desigualdad-20170209090249.html"},
@@ -749,31 +835,31 @@
     }
   },
 
-
   "icas": {
     "title": "ICAS",
     "class": "icas",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "El Instituto de la Cultura y las Artes de Sevilla cuenta con 22 espacios y proyectos.",
     "logo": "logo-icas.png",
+    "name":"ICAS",
     "screenshot": "screenshot-elo.png",
     "url": "http://www.icas-sevilla.org",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
     ],
     "metrics": [
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""}
+      {"metric": "74", "value": "nuevos proyectos"},
+      {"metric": "28", "value": "en colaboración con entidades públidcas"},
+      {"metric": "11", "value": "promovidas por el Ayuntamiento"}
     ],
     "metricsinfo": "",
     "technologies": [
       {"technology": "Plone", "url": "https://plone.com/", "logo": "https://plone.com/++theme++theme-for-plone-com-20180828/static/images/logo-home.png"},
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/Icons/w3c_home"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
       {"technology": "AJAX", "url": "https://es.wikipedia.org/wiki/AJAX", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/120px-AJAX_logo_by_gengns.svg.png"},
       {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
@@ -795,25 +881,26 @@
     "title": "Festival de Sevilla",
     "class": "festivalcine",
     "subtitle": "Festival de Sevilla de Cine Europeo",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "El Festival de Sevilla tiene como objetivo promover y difundir la cinematografía europea, estableciéndose como un lugar de encuentro anual para los talentos europeos de cine, periodistas especializados y profesionales del sector. Nueve días donde industria, público y crítica conviven alrededor de una selección del mejor cine europeo. Estrenos en España de las grandes películas del cine de autor contemporáneo, la presencia de buen número de talentos emergentes, la defensa decidida por el más joven cine español, el apoyo al cine andaluz y sobre todo la plena seguridad de que hoy, más que nunca, un festival de cine puede ser útil al público, a las películas y a los cineastas.",
     "logo": "logo-festivalcine.png",
+    "name":"Festival de Sevilla",
     "screenshot": "screenshot-festivalcine.png",
     "url": "http://festivalcinesevilla.eu",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
     ],
     "metrics": [
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""}
+      {"metric": "220", "value": "estrenos"},
+      {"metric": "116", "value": "estrenos nacionales"},
+      {"metric": "35", "value": "estrenos mundiales"}
     ],
     "metricsinfo": "",
     "technologies": [
       {"technology": "Drupal8", "url": "https://www.drupal.org/8", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
-      {"technology": "Rest API", "url": "https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional#V%C3%A9ase_tambi%C3%A9n", "logo": "https://bbvaopen4u.com/sites/default/files/styles/big-image/public/img/new/bbva-open4u-api-rest.jpg"},
+      {"technology": "Rest API", "url": "https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional#V%C3%A9ase_tambi%C3%A9n", "logo": "https://miro.medium.com/max/790/1*uHzooF1EtgcKn9_XiSST4w.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
       {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
@@ -834,15 +921,16 @@
     "title": "Consul - El Puerto de Santa María",
     "class": "aytoelpuerto",
     "subtitle": "Consul",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de El Puerto de Santa María contando con el  software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
     "logo": "logo-ayto-elpuerto.png",
+    "name":"Consul - El Puerto de Santa María",
     "screenshot": "screenshot-elpuerto.png",
     "url": "https://participa.elpuertodesantamaria.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": "Votacions."},
+      {"key": "Legislación colaborativa."},
+      {"key": "Debates…"}
     ],
     "metrics": [
       {"metric": "", "value": ""},
@@ -852,7 +940,7 @@
     "metricsinfo": "",
     "technologies": [
       {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
@@ -876,15 +964,16 @@
     "title": "Consul - Oviedo",
     "class": "decideoviedo",
     "subtitle": "Consul",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de Oviedo contando con el  software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
     "logo": "logo-ayto-oviedo.png",
+    "name":"Consul - Oviedo",
     "screenshot": "screenshot-oviedo.png",
     "url": "http://www.consultaoviedo.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": "Votacions."},
+      {"key": "Legislación colaborativa."},
+      {"key": "Debates…"}
     ],
     "metrics": [
       {"metric": "", "value": ""},
@@ -894,7 +983,7 @@
     "metricsinfo": "",
     "technologies": [
       {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
@@ -918,15 +1007,16 @@
     "title": "Consul - Arcos de la Frontera",
     "class": "decidearcos",
     "subtitle": "Consul",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de Arcos de la Frontera contando con el  software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas.Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
     "logo": "logo-ayto-arcos.png",
+    "name":"Consul - Arcos de la Frontera",
     "screenshot": "screenshot-arcos.png",
     "url": "http://decidearcos.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": "Votacions."},
+      {"key": "Legislación colaborativa."},
+      {"key": "Debates…"}
     ],
     "metrics": [
       {"metric": "", "value": ""},
@@ -936,7 +1026,50 @@
     "metricsinfo": "",
     "technologies": [
       {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Arcos de la Frontera",
+    "clientdescription": "Institución pública",
+    "clienturl": "http://www.arcosdelafrontera.es",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
+  "consul-santiago": {
+    "title": "Consul - Santiago de Compostela",
+    "class": "decidesantiago",
+    "subtitle": "Consul",
+    "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Cádiz contando con el software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos..",
+    "logo": "logo-ayto-santiago.png",
+    "name":"Consul - Santiago de Compostela",
+    "screenshot": "",
+    "url": "http://decidesantiago.es",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Votacions."},
+      {"key": "Legislación colaborativa."},
+      {"key": "Debates…"}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
@@ -960,15 +1093,16 @@
     "title": "Consul - Cádiz",
     "class": "decidecadiz",
     "subtitle": "Consul",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis euismod congue. In sed cursus est, bibendum euismod augue. Nullam diam dolor, aliquam eget nulla nec, dictum sagittis massa. Nullam luctus sapien nisi, tempor laoreet lorem tristique eget. Nam suscipit a nulla eu gravida. Vestibulum gravida metus ac tellus tincidunt mollis. Pellentesque condimentum porta tortor, sed ultricies ante sagittis at. Nullam imperdiet iaculis odio eu egestas.",
+    "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Cádiz contando con el software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos..",
     "logo": "logo-ayto-cadiz.png",
+    "name":"Consul - Cádiz",
     "screenshot": "screenshot-cadiz.png",
     "url": "",
     "sourcecode": "",
     "keys": [
-      {"key": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-      {"key": "Phasellus convallis euismod congue."},
-      {"key": "In sed cursus est, bibendum euismod augue."}
+      {"key": "Votacions."},
+      {"key": "Legislación colaborativa."},
+      {"key": "Debates…"}
     ],
     "metrics": [
       {"metric": "", "value": ""},
@@ -978,7 +1112,7 @@
     "metricsinfo": "",
     "technologies": [
       {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.djangoproject.com/s/img/small-fundraising-heart.png"},
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
       {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
       {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
@@ -995,6 +1129,352 @@
     "clientyear": "2018",
     "calltoaction": {
       "call": "Decide cómo debe ser la ciudad que quieres"
+    }
+  },
+
+  "foro-participacion": {
+    "title": "Foro Andaluz de Gobiernos Locales y Procesos Participativos",
+    "class": "foroparticipacion",
+    "subtitle": " ",
+    "description": "Enreda ha desarrollado distintos jornadas de formación sobre la Ley Andaluza de Participación Ciudadana y su adaptación a nivel local y provincial para multitud de organismos públicos (Junta de Andalucía, FAMP, Ayuntamiento de Cádiz, Diputación de Cádiz...",
+    "logo": "logo-foro-participacion.png",
+    "name":"Foro Andaluz de Gobiernos Locales y Procesos Participativos",
+    "screenshot": "",
+    "url": "/trabajos/foro-participacion/",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Diseño,  elaboración de contenidos."},
+      {"key": "Sesiones de formación."},
+      {"key": "Consultoría sobre adaptación de reglamentos."}
+    ],
+    "metrics": [
+      {"metric": "16", "value": "ciudades"},
+      {"metric": "400", "value": "participantes"},
+      {"metric": "", "value": "Diseño de Hoja de Ruta para la participación en Andalucía"}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Junta de Andalucía",
+    "clientdescription": "Junta de Andalucía",
+    "clienturl": "https://juntadeandalucia.es/",
+    "clientyear": "",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "aulaparticipacion": {
+    "title": "Aula Digital de Participación",
+    "class": "aulaparticipacion",
+    "subtitle": "",
+    "description": "Aula Digital de la Oficina De Presupuestos Participativos de la Diputación de Málaga para la capacitación de los usuarios de los servicios que ofrece la oficina.",
+    "logo": "logo-aula-participacion.png",
+    "name":"Aula Digital de Participación",
+    "screenshot": "aula-participacion.png",
+    "url": "/trabajos/aula-participacion",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Desarrollo de la plataforma de formación basada moodle."},
+      {"key": "Elaboración de contenidos adaptados a formación online."},
+      {"key": "Acompañamiento digital a usuarios."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      {"technology": "Moodle", "url": "https://moodle.org/", "logo": "https://moodle.org/theme/image.php/moodleorgcleaned_moodleorg/theme_moodleorgcleaned/1542196796/moodle-logo"},
+      {"technology": "Joomla", "url": "https://www.joomla.org/", "logo": "https://cdn.joomla.org/images/Joomla_logo.png"}
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Diputación de Málaga",
+    "clientdescription": "Diputación de Málaga",
+    "clienturl": "www.malaga.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "dipuparticipacioncadiz": {
+    "title": "Reglamento de Participación de la Diputación de Cádiz",
+    "class": "dipuparticipacioncadiz",
+    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "description": "Foro para la reforma del reglamento de Participación Ciudadana y su adaptación a la nueva Ley Andaluza de Participación.",
+    "logo": "logo-diputacion-cadiz.png",
+    "name":"Reglamento de Participación de la Diputación de Cádiz",
+    "screenshot": "",
+    "url": "/trabajos/dipu-participacion-cadiz",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Diseño y elaboración de contenidos."},
+      {"key": "Dinamización de las sesiones."},
+      {"key": "Estudio sobre la adaptación a la nueva Ley de Participación de las propuestas recibidas."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Diputación de Cádiz",
+    "clientdescription": "Diputación de Cádiz",
+    "clienturl": "www.dipucadiz.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "aytoparticipacioncadiz": {
+    "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
+    "class": "aytoparticipacioncadiz",
+    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "description": "Foros para la reforma del reglamento de Participación Ciudadana y su adaptación a la nueva Ley Andaluza de Participación.",
+    "logo": "logo-ayto-cadiz.png",
+    "name":"Reglamento de Participación del Ayuntamiento de Cádiz",
+    "screenshot": "",
+    "url": "/trabajos/ayto-participacion-cadiz",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Diseño y elaboración de contenidos."},
+      {"key": "Dinamización de las sesiones."},
+      {"key": "Estudio sobre la adaptación a la nueva Ley de Participación de las propuestas recibidas."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+     
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Cádiz",
+    "clientdescription": "Ayuntamiento de Cádiz",
+    "clienturl": "www.cadiz.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "La cultura es información."
+    }
+  },
+  "formacionleyparticipacion": {
+    "title": "Formación sobre la Ley Andaluza de Participación",
+    "class": "formacionleyparticipacion",
+    "subtitle": "",
+    "description": "Enreda ha desarrollado distintos jornadas de formación sobre la Ley Andaluza de Participación Ciudadana y su adaptación a nivel local y provincial para multitud de organismos públicos (Junta de Andalucía, FAMP, Ayuntamiento de Cádiz, Diputación de Cádiz…",
+    "logo": "logo-junta.png",
+    "name":"Formación sobre la Ley Andaluza de Participación",
+    "screenshot": "screenshot-elo.png",
+    "url": "/trabajos/formacion-ley-participacion",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Diseño,  elaboración de contenidos."},
+      {"key": "Sesiones de formación."},
+      {"key": "Consultoría sobre adaptación de reglamentos."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+          ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Junta de Andalucía",
+    "clientdescription": "Junta de Andalucía",
+    "clienturl": "https://juntadeandalucia.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "."
+    }
+  },
+  "sistemaparticipacion": {
+    "title": "Sistema Público de Participación Digital de Andalucía",
+    "class": "sistemaparticipacion",
+    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "description": "Desarrollo de la Prueba de Concepto para usar CONSUL como base del Sistema Público de Participación Digital de Andalucía.",
+    "logo": "logo-junta.png",
+    "name":"Sistema Público de Participación Digital de Andalucía",
+    "screenshot": "",
+    "url": "/trabajos/sistema-participacion",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Estudio pormenorizado de las necesidades soporte digital de la Ley Andaluza de Participación."},
+      {"key": "Integración con los sistemas de la Junta de Andalucía."},
+      {"key": "Adaptación de CONSIUL a necesidades  de una administración autonómica."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Junta de Andalucía",
+    "clientdescription": "Junta de Andalucía",
+    "clienturl": "https://juntadeandalucia.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "ciudadamable": {
+    "title": "Participación para la planificación urbanística",
+    "class": "ciudadamable",
+    "subtitle": "",
+    "description": "Enreda ha desarrollado diferente programas participativos para desarrollar elementos de planificación urbanísticas en municipios andaluces.",
+    "logo": "ciudad-amable.png",
+    "name":"Participación para la planificación urbanística",
+    "screenshot": "",
+    "url": "/trabajos/ciudad-amable",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Proyecto  “Ciudad Amable” de la Junta de Andalucía en Rota."},
+      {"key": "Modificación del PGOU."},
+      {"key": "Estrategias de Desarrollo Urbano Sostenible (EDUSI)."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Rota",
+    "clientdescription": "Ayuntamiento de Rota",
+    "clienturl": "https://www.aytorota.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": "."
+    }
+  },
+  "presupuestomarbella": {
+    "title": "Presupuesto Participativo de Marbella",
+    "class": "presupuestomarbella",
+    "subtitle": "",
+    "description": "Enreda ha diseñado e implementado los Presupuestos Participativos del Ayuntamiento de Marbella durante dos años.",
+    "logo": "camion.png",
+    "name":"Presupuesto Participativo de Marbella",
+    "screenshot": "",
+    "url": "/trabajos/presupuesto-marbella",
+    "sourcecode": "",
+    "keys": [
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
+    ],
+    "metrics": [
+      {"metric": "2", "value": "millones de euros"},
+      {"metric": "1.000", "value": "participantes"},
+      {"metric": "Proceso", "value": "online y presencial"}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Marbella",
+    "clientdescription": "Ayuntamiento de Marbella",
+    "clienturl": "www.marbella.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "presupuestomijas": {
+    "title": "Presupuesto Participativos de Mijas",
+    "class": "presupuestomijas",
+    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "description": "Enreda ha diseñado e implementado los Presupuestos Participativos del Ayuntamiento de Mijas en 2018.",
+    "logo": "presupuesto-mijas.png",
+    "name":"Presupuesto Participativos de Mijas",
+    "screenshot": "",
+    "url": "/trabajos/presupuesto-mijas",
+    "sourcecode": "",
+    "keys": [
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
+    ],
+    "metrics": [
+      {"metric": "1,5", "value": "millones de euros"},
+      {"metric": "2.000", "value": "participantes"},
+      {"metric": "Proceso", "value": "online y presencial"}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Mijas",
+    "clientdescription": "Ayuntamiento de Mijas",
+    "clienturl": "https://www.mijas.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "planintervencion": {
+    "title": "Plan de intervención",
+    "class": "planintervencion",
+    "subtitle": "",
+    "description": "Diseño y elaboración del plan local de intervención en zonas desfavorecidas de Coria del Río.",
+    "logo": "logo-ayto-coria.png",
+    "name":"Plan de intervención",
+    "screenshot": "",
+    "url": "/trabajos/plan-intervencion",
+    "sourcecode": "",
+    "keys": [
+      {"key": ""},
+      {"key": ""},
+      {"key": ""}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Coria del Río",
+    "clientdescription": "Ayuntamiento de Coria del Río",
+    "clienturl": "www.ayto-coriadelrio.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
     }
   },
 
