@@ -851,11 +851,11 @@
       {"key": ""}
     ],
     "metrics": [
-      {"metric": "74", "value": "nuevos proyectos"},
-      {"metric": "28", "value": "en colaboración con entidades públidcas"},
-      {"metric": "11", "value": "promovidas por el Ayuntamiento"}
+      {"metric": "nuevos proyectos", "value": "74"},
+      {"metric": "en colaboración con entidades públidcas", "value": "28"},
+      {"metric": "promovidas por el Ayuntamiento", "value": "11"}
     ],
-    "metricsinfo": "",
+    "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
       {"technology": "Plone", "url": "https://plone.com/", "logo": "https://plone.com/++theme++theme-for-plone-com-20180828/static/images/logo-home.png"},
       {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
@@ -893,11 +893,11 @@
       {"key": ""}
     ],
     "metrics": [
-      {"metric": "220", "value": "estrenos"},
-      {"metric": "116", "value": "estrenos nacionales"},
-      {"metric": "35", "value": "estrenos mundiales"}
+      {"metric": "estrenos", "value": "220"},
+      {"metric": "estrenos nacionales", "value": "116"},
+      {"metric": "estrenos mundiales", "value": "35"}
     ],
-    "metricsinfo": "",
+    "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
       {"technology": "Drupal8", "url": "https://www.drupal.org/8", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
       {"technology": "Rest API", "url": "https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional#V%C3%A9ase_tambi%C3%A9n", "logo": "https://miro.medium.com/max/790/1*uHzooF1EtgcKn9_XiSST4w.png"},
@@ -1148,11 +1148,11 @@
       {"key": "Consultoría sobre adaptación de reglamentos."}
     ],
     "metrics": [
-      {"metric": "16", "value": "ciudades"},
-      {"metric": "400", "value": "participantes"},
-      {"metric": "", "value": "Diseño de Hoja de Ruta para la participación en Andalucía"}
+      {"metric": "ciudades", "value": "16"},
+      {"metric": "participantes", "value": "400"},
+      {"metric": "Diseño de Hoja de Ruta para la participación en Andalucía", "value": " "}
     ],
-    "metricsinfo": "",
+    "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
       
     ],
@@ -1394,7 +1394,7 @@
       {"metric": "1.000", "value": "participantes"},
       {"metric": "Proceso", "value": "online y presencial"}
     ],
-    "metricsinfo": "",
+    "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
     ],
     "media": [
@@ -1428,7 +1428,7 @@
       {"metric": "2.000", "value": "participantes"},
       {"metric": "Proceso", "value": "online y presencial"}
     ],
-    "metricsinfo": "",
+    "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
     ],
     "media": [
