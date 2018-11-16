@@ -189,7 +189,7 @@
       {"name": "TIPI Ciudadano", "class": "tipi", "image": "logo-tipi.png", "description": "Transparencia, Información, Participación e Incidencia", "url": "/trabajos/tipi-ciudadano/"},
       {"name": "Transparencia Presupuestaria", "class": "transparenciapresupuestaria", "image": "logo-tp.png", "description": "Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad", "url": "/trabajos/transparencia-presupuestaria/"},
       {"name": "Poletika", "class": "poletika", "image": "logo-poletika.png", "description": "Vigilancia y presión ciudadana para el cambio político", "url": "/trabajos/poletika/"},
-      {"name": "Consul - El Puerto de Santa María", "class": "aytoelpuerto", "image": "logo-ayto-elpuerto.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-puerto-santa-maria/"},
+      {"name": "Consul - El Puerto de Santa María", "class": "aytoelpuerto", "image": "logo-consul-elpuerto.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-puerto-santa-maria/"},
       {"name": "Consul - Oviedo", "class": "decideoviedo", "image": "logo-ayto-oviedo.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-oviedo/"},
       {"name": "Consul - Arcos de la Frontera", "class": "decidearcos", "image": "logo-ayto-arcos.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-arcos-frontera/"},
       {"name": "Consul - Santiago de Compostela", "class": "decidesantiago", "image": "logo-ayto-santiago.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-santiago/"},
@@ -297,7 +297,7 @@
     "items": [
       {
         "title": "Consul - El Puerto de Santa María",
-        "logo": "consul_logo.png",
+        "logo": "logo-consul-elpuerto.png",
         "class": "aytoelpuerto",
         "url": "/trabajos/consul-puerto-santa-maria"
       },
@@ -922,7 +922,7 @@
     "class": "aytoelpuerto",
     "subtitle": "Consul",
     "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de El Puerto de Santa María contando con el software más completo que existe actualmente; Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
-    "logo": "logo-ayto-elpuerto.png",
+    "logo": "logo-consul-elpuerto.png",
     "name":"Consul - El Puerto de Santa María",
     "screenshot": "screenshot-elpuerto.png",
     "url": "https://participa.elpuertodesantamaria.es",
