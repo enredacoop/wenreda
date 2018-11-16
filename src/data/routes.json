@@ -192,6 +192,95 @@
     ]
   },
 
+  "trabajos/consul-santiago": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-santiago"},
+      {"src/data/data.json": "consul-santiago"}
+    ]
+  },
+  "trabajos/foro-participacion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "foro-participacion"},
+      {"src/data/data.json": "foro-participacion"}
+    ]
+  },
+  "trabajos/aula-participacion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "aula-participacion"},
+      {"src/data/data.json": "aula-participacion"}
+    ]
+  },
+  "trabajos/dipu-participacion-cadiz": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "dipu-participacion-cadiz"},
+      {"src/data/data.json": "dipu-participacion-cadiz"}
+    ]
+  },
+  "trabajos/ayto-participacion-cadiz": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "ayto-participacion-cadiz"},
+      {"src/data/data.json": "ayto-participacion-cadiz"}
+    ]
+  },
+  "trabajos/formacion-ley-participacion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "formacion-ley-participacion"},
+      {"src/data/data.json": "formacion-ley-participacion"}
+    ]
+  },
+  "trabajos/sistema-participacion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "sistema-participacion"},
+      {"src/data/data.json": "sistema-participacion"}
+    ]
+  },
+  "trabajos/ciudad-amable": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "ciudad-amable"},
+      {"src/data/data.json": "ciudad-amable"}
+    ]
+  },
+  "trabajos/presupuesto-marbella": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "presupuesto-marbella"},
+      {"src/data/data.json": "presupuesto-marbella"}
+    ]
+  },
+  "trabajos/presupuesto-mijas": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "presupuesto-mijas"},
+      {"src/data/data.json": "presupuesto-mijas"}
+    ]
+  },
+  "trabajos/plan-intervencion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "plan-intervencion"},
+      {"src/data/data.json": "plan-intervencion"}
+    ]
+  },
+
   "cookies": {
     "path_to_layout": "src/layouts/cookies.ejs",
     "path_to_data": [

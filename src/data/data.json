@@ -921,15 +921,15 @@
     "title": "Consul - El Puerto de Santa María",
     "class": "aytoelpuerto",
     "subtitle": "Consul",
-    "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de El Puerto de Santa María contando con el  software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
+    "description": "Enreda ha desarrollado y mantenido el Portal de Participación ciudadana del Ayuntamiento de El Puerto de Santa María contando con el software más completo que existe actualmente; Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
     "logo": "logo-ayto-elpuerto.png",
     "name":"Consul - El Puerto de Santa María",
     "screenshot": "screenshot-elpuerto.png",
     "url": "https://participa.elpuertodesantamaria.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Votacions."},
-      {"key": "Legislación colaborativa."},
+      {"key": "Votaciones"},
+      {"key": "Legislación colaborativa"},
       {"key": "Debates…"}
     ],
     "metrics": [
@@ -971,8 +971,8 @@
     "url": "http://www.consultaoviedo.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Votacions."},
-      {"key": "Legislación colaborativa."},
+      {"key": "Votaciones"},
+      {"key": "Legislación colaborativa"},
       {"key": "Debates…"}
     ],
     "metrics": [
@@ -1014,8 +1014,8 @@
     "url": "http://decidearcos.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Votacions."},
-      {"key": "Legislación colaborativa."},
+      {"key": "Votaciones"},
+      {"key": "Legislación colaborativa"},
       {"key": "Debates…"}
     ],
     "metrics": [
@@ -1057,8 +1057,8 @@
     "url": "http://decidesantiago.es",
     "sourcecode": "",
     "keys": [
-      {"key": "Votacions."},
-      {"key": "Legislación colaborativa."},
+      {"key": "Votaciones"},
+      {"key": "Legislación colaborativa"},
       {"key": "Debates…"}
     ],
     "metrics": [
@@ -1100,8 +1100,8 @@
     "url": "",
     "sourcecode": "",
     "keys": [
-      {"key": "Votacions."},
-      {"key": "Legislación colaborativa."},
+      {"key": "Votaciones"},
+      {"key": "Legislación colaborativa"},
       {"key": "Debates…"}
     ],
     "metrics": [
@@ -1167,7 +1167,7 @@
       "call": ""
     }
   },
-  "aulaparticipacion": {
+  "aula-participacion": {
     "title": "Aula Digital de Participación",
     "class": "aulaparticipacion",
     "subtitle": "",
@@ -1203,7 +1203,7 @@
       "call": ""
     }
   },
-  "dipuparticipacioncadiz": {
+  "dipu-participacion-cadiz": {
     "title": "Reglamento de Participación de la Diputación de Cádiz",
     "class": "dipuparticipacioncadiz",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
@@ -1237,7 +1237,7 @@
       "call": ""
     }
   },
-  "aytoparticipacioncadiz": {
+  "ayto-participacion-cadiz": {
     "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
     "class": "aytoparticipacioncadiz",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
@@ -1272,7 +1272,7 @@
       "call": "La cultura es información."
     }
   },
-  "formacionleyparticipacion": {
+  "formacion-ley-participacion": {
     "title": "Formación sobre la Ley Andaluza de Participación",
     "class": "formacionleyparticipacion",
     "subtitle": "",
@@ -1306,7 +1306,7 @@
       "call": "."
     }
   },
-  "sistemaparticipacion": {
+  "sistema-participacion": {
     "title": "Sistema Público de Participación Digital de Andalucía",
     "class": "sistemaparticipacion",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
@@ -1340,7 +1340,7 @@
       "call": ""
     }
   },
-  "ciudadamable": {
+  "ciudad-amable": {
     "title": "Participación para la planificación urbanística",
     "class": "ciudadamable",
     "subtitle": "",
@@ -1374,7 +1374,7 @@
       "call": "."
     }
   },
-  "presupuestomarbella": {
+  "presupuesto-marbella": {
     "title": "Presupuesto Participativo de Marbella",
     "class": "presupuestomarbella",
     "subtitle": "",
@@ -1408,7 +1408,7 @@
       "call": ""
     }
   },
-  "presupuestomijas": {
+  "presupuesto-mijas": {
     "title": "Presupuesto Participativos de Mijas",
     "class": "presupuestomijas",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
@@ -1442,7 +1442,7 @@
       "call": ""
     }
   },
-  "planintervencion": {
+  "plan-intervencion": {
     "title": "Plan de intervención",
     "class": "planintervencion",
     "subtitle": "",
