@@ -191,6 +191,22 @@
       {"src/data/data.json": "consul-cadiz"}
     ]
   },
+  "trabajos/consul-santiago": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "consul-santiago"},
+      {"src/data/data.json": "consul-santiago"}
+    ]
+  },
+  "trabajos/foro-participacion": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "foro-participacion"},
+      {"src/data/data.json": "foro-participacion"}
+    ]
+  },
 
   "trabajos/consul-santiago": {
     "path_to_layout": "src/layouts/work.ejs",

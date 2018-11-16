@@ -121,6 +121,61 @@
     "description": "Web de participación ciudadana",
     "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, cadiz"
   },
+  "consul-santiago": {
+    "title": "Consul - Santiago de Compostela",
+    "description": "Web de participación ciudadana",
+    "keywords": "consul, ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, santiago, compostela"
+  },
+  "foro-participacion": {
+    "title": "Foro Andaluz de Gobiernos Locales y Procesos Participativos",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "aula-participacion": {
+    "title": "Aula Digital de Participación",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "dipu-participacion-cadiz": {
+    "title": "Reglamento de Participación de la Diputación de Cádiz",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "ayto-participacion-cadiz": {
+    "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "formacion-ley-participacion": {
+    "title": "Formación sobre la Ley Andaluza de Participación",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "sistema-participacion": {
+    "title": "Sistema Público de Participación Digital de Andalucía",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "ciudad-amable": {
+    "title": "Participación para la planificación urbanística",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "presupuesto-marbella": {
+    "title": "Presupuesto Participativo de Marbella",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "presupuesto-mijas": {
+    "title": "Presupuesto Participativos de Mijas",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
+  "plan-intervencion": {
+    "title": "Plan de intervención",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
+  },
 
 
   "cookies": {

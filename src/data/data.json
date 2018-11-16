@@ -35,13 +35,13 @@
         {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Lucía Cano", "position": " ", "photo": "luciacano.png", "email": "lucia.cano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": " ", "role": "Trabajadora"},
+        {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
         {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
-        {"name": "Fátima Martínez", "position": " ", "photo": "fatima.jpg", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial/", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias/", "github": "https://github.com/fmmsvq/", "role": "Colaboradora"},
-        {"name": "Carlos Campos", "position": " ", "photo": "carloscampos.jpg", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "https://github.com/carcamcue", "role": "Trabajador"},
-        {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "https://github.com/alerodrom", "role": "Trabajador"}
+        {"name": "Fátima Martínez", "position": " ", "photo": "fatima.jpg", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial/", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias/", "github": "fmmsvq/", "role": "Colaboradora"},
+        {"name": "Carlos Campos", "position": " ", "photo": "carloscampos.jpg", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "carcamcue", "role": "Trabajador"},
+        {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "alerodrom", "role": "Trabajador"}
       ]
     },
 
@@ -478,13 +478,15 @@
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
       {"technology": "MeteorJS", "url": "https://www.meteor.com", "logo": "https://d14jjfgstdxsoz.cloudfront.net/assets/logo.svg"},
-      {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
+      {"technology": "MongoDB", "url": "https://www.mongodb.com", "logo": "/assets/images/technologies/mongodb.png"},
       {"technology": "D3js", "url": "http://d3js.org", "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"},
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
       {"technology": "Redis", "url": "http://redis.io/", "logo": "https://redis.io/images/redis-white.png"},
       {"technology": "Scrapy", "url": "https://scrapy.org/", "logo": "https://scrapy.org/img/scrapylogo.png"},
-      {"technology": "Luigi", "url": "https://github.com/spotify/luigi", "logo": "https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"}
+      {"technology": "Luigi", "url": "https://github.com/spotify/luigi", "logo": "https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/desigualdadblog/ciudadania_informada-poder-diputados-politica_vigilada-rendicion_de_cuentas_6_566653330.html"},
@@ -524,10 +526,12 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "/assets/images/technologies/django.png", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/inspira/red-social-cooperativas_6_401469885.html"},
@@ -567,7 +571,9 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
     ],    
@@ -604,12 +610,14 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "https://angularjs.org/img/AngularJS-large.png"},
-      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "http://3.bp.blogspot.com/-G1Nosx99Td0/UwtphL0KbxI/AAAAAAAAUP4/0P2mG3qjvB4/s1600/EJS.PNG"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "/assets/images/technologies/django.png", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "AngularJS", "url": "https://angularjs.org", "logo": "/assets/images/technologies/angular.png", "class": "" },
+      {"technology": "EJS", "url": "http://www.embeddedjs.com", "logo": "http://3.bp.blogspot.com/-G1Nosx99Td0/UwtphL0KbxI/AAAAAAAAUP4/0P2mG3qjvB4/s1600/EJS.PNG"},
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
     ],
@@ -646,10 +654,12 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "/assets/images/technologies/django.png", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
       {"name": "eldiario", "class": "eldiario", "image": "logo_eldiario.png", "url": "http://www.eldiario.es/andalucia/Social-Crowd-micromecenazgo-materiales-ONG_0_272972821.html"},
@@ -690,9 +700,11 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
       {"technology": "D3js", "url": "", "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"},
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
     ],
@@ -729,11 +741,13 @@
     ],
     "metricsinfo": "Datos obtenidos en diciembre de 2015",
     "technologies": [
-      {"technology": "PHP", "url": "http://php.net", "logo": "http://php.net/images/logos/php-logo.svg"},
-      {"technology": "Drupal", "url": "https://www.drupal.org/", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
+      {"technology": "PHP", "url": "http://php.net", "logo": "/assets/images/technologies/php.png", "class": "" },
+      {"technology": "Drupal", "url": "https://www.drupal.org/", "logo": "/assets/images/technologies/drupal8.png", "class": "white" },
       {"technology": "Ubercart", "url": "https://www.drupal.org/project/ubercart", "logo": "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/logo_6.png"},
-      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.mysql.com/common/logos/includes-mysql-167x86-bow.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "/assets/images/technologies/mysql.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
     ],
@@ -770,10 +784,12 @@
     ],
     "metricsinfo": "Datos obtenidos en junio de 2016",
     "technologies": [
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "https://www.https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/260px-Django_logo.svg.png"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"}
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "Django", "url": "https://www.djangoproject.com", "logo": "/assets/images/technologies/django.png", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
       {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/turismo/destino-espana/costa-luz/noticia-empresarios-locales-crean-cooperativa-turistica-conil-hospeda-20160511195958.html"},
@@ -814,12 +830,14 @@
     ],
     "metricsinfo": "Datos obtenidos en junio de 2017",
     "technologies": [
-      {"technology": "PHP", "url": "http://php.net", "logo": "http://php.net/images/logos/php-logo.svg"},
-      {"technology": "Drupal", "url": "https://www.drupal.org", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
-      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "https://www.mysql.com/common/logos/includes-mysql-167x86-bow.png"},
-      {"technology": "HTML5", "url": "https://en.wikipedia.org/wiki/HTML5", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "API REST", "url": "https://www.restapitutorial.com/", "logo": "https://miro.medium.com/max/790/1*uHzooF1EtgcKn9_XiSST4w.png"},
-      {"technology": "Bot Telegram", "url": "https://telegram.org/blog/bot-revolution", "logo": "https://infosertecblog.files.wordpress.com/2016/08/bot-de-telegram.jpg"}
+      {"technology": "PHP", "url": "http://php.net", "logo": "/assets/images/technologies/php.png", "class": "" },
+      {"technology": "Drupal", "url": "https://www.drupal.org/", "logo": "/assets/images/technologies/drupal8.png", "class": "white" },
+      {"technology": "MySQL", "url": "https://www.mysql.com", "logo": "/assets/images/technologies/mysql.png", "class": "white" },
+      {"technology": "API REST", "url": "https://www.restapitutorial.com/", "logo": "/assets/images/technologies/api.png", "class": "white" },
+      {"technology": "Bot Telegram", "url": "https://telegram.org/blog/bot-revolution", "logo": "/assets/images/technologies/bottelegram.png", "class": "" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
       {"name": "europapress", "class": "europapress", "image": "logo_europapress.png", "url": "http://www.europapress.es/epsocial/derechos-humanos/noticia-labor-gobierno-primeros-100-dias-insuficiente-materia-pobreza-desigualdad-20170209090249.html"},
@@ -846,9 +864,6 @@
     "url": "http://www.icas-sevilla.org",
     "sourcecode": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
     ],
     "metrics": [
       {"metric": "nuevos proyectos", "value": "74"},
@@ -857,14 +872,13 @@
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
-      {"technology": "Plone", "url": "https://plone.com/", "logo": "https://plone.com/++theme++theme-for-plone-com-20180828/static/images/logo-home.png"},
-      {"technology": "Python", "url": "https://www.python.org", "logo": "https://www.python.org/static/img/python-logo.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/Icons/w3c_home"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "AJAX", "url": "https://es.wikipedia.org/wiki/AJAX", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/120px-AJAX_logo_by_gengns.svg.png"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Bootstrap", "url": "https://getbootstrap.com", "logo": "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png"}
-    ],
+      {"technology": "Plone", "url": "https://plone.com/", "logo": "/assets/images/technologies/plone.png", "class": "white" },
+      {"technology": "Python", "url": "https://www.python.org", "logo": "/assets/images/technologies/python.png", "class": "white" },
+      {"technology": "AJAX", "url": "https://es.wikipedia.org/wiki/AJAX", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/120px-AJAX_logo_by_gengns.svg.png", "class": "white" },
+      {"technology": "Bootstrap", "url": "https://getbootstrap.com", "logo": "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png"},
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }    ],
     "media": [
     ],
     "own": "no",
@@ -888,9 +902,6 @@
     "url": "http://festivalcinesevilla.eu",
     "sourcecode": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
     ],
     "metrics": [
       {"metric": "estrenos", "value": "220"},
@@ -899,11 +910,11 @@
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
-      {"technology": "Drupal8", "url": "https://www.drupal.org/8", "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg"},
-      {"technology": "Rest API", "url": "https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional#V%C3%A9ase_tambi%C3%A9n", "logo": "https://miro.medium.com/max/790/1*uHzooF1EtgcKn9_XiSST4w.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"}
+      {"technology": "Drupal", "url": "https://www.drupal.org/", "logo": "/assets/images/technologies/drupal8.png", "class": "white" },
+      {"technology": "API REST", "url": "https://www.restapitutorial.com/", "logo": "/assets/images/technologies/api.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
     ],
     "media": [
     ],
@@ -939,13 +950,13 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg", "class": "" },
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "/assets/images/technologies/ubuntu.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
 
     ],
     "media": [
@@ -982,13 +993,13 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg", "class": "" },
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "/assets/images/technologies/ubuntu.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
 
     ],
     "media": [
@@ -1025,13 +1036,13 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg", "class": "" },
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "/assets/images/technologies/ubuntu.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
 
     ],
     "media": [
@@ -1053,7 +1064,7 @@
     "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Cádiz contando con el software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos..",
     "logo": "logo-ayto-santiago.png",
     "name":"Consul - Santiago de Compostela",
-    "screenshot": "",
+    "screenshot": "screenshot-santiago.png",
     "url": "http://decidesantiago.es",
     "sourcecode": "",
     "keys": [
@@ -1068,13 +1079,13 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg", "class": "" },
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "/assets/images/technologies/ubuntu.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
 
     ],
     "media": [
@@ -1111,13 +1122,13 @@
     ],
     "metricsinfo": "",
     "technologies": [
-      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg"},
-      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "https://www.postgresql.org/media/img/about/press/elephant.png"},
-      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "https://assets.ubuntu.com/v1/838316ab-cof-25x25.png"},
-      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"},
-      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "https://jigsaw.w3.org/css-validator/images/vcss-blue"},
-      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "https://www.javascript.com/etc/clientlibs/pluralsight/main/images/js-logo.png"},
-      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg"}
+      {"technology": "Consul", "url": "http://consulproject.org/es/", "logo": "http://consulproject.org/img/consul_logo.svg", "class": "" },
+      {"technology": "Ruby on Rails", "url": "https://rubyonrails.org/", "logo": "https://rubyonrails.org/images/rails-logo.svg", "class": "white" },
+      {"technology": "PostgreSQL", "url": "http://www.postgresql.org", "logo": "/assets/images/technologies/postgresql.png", "class": "" },
+      {"technology": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "/assets/images/technologies/ubuntu.png", "class": "white" },
+      {"technology": "HTML", "url": "https://www.w3.org/html/", "logo": "/assets/images/technologies/html.png", "class": "" },
+      {"technology": "CSS", "url": "https://www.w3.org/Style/CSS/", "logo": "/assets/images/technologies/css.png", "class": "" },
+      {"technology": "JavaScript", "url": "https://www.javascript.com/", "logo": "/assets/images/technologies/js.png", "class": "" }
 
     ],
     "media": [
@@ -1385,14 +1396,11 @@
     "url": "/trabajos/presupuesto-marbella",
     "sourcecode": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
     ],
     "metrics": [
-      {"metric": "2", "value": "millones de euros"},
-      {"metric": "1.000", "value": "participantes"},
-      {"metric": "Proceso", "value": "online y presencial"}
+      {"metric": "millones de euros", "value": "2"},
+      {"metric": "participantes", "value": "1.000"},
+      {"metric": "online y presencial", "value": "Proceso"}
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
@@ -1419,14 +1427,11 @@
     "url": "/trabajos/presupuesto-mijas",
     "sourcecode": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
     ],
     "metrics": [
-      {"metric": "1,5", "value": "millones de euros"},
-      {"metric": "2.000", "value": "participantes"},
-      {"metric": "Proceso", "value": "online y presencial"}
+      {"metric": "millones de euros", "value": "1,5"},
+      {"metric": "participantes", "value": "2.000"},
+      {"metric": "online y presencial", "value": "Proceso"}
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
@@ -1453,9 +1458,6 @@
     "url": "/trabajos/plan-intervencion",
     "sourcecode": "",
     "keys": [
-      {"key": ""},
-      {"key": ""},
-      {"key": ""}
     ],
     "metrics": [
       {"metric": "", "value": ""},

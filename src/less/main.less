@@ -1024,7 +1024,9 @@ p.lead {
     background-color: @aytoelpuerto_color;
     img {
       width: 200px;
-      padding-top: 30px;
+      padding-top: 20px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
     }
     .title {
       background-color: darken(@aytoelpuerto_color, 5%);
@@ -1036,6 +1038,8 @@ p.lead {
     img {
       width: 200px;
       padding-top: 45px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
     }
     .title {
       background-color: darken(@decideoviedo_color, 5%);
@@ -1046,6 +1050,9 @@ p.lead {
     background-color: @decidearcos_color;
     img {
       width: 200px;
+      padding-top: 45px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
     }
     .title {
       background-color: darken(@decidearcos_color, 5%);
@@ -1056,6 +1063,9 @@ p.lead {
     background-color: @decidesantiago_color;
     img {
       width: 200px;
+      padding-top: 45px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
     }
     .title {
       background-color: darken(@decidesantiago_color, 5%);
@@ -1067,10 +1077,126 @@ p.lead {
     img {
       width: 200px;
       padding-top: 45px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
     }
     .title {
       background-color: darken(@decidecadiz_color, 5%);
       color: make-contrast(@decidecadiz_color);
+    }
+  }
+  .work.foroparticipacion {
+    background-color: white;
+    img {
+      width: 200px;
+      padding-top: 20px;
+    }
+    .title {
+      background-color: darken(@foroparticipacion_color, 5%);
+      color: make-contrast(@foroparticipacion_color);
+    }
+  }
+  .work.aulaparticipacion {
+    background-color: @aulaparticipacion_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@aulaparticipacion_color, 5%);
+      color: make-contrast(@aulaparticipacion_color);
+    }
+  }
+  .work.dipuparticipacioncadiz {
+    background-color: @dipuparticipacioncadiz_color;
+    img {
+      width: 200px;
+      padding-top: 30px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
+    }
+    .title {
+      background-color: darken(@dipuparticipacioncadiz_color, 5%);
+      color: make-contrast(@dipuparticipacioncadiz_color);
+    }
+  }
+  .work.aytoparticipacioncadiz {
+    background-color: @aytoparticipacioncadiz_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@aytoparticipacioncadiz_color, 5%);
+      color: make-contrast(@aytoparticipacioncadiz_color);
+    }
+  }
+  .work.formacionleyparticipacion {
+    background-color: @formacionleyparticipacion_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@formacionleyparticipacion_color, 5%);
+      color: make-contrast(@formacionleyparticipacion_color);
+    }
+  }
+  .work.sistemaparticipacion {
+    background-color: @sistemaparticipacion_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@sistemaparticipacion_color, 5%);
+      color: make-contrast(@sistemaparticipacion_color);
+    }
+  }
+  .work.ciudadamable {
+    background-color: @ciudadamable_color;
+    img {
+      width: 200px;
+      padding-top: 45px;
+    }
+    .title {
+      background-color: darken(@ciudadamable_color, 5%);
+      color: make-contrast(@ciudadamable_color);
+    }
+  }
+  .work.presupuestomarbella {
+    background-color: @presupuestomarbella_color;
+    img {
+      width: 200px;
+      padding-top: 20px;
+    }
+    .title {
+      background-color: darken(@presupuestomarbella_color, 5%);
+      color: make-contrast(@presupuestomarbella_color);
+    }
+  }
+  .work.presupuestomijas {
+    background-color: @presupuestomijas_color;
+    img {
+      width: 200px;
+      padding-top: 25px;
+    }
+    .title {
+      background-color: darken(@presupuestomijas_color, 5%);
+      color: make-contrast(@presupuestomijas_color);
+    }
+  }
+  .work.planintervencion {
+    background-color: @planintervencion_color;
+    img {
+      width: 200px;
+      padding-top: 25px;
+      -webkit-filter: grayscale(100%) brightness(100%);
+      filter: grayscale(100%) brightness(1000%);
+    }
+    .title {
+      background-color: darken(@planintervencion_color, 5%);
+      color: make-contrast(@planintervencion_color);
     }
   }
 
@@ -1152,12 +1278,25 @@ p.lead {
     a {
       img {
         padding-bottom: 15px;
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+
+        &.white {
+          -webkit-filter: grayscale(100%) brightness(100%);
+          filter: grayscale(100%) brightness(1000%);
+        }
       }
       font-style: italic;
       color: @lightgrey_color;
       &:hover, &:visited {
         text-decoration: none;
         color: @lightgrey_color;
+      }
+
+      h6 {
+        margin-block-start: 5px;
+        margin-block-end: 35px;
       }
     }
   }
@@ -1435,6 +1574,8 @@ p.lead {
     .logo {
       img {
         width: @default-work-logo-size;
+        -webkit-filter: grayscale(100%) brightness(100%);
+        filter: grayscale(100%) brightness(1000%);
       }
     }
   }
@@ -1502,6 +1643,241 @@ p.lead {
     .btn {
       .make-contrast(@decidecadiz_color);
       .make-contrast-border-button(@decidecadiz_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.decidesantiago {
+  .make-contrast(@decidesantiago_color);
+  .work_styling(@decidesantiago_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@decidesantiago_color);
+      .make-contrast-border-button(@decidesantiago_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.foroparticipacion {
+  .make-contrast(@foroparticipacion_color);
+  .work_styling(@foroparticipacion_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@foroparticipacion_color);
+      .make-contrast-border-button(@foroparticipacion_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.aulaparticipacion {
+  .make-contrast(@aulaparticipacion_color);
+  .work_styling(@aulaparticipacion_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@aulaparticipacion_color);
+      .make-contrast-border-button(@aulaparticipacion_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.dipuparticipacioncadiz {
+  .make-contrast(@dipuparticipacioncadiz_color);
+  .work_styling(@dipuparticipacioncadiz_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+        -webkit-filter: grayscale(100%) brightness(100%);
+        filter: grayscale(100%) brightness(1000%);
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@dipuparticipacioncadiz_color);
+      .make-contrast-border-button(@dipuparticipacioncadiz_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.aytoparticipacioncadiz {
+  .make-contrast(@aytoparticipacioncadiz_color);
+  .work_styling(@aytoparticipacioncadiz_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@aytoparticipacioncadiz_color);
+      .make-contrast-border-button(@aytoparticipacioncadiz_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.formacionleyparticipacion {
+  .make-contrast(@formacionleyparticipacion_color);
+  .work_styling(@formacionleyparticipacion_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@formacionleyparticipacion_color);
+      .make-contrast-border-button(@formacionleyparticipacion_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.sistemaparticipacion {
+  .make-contrast(@sistemaparticipacion_color);
+  .work_styling(@sistemaparticipacion_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@sistemaparticipacion_color);
+      .make-contrast-border-button(@sistemaparticipacion_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.ciudadamable {
+  .make-contrast(@ciudadamable_color);
+  .work_styling(@ciudadamable_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@ciudadamable_color);
+      .make-contrast-border-button(@ciudadamable_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.presupuestomarbella {
+  .make-contrast(@presupuestomarbella_color);
+  .work_styling(@presupuestomarbella_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@presupuestomarbella_color);
+      .make-contrast-border-button(@presupuestomarbella_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.presupuestomijas {
+  .make-contrast(@presupuestomijas_color);
+  .work_styling(@presupuestomijas_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@presupuestomijas_color);
+      .make-contrast-border-button(@presupuestomijas_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.planintervencion {
+  .make-contrast(@planintervencion_color);
+  .work_styling(@planintervencion_color);
+  #intro {
+    .logo {
+      img {
+        height: 150px;
+        width: auto;
+        -webkit-filter: grayscale(100%) brightness(100%);
+        filter: grayscale(100%) brightness(1000%);
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@planintervencion_color);
+      .make-contrast-border-button(@planintervencion_color);
       background-color: transparent;
       font-weight: bold;
     }
