@@ -857,18 +857,21 @@
     "title": "ICAS",
     "class": "icas",
     "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
-    "description": "El Instituto de la Cultura y las Artes de Sevilla cuenta con 22 espacios y proyectos.",
+    "description": "El portal institucional del Instituto de la Cultura y de las Artes que depende del Ayuntamiento de Sevilla, avanza desde un diseño descentralizado de espacios y áreas, para agrupar en un mismo portal todas las sedes culturales dependientes del ICAS. Este portal desarrollado sobre Plone/Zope permite la gestión de múltiples micro-sites y de la gestión completa de la comunicación del ICAS desde un mismo portal web.",
     "logo": "logo-icas.png",
     "name":"ICAS",
     "screenshot": "screenshot-elo.png",
     "url": "http://www.icas-sevilla.org",
     "sourcecode": "",
     "keys": [
+      {"key": "Desarrollado sobre Plone 5/zope"},
+      {"key": "Soporte a múltiples micro-sites"},
+      {"key": "Diseño actual y adaptativo"}
+
     ],
     "metrics": [
-      {"metric": "nuevos proyectos", "value": "74"},
-      {"metric": "en colaboración con entidades públidcas", "value": "28"},
-      {"metric": "promovidas por el Ayuntamiento", "value": "11"}
+      {"metric": "micro-sites", "value": "10"},
+
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
@@ -895,18 +898,21 @@
     "title": "Festival de Sevilla",
     "class": "festivalcine",
     "subtitle": "Festival de Sevilla de Cine Europeo",
-    "description": "El Festival de Sevilla tiene como objetivo promover y difundir la cinematografía europea, estableciéndose como un lugar de encuentro anual para los talentos europeos de cine, periodistas especializados y profesionales del sector. Nueve días donde industria, público y crítica conviven alrededor de una selección del mejor cine europeo. Estrenos en España de las grandes películas del cine de autor contemporáneo, la presencia de buen número de talentos emergentes, la defensa decidida por el más joven cine español, el apoyo al cine andaluz y sobre todo la plena seguridad de que hoy, más que nunca, un festival de cine puede ser útil al público, a las películas y a los cineastas.",
+    "description": "Portal del Festival de Cine Europeo de Sevilla, que tiene como objetivo promover y difundir la cinematografía europea, estableciéndose como un lugar de encuentro para los talentos europeos de cine, periodistas especializados y profesionales del sector. El portal ha sido desarrollado en Drupal y cuenta con una gestión completa de toda la información asociada al festival, secciones de películas, películas, parrilla de programación, noticias, contenidos relacionados, prensa, etc...",
     "logo": "logo-festivalcine.png",
     "name":"Festival de Sevilla",
     "screenshot": "screenshot-festivalcine.png",
     "url": "http://festivalcinesevilla.eu",
     "sourcecode": "",
     "keys": [
+      {"key": "Portal en múltiples idiomas con proyección internacional"},
+      {"key": "Presencia digital y punto de referencia de todo lo relacionado con el Festival"},
+      {"key": "Facilita la gestión de la comunicación del Festival"},
     ],
     "metrics": [
-      {"metric": "estrenos", "value": "220"},
-      {"metric": "estrenos nacionales", "value": "116"},
-      {"metric": "estrenos mundiales", "value": "35"}
+      {"metric": "películas", "value": "+200"},
+      {"metric": "pases de películas", "value": "+450"},
+      {"metric": "espectadores", "value": "+75000"}
     ],
     "metricsinfo": "Datos obtenidos en 2018",
     "technologies": [
