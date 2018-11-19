@@ -871,6 +871,8 @@
     ],
     "metrics": [
       {"metric": "micro-sites", "value": "10"},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
 
     ],
     "metricsinfo": "Datos obtenidos en 2018",
@@ -907,7 +909,7 @@
     "keys": [
       {"key": "Portal en múltiples idiomas con proyección internacional"},
       {"key": "Presencia digital y punto de referencia de todo lo relacionado con el Festival"},
-      {"key": "Facilita la gestión de la comunicación del Festival"},
+      {"key": "Facilita la gestión de la comunicación del Festival"}
     ],
     "metrics": [
       {"metric": "películas", "value": "+200"},
