@@ -207,31 +207,6 @@
       {"src/data/data.json": "foro-participacion"}
     ]
   },
-
-  "trabajos/consul-santiago": {
-    "path_to_layout": "src/layouts/work.ejs",
-    "path_to_data": [
-      "src/data/global.json",
-      {"src/data/meta.json": "consul-santiago"},
-      {"src/data/data.json": "consul-santiago"}
-    ]
-  },
-  "trabajos/foro-participacion": {
-    "path_to_layout": "src/layouts/work.ejs",
-    "path_to_data": [
-      "src/data/global.json",
-      {"src/data/meta.json": "foro-participacion"},
-      {"src/data/data.json": "foro-participacion"}
-    ]
-  },
-  "trabajos/aula-participacion": {
-    "path_to_layout": "src/layouts/work.ejs",
-    "path_to_data": [
-      "src/data/global.json",
-      {"src/data/meta.json": "aula-participacion"},
-      {"src/data/data.json": "aula-participacion"}
-    ]
-  },
   "trabajos/dipu-participacion-cadiz": {
     "path_to_layout": "src/layouts/work.ejs",
     "path_to_data": [
@@ -296,7 +271,14 @@
       {"src/data/data.json": "plan-intervencion"}
     ]
   },
-
+  "trabajos/presupuesto-tarifa": {
+    "path_to_layout": "src/layouts/work.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "presupuesto-tarifa"},
+      {"src/data/data.json": "presupuesto-tarifa"}
+    ]
+  },
   "cookies": {
     "path_to_layout": "src/layouts/cookies.ejs",
     "path_to_data": [

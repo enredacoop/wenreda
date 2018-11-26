@@ -176,7 +176,11 @@
     "description": "Web de participación ciudadana",
     "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo"
   },
-
+  "presupuesto-tarifa": {
+    "title": "Presupuesto Participativo de Tarifa",
+    "description": "Web de participación ciudadana",
+    "keywords": "ayuntamiento, participacion, ciudadana, ciudadania, votaciones, decide, ciudad, gobierno, publico, institucion, proceso, participacion, participativo, tarifa, presupuesto"
+  },
 
   "cookies": {
     "title": "Política de cookies",

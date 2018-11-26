@@ -127,7 +127,11 @@
                             <div class="col-sm-4">
                                 <a href="<%= data.works[i].url %>" alt="<%= data.works[i].description %>" title="<%= data.works[i].description %>">
                                     <div class="work <%= data.works[i].class %>">
-                                        <img src="/assets/images/works/<%= data.works[i].image %>" alt="Logo de <%= data.works[i].description %>" />
+                                        <% if (data.works[i].image != '') { %>
+                                            <img src="/assets/images/works/<%= data.works[i].image %>" alt="<%= data.works[i].description %>" />                                        
+                                        <% } else { %>
+                                            <h4><%= data.works[i].name %></h4>    
+                                        <% } %>
                                     </div>
                                     </a>
                             </div>

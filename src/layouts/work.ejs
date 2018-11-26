@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center logo wow pulse">
-                    <img src="/assets/images/works/<%= data.logo %>" alt="Logo de <%= data.title %>" />
+                    <img src="/assets/images/works/<%= data.logo %>" alt="<%= data.title %>" />
                 </div>
             </div>
         </div>
@@ -31,9 +31,11 @@
                             </p>
                     <% } %>
                 </div>
-                <div class="col-sm-6 text-center wow fadeInRight">
-                    <img src="/assets/images/works/<%= data.screenshot %>" alt="Captura de <%= data.title %>" height="400" class="img-responsive" />
-                </div>
+                <% if (data.screenshot != '') { %>
+                    <div class="col-sm-6 text-center wow fadeInRight">
+                        <img src="/assets/images/works/<%= data.screenshot %>" alt=" " height="400" class="img-responsive" />
+                    </div>
+                <% } %>    
             </div>
         </div>
     </section>

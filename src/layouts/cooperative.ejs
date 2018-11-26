@@ -55,7 +55,7 @@
             <div class="row">
                 <!-- For converting photos: convert pic.jpg -colorspace Gray -resize 300x300^ -gravity Center -crop 300x300+0+0 +repage picnew.jpg -->
                 <% for(var i=0; i<data.team.people.length; i++) { %>
-                    <div class="col-sm-3 col-xs-6">
+                    <div class="col-lg-3 col-sm-4 col-xs-12">
                         <div class="team-member">
                             <img src="/assets/images/cooperative/people/<%= data.team.people[i].photo %>" class="img-responsive img-circle" alt="Foto de <%= data.team.people[i].name %>" width="200" height="200" />
                             <h4><%= data.team.people[i].name %></h4>
@@ -106,10 +106,12 @@
                             <h5 class="officename"><a href="mailto:<%= data.offices.places[i].othercontact %>" target="_blank"><%= data.offices.places[i].othercontact %></a></h5>
                         <% } else { %>
                             <h5 class="officename"><a href="<%= data.offices.places[i].officeurl %>" target="_blank"><%= data.offices.places[i].officename %></a></h5>
-                            <p class="text-muted">
+                            <% if (data.offices.places[i].address != "") { %>
+                                <p class="text-muted">
                                 <%= data.offices.places[i].address %>
                                 <br/>
-                                <%= data.offices.places[i].zipcode %>, <%= data.offices.places[i].city %>
+                                    <%= data.offices.places[i].zipcode %>, <%= data.offices.places[i].city %>
+                            <% } %>
                         </p>
                         <% } %>
                     </div>

@@ -352,6 +352,7 @@ header {
       img {
         margin: 0 auto;
         border: 7px solid white;
+        height: 200px;
       }
       h4 {
         margin-top: 25px;
@@ -880,9 +881,8 @@ p.lead {
   .section-heading {
     h2 {
       font-size: 40px;
-      margin-top: 15px;;
+      margin-top: 15px;
       margin-bottom: 15px;
-      .title-letter-spacing;
     }
     h3 {
       font-size: 16px;
@@ -900,7 +900,10 @@ p.lead {
   .work.tipi {
     background-color: @tipi_color;
     img {
-      width: 200px;
+      width: 360px;
+      padding-top: 15px;
+      padding-right: 50px;
+      padding-left: 1px;
     }
     .title {
       background-color: darken(@tipi_color, 5%);
@@ -910,7 +913,8 @@ p.lead {
   .work.lacentralcoop {
     background-color: @lacentralcoop_color;
     img {
-      width: 200px;
+      width: 250px;
+      padding-top: 40px;
     }
     .title {
       background-color: darken(@lacentralcoop_color, 5%);
@@ -932,7 +936,8 @@ p.lead {
   .work.enlaorbita {
     background-color: @enlaorbita_color;
     img {
-      width: 200px;
+      width: 250px;
+      padding-top: 50px;
     }
     .title {
       background-color: darken(@enlaorbita_color, 5%);
@@ -943,7 +948,8 @@ p.lead {
   .work.socialtocrowd {
     background-color: @socialtocrowd_color;
     img {
-      width: 200px;
+      width: 250px;
+      padding-top: 40px;
     }
     .title {
       background-color: darken(@socialtocrowd_color, 5%);
@@ -954,7 +960,8 @@ p.lead {
   .work.transparenciapresupuestaria {
     background-color: @transparenciapresupuestaria_color;
     img {
-      width: 200px;
+      width: 250px;
+      padding-top: 40px;
     }
     .title {
       background-color: darken(@transparenciapresupuestaria_color, 5%);
@@ -974,8 +981,8 @@ p.lead {
   .work.conilhospeda {
     background-color: @conilhospeda_color;
     img {
-      width: 200px;
-      padding-top: 30px;
+      width: 230px;
+      padding-top: 25px;
     }
     .title {
       background-color: darken(@conilhospeda_color, 5%);
@@ -1002,7 +1009,8 @@ p.lead {
   .work.icas {
     background-color: @icas_color;
     img {
-      width: 200px;
+      width: 300px;
+      padding-top: 20px;
     }
     .title {
       background-color: darken(@icas_color, 5%);
@@ -1012,8 +1020,8 @@ p.lead {
   .work.festivalcine {
     background-color: @festivalcine_color;
     img {
-      height: 120%;
-      padding-top: 20px;
+      height: 130%;
+      padding-top: 0px;
     }
     .title {
       background-color: darken(@festivalcine_color, 5%);
@@ -1049,8 +1057,8 @@ p.lead {
   .work.decidearcos {
     background-color: @decidearcos_color;
     img {
-      width: 200px;
-      padding-top: 45px;
+      width: 300px;
+      padding-top: 2em;
       -webkit-filter: grayscale(100%) brightness(100%);
       filter: grayscale(100%) brightness(1000%);
     }
@@ -1062,8 +1070,8 @@ p.lead {
   .work.decidesantiago {
     background-color: @decidesantiago_color;
     img {
-      width: 200px;
-      padding-top: 45px;
+      padding-top: 0;
+      width: 110px;
       -webkit-filter: grayscale(100%) brightness(100%);
       filter: grayscale(100%) brightness(1000%);
     }
@@ -1074,9 +1082,10 @@ p.lead {
   }  
   .work.decidecadiz {
     background-color: @decidecadiz_color;
+    padding-top: 45px;
     img {
-      width: 200px;
-      padding-top: 45px;
+      /*width: 200px;
+      padding-top: 45px;*/
       -webkit-filter: grayscale(100%) brightness(100%);
       filter: grayscale(100%) brightness(1000%);
     }
@@ -1095,17 +1104,7 @@ p.lead {
       background-color: darken(@foroparticipacion_color, 5%);
       color: make-contrast(@foroparticipacion_color);
     }
-  }
-  .work.aulaparticipacion {
-    background-color: @aulaparticipacion_color;
-    img {
-      width: 200px;
-      padding-top: 45px;
-    }
-    .title {
-      background-color: darken(@aulaparticipacion_color, 5%);
-      color: make-contrast(@aulaparticipacion_color);
-    }
+    
   }
   .work.dipuparticipacioncadiz {
     background-color: @dipuparticipacioncadiz_color;
@@ -1122,9 +1121,12 @@ p.lead {
   }
   .work.aytoparticipacioncadiz {
     background-color: @aytoparticipacioncadiz_color;
-    img {
+    padding-top: 30px;
+     img {
       width: 200px;
       padding-top: 45px;
+      font-style: italic;
+      font-size: 2em;
     }
     .title {
       background-color: darken(@aytoparticipacioncadiz_color, 5%);
@@ -1133,9 +1135,10 @@ p.lead {
   }
   .work.formacionleyparticipacion {
     background-color: @formacionleyparticipacion_color;
+    padding-top: 30px;
     img {
       width: 200px;
-      padding-top: 45px;
+      font-size: 2em;
     }
     .title {
       background-color: darken(@formacionleyparticipacion_color, 5%);
@@ -1144,9 +1147,12 @@ p.lead {
   }
   .work.sistemaparticipacion {
     background-color: @sistemaparticipacion_color;
+    padding-top: 30px;
     img {
       width: 200px;
       padding-top: 45px;
+      font-style: italic;
+      font-size: 2em;
     }
     .title {
       background-color: darken(@sistemaparticipacion_color, 5%);
@@ -1167,8 +1173,8 @@ p.lead {
   .work.presupuestomarbella {
     background-color: @presupuestomarbella_color;
     img {
-      width: 200px;
-      padding-top: 20px;
+      width: 220px;
+      padding-top: 30px;
     }
     .title {
       background-color: darken(@presupuestomarbella_color, 5%);
@@ -1178,8 +1184,9 @@ p.lead {
   .work.presupuestomijas {
     background-color: @presupuestomijas_color;
     img {
-      width: 200px;
-      padding-top: 25px;
+      padding-top: 10px;
+      height: 160px;
+      width: auto;
     }
     .title {
       background-color: darken(@presupuestomijas_color, 5%);
@@ -1189,8 +1196,8 @@ p.lead {
   .work.planintervencion {
     background-color: @planintervencion_color;
     img {
-      width: 200px;
-      padding-top: 25px;
+      width: 220px;
+      padding-top: 30px;
       -webkit-filter: grayscale(100%) brightness(100%);
       filter: grayscale(100%) brightness(1000%);
     }
@@ -1200,10 +1207,21 @@ p.lead {
     }
   }
 
+  .work.presupuestotarifa {
+    background-color: @presupuestotarifa_color;
+    img {
+      width: 200px;
+      padding-top: 25px;
+    }
+    .title {
+      background-color: darken(@presupuestotarifa_color, 5%);
+      color: make-contrast(@presupuestotarifa_color);
+    }
+  }
   a {
     
     text-decoration: none;
-
+    /*font-size: 2em;*/
     .work {
 
       background: @clean_color;
@@ -1352,7 +1370,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1372,7 +1391,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1392,7 +1412,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1412,7 +1433,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1432,7 +1454,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1452,7 +1475,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;
       }
     }
   }
@@ -1472,8 +1496,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1492,8 +1516,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1512,8 +1536,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1532,8 +1556,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1553,8 +1577,8 @@ p.lead {
     background: #171717;
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1573,9 +1597,10 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
         -webkit-filter: grayscale(100%) brightness(100%);
         filter: grayscale(100%) brightness(1000%);
+        padding-top: 50px;
       }
     }
   }
@@ -1595,8 +1620,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1615,8 +1640,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
-      }
+        width: 300px;
+        padding-top: 50px;      }
     }
   }
   #info {
@@ -1635,7 +1660,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        width: @default-work-logo-size;
+        width: 300px;
+        padding-top: 50px;      
       }
     }
   }
@@ -1656,7 +1682,7 @@ p.lead {
     .logo {
       img {
         height: 150px;
-        width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1676,8 +1702,8 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
-        width: auto;
+        width: 250px;
+        padding-top: 50px;
       }
     }
   }
@@ -1689,26 +1715,8 @@ p.lead {
       font-weight: bold;
     }
   }
-}
-
-#work.aulaparticipacion {
-  .make-contrast(@aulaparticipacion_color);
-  .work_styling(@aulaparticipacion_color);
-  #intro {
-    .logo {
-      img {
-        height: 150px;
-        width: auto;
-      }
-    }
-  }
-  #info {
-    .btn {
-      .make-contrast(@aulaparticipacion_color);
-      .make-contrast-border-button(@aulaparticipacion_color);
-      background-color: transparent;
-      font-weight: bold;
-    }
+  #metrics .metric .value{
+    color: grey;
   }
 }
 
@@ -1718,10 +1726,11 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 160px;
         width: auto;
         -webkit-filter: grayscale(100%) brightness(100%);
         filter: grayscale(100%) brightness(1000%);
+        padding-top: 50px;
       }
     }
   }
@@ -1741,8 +1750,9 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 110px;
         width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1762,8 +1772,9 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 110px;
         width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1783,8 +1794,9 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 110px;
         width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1804,7 +1816,7 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        padding-top: 50px;
         width: auto;
       }
     }
@@ -1825,8 +1837,9 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 130px;
         width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1846,8 +1859,9 @@ p.lead {
   #intro {
     .logo {
       img {
-        height: 150px;
+        height: 180px;
         width: auto;
+        padding-top: 50px;
       }
     }
   }
@@ -1871,6 +1885,7 @@ p.lead {
         width: auto;
         -webkit-filter: grayscale(100%) brightness(100%);
         filter: grayscale(100%) brightness(1000%);
+        padding-top: 55px;
       }
     }
   }
@@ -1878,6 +1893,28 @@ p.lead {
     .btn {
       .make-contrast(@planintervencion_color);
       .make-contrast-border-button(@planintervencion_color);
+      background-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+#work.presupuestotarifa {
+  .make-contrast(@presupuestotarifa_color);
+  .work_styling(@presupuestotarifa_color);
+  #intro {
+    .logo {
+      img {
+        height: 130px;
+        width: auto;
+        padding-top: 50px;
+      }
+    }
+  }
+  #info {
+    .btn {
+      .make-contrast(@presupuestotarifa_color);
+      .make-contrast-border-button(@presupuestotarifa_color);
       background-color: transparent;
       font-weight: bold;
     }

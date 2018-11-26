@@ -36,12 +36,13 @@
         {"name": "Lucía Cano", "position": " ", "photo": "luciacano.png", "email": "lucia.cano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
         {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "alerodrom", "role": "Trabajador"},
         {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"},
         {"name": "Fátima Martínez", "position": " ", "photo": "fatima.jpg", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial/", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias/", "github": "fmmsvq/", "role": "Colaboradora"},
         {"name": "Carlos Campos", "position": " ", "photo": "carloscampos.jpg", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "carcamcue", "role": "Trabajador"},
-        {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "alerodrom", "role": "Trabajador"}
+        {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"}
+
       ]
     },
 
@@ -50,8 +51,8 @@
         "title": "Dónde estamos",
         "places": [
             {"city": "Sevilla", "address": "Avda. República Argentina 25 Planta 9", "zipcode": "41011", "officename": "Espacio RES", "officeurl": "http://espaciores.org", "othercontact": ""},
-            {"city": "Huelva", "address": "Paseo Santa Fe 7", "zipcode": "21003", "officename": "Desatando SociaLab", "officeurl": "http://desatando.org", "othercontact": ""},
-            {"city": "Malaga", "address": "", "zipcode": "", "officename": "", "officeurl": "", "othercontact": "malaga@enreda.coop"},
+            {"city": "Huelva", "address": "", "zipcode": "", "officename": "Desatando SociaLab", "officeurl": "http://desatando.org", "othercontact": ""},
+            {"city": "Malaga", "address": "Trinidad Grund 7, 1º derecha", "zipcode": "29001", "officename": "malaga@enreda.coop", "officeurl": "", "othercontact": ""},
             {"city": "Madrid", "address": "", "zipcode": "", "officename": "", "officeurl": "", "othercontact": "madrid@enreda.coop"}
         ]
     },
@@ -67,7 +68,7 @@
 
     "collaborate": {
       "title": "Colabora",
-      "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de <a href='https://www.loomio.org/g/VcGPxekv/socialinn' target='_blank'>Social Inn</a>, un espacio de creación colectiva enfocado a la innovación social.",
+      "description": "Si quieres colaborar en proyectos de transformación social, puedes hacerlo a través de <a href='https://www.loomio.org/g/VcGPxekv/socialinn' target='_blank'> nuestro correo electrónico o redes sociales</a>, un espacio de creación colectiva enfocado a la innovación social.",
       "contact": "Deseo participar",
       "url": ""
     },
@@ -95,14 +96,14 @@
     "subtitle": "Nuestras líneas, los caminos por donde andamos.",
     "items": [
       {
-        "title": "Economía Social",
-        "class": "economia-social",
-        "url": "/lineas/economia-social"
-      },
-      {
         "title": "Transparencia y Participación",
         "class": "transparencia-participacion",
         "url": "/lineas/transparencia-y-participacion"
+      },
+      {
+        "title": "Economía Social",
+        "class": "economia-social",
+        "url": "/lineas/economia-social"
       },
       {
         "title": "Innovación Social Tecnológica",
@@ -193,18 +194,17 @@
       {"name": "Consul - Oviedo", "class": "decideoviedo", "image": "logo-ayto-oviedo.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-oviedo/"},
       {"name": "Consul - Arcos de la Frontera", "class": "decidearcos", "image": "logo-ayto-arcos.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-arcos-frontera/"},
       {"name": "Consul - Santiago de Compostela", "class": "decidesantiago", "image": "logo-ayto-santiago.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-santiago/"},
-      {"name": "Consul - Cádiz", "class": "decidecadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-cadiz/"},
-      
+      {"name": "Consul - Cádiz", "class": "decidecadiz", "image": "", "description": "Web de participación ciudadana.", "url": "/trabajos/consul-cadiz/"},      
       {"name": "Foro Andaluz de Gobiernos Locales y Procesos Participativos", "class": "foroparticipacion", "image": "logo-foro-participacion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/foro-participacion/"},
-      {"name": "Aula Digital de Participación", "class": "aulaparticipacion", "image": "logo-aula-participacion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/aula-participacion/"},
       {"name": "Reglamento de Participación de la Diputación de Cádiz", "class": "dipuparticipacioncadiz", "image": "logo-diputacion-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/dipu-participacion-cadiz/"},
-      {"name": "Reglamento de Participación del Ayuntamiento de Cádiz", "class": "aytoparticipacioncadiz", "image": "logo-ayto-cadiz.png", "description": "Web de participación ciudadana.", "url": "/trabajos/ayto-participacion-cadiz/"},
-      {"name": "Formación sobre la Ley Andaluza de Participación ", "class": "formacionleyparticipacion", "image": "logo-junta.png", "description": "Web de participación ciudadana.", "url": "/trabajos/formacion-ley-participacion/"},
-      {"name": "Sistema Público de Participación Digital de Andalucía", "class": "sistemaparticipacion", "image": "logo-junta.png", "description": "Web de participación ciudadana.", "url": "/trabajos/sistema-participacion/"},
-      {"name": "Participación para la planificación urbanística", "class": "ciudadamable", "image": "ciudad-amable.png", "description": "Web de participación ciudadana.", "url": "/trabajos/ciudad-amable/"},
-      {"name": "Presupuesto Participativos de Marbella", "class": "presupuestomarbella", "image": "camion.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-marbella/"},
-      {"name": "Presupuesto Participativos de MIjas", "class": "presupuestomijas", "image": "presupuesto-mijas.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-mijas/"},
-      {"name": "Plan de intervención", "class": "planintervencion", "image": "logo-ayto-coria.png", "description": "Web de participación ciudadana.", "url": "/trabajos/plan-intervencion/"}
+      {"name": "Reglamento de Participación del Ayuntamiento de Cádiz", "class": "aytoparticipacioncadiz", "image": "", "description": "Web de participación ciudadana.", "url": "/trabajos/ayto-participacion-cadiz/"},
+      {"name": "Formación sobre la Ley Andaluza de Participación ", "class": "formacionleyparticipacion", "image": "", "description": "Web de participación ciudadana.", "url": "/trabajos/formacion-ley-participacion/"},
+      {"name": "Sistema Público de Participación Digital de Andalucía", "class": "sistemaparticipacion", "image": "", "description": "Web de participación ciudadana.", "url": "/trabajos/sistema-participacion/"},
+      {"name": "Participación para la planificación urbanística", "class": "ciudadamable", "image": "logo-ayto-rota.png", "description": "Web de participación ciudadana.", "url": "/trabajos/ciudad-amable/"},
+      {"name": "Presupuesto Participativos de Marbella", "class": "presupuestomarbella", "image": "logo_marbella.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-marbella/"},
+      {"name": "Presupuesto Participativos de Mijas", "class": "presupuestomijas", "image": "logo-ayto-mijas.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-mijas/"},
+      {"name": "Plan de intervención", "class": "planintervencion", "image": "logo-ayto-coria.png", "description": "Web de participación ciudadana.", "url": "/trabajos/plan-intervencion/"},
+      {"name": "Presupuesto Participativo de Tarifa", "class": "presupuestotarifa", "image": "logo-ayto-tarifa.png", "description": "Web de participación ciudadana.", "url": "/trabajos/presupuesto-tarifa/"}
     ],
     "calltoaction": {
       "call": "Reclama información, organízate para conseguirla",
@@ -303,25 +303,25 @@
       },
       {
         "title": "Consul - Oviedo",
-        "logo": "consul_logo.png",
+        "logo": "logo-ayto-oviedo.png",
         "class": "decideoviedo",
         "url": "/trabajos/consul-oviedo"
       },
       {
         "title": "Consul - Arcos de la Frontera",
-        "logo": "consul_logo.png",
+        "logo": "logo-ayto-arcos.png",
         "class": "decidearcos",
         "url": "/trabajos/consul-arcos-frontera"
       },
       {
         "title": "Consul - Santiago de Compostela",
-        "logo": "consul_logo.png",
+        "logo": "logo-ayto-santiago.png",
         "class": "decidesantiago",
         "url": "/trabajos/consul-santiago"
       },
       {
-        "title": "Consul - Cádiz",
-        "logo": "consul_logo.png",
+        "title": "decide.cadiz.es",
+        "logo": "",
         "class": "decidecadiz",
         "url": "/trabajos/consul-cadiz"
       },
@@ -398,12 +398,6 @@
         "url": "/trabajos/foro-participacion/"
       }, 
       {
-        "title": "Aula Digital de Participación",
-        "logo": "logo-aula-participacion.png",
-        "class": "aulaparticipacion",
-        "url": "/trabajos/aula-participacion"
-      }, 
-      {
         "title": "Reglamento de Participación de la Diputación de Cádiz",
         "logo": "logo-diputacion-cadiz.png",
         "class": "dipuparticipacioncadiz",
@@ -411,37 +405,37 @@
       }, 
       {
         "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
-        "logo": "logo-ayto-cadiz.png",
+        "logo": "",
         "class": "aytoparticipacioncadiz",
         "url": "/trabajos/ayto-participacion-cadiz"
       }, 
       {
         "title": "Formación sobre la Ley Andaluza de Participación",
-        "logo": "logo-junta.png",
+        "logo": "",
         "class": "formacionleyparticipacion",
         "url": "/trabajos/formacion-ley-participacion"
       }, 
       {
         "title": "Sistema Público de Participación Digital de Andalucía",
-        "logo": "logo-junta.png",
+        "logo": "",
         "class": "sistemaparticipacion",
         "url": "/trabajos/sistema-participacion"
       }, 
       {
         "title": "Participación para la planificación urbanística",
-        "logo": "ciudad-amable.png",
+        "logo": "logo-ayto-rota.png",
         "class": "ciudadamable",
         "url": "/trabajos/ciudad-amable"
       }, 
       {
         "title": "Presupuesto Participativos de Marbella",
-        "logo": "camion.png",
+        "logo": "logo_marbella.png",
         "class": "presupuestomarbella",
         "url": "/trabajos/presupuesto-marbella"
       }, 
       {
         "title": "Presupuesto Participativos de Mijas",
-        "logo": "presupuesto-mijas.png",
+        "logo": "logo-ayto-mijas.png",
         "class": "presupuestomijas",
         "url": "/trabajos/presupuesto-mijas"
       }, 
@@ -450,6 +444,12 @@
         "logo": "logo-ayto-coria.png",
         "class": "planintervencion",
         "url": "/trabajos/plan-intervencion"
+      },
+      {
+        "title": "Presupuesto Participativo de Tarifa",
+        "logo": "logo-ayto-tarifa.png",
+        "class": "presupuestotarifa",
+        "url": "/trabajos/presupuesto-tarifa"
       }
     ]
   },
@@ -1069,7 +1069,7 @@
     "title": "Consul - Santiago de Compostela",
     "class": "decidesantiago",
     "subtitle": "Consul",
-    "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Cádiz contando con el software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos..",
+    "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Santiago de Compostela contando con el  software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos...",
     "logo": "logo-ayto-santiago.png",
     "name":"Consul - Santiago de Compostela",
     "screenshot": "screenshot-santiago.png",
@@ -1109,7 +1109,7 @@
   },
 
   "consul-cadiz": {
-    "title": "Consul - Cádiz",
+    "title": "decide.cadiz.es",
     "class": "decidecadiz",
     "subtitle": "Consul",
     "description": "Enreda ha desarrollado el Portal de Participación ciudadana del Ayuntamiento de Cádiz contando con el software más completo que existe actualmente, Consul. Usado por más de 60 ciudades a nivel mundial y premiado por Naciones Unidas. Este software permite la integración total con los sistemas Web del municipio y está preparado para generar todo tipo de procesos participativos..",
@@ -1144,7 +1144,7 @@
     "own": "no",
     "clientname": "Ayuntamiento de Cádiz",
     "clientdescription": "Institución pública",
-    "clienturl": "http://institucional.cadiz.es/",
+    "clienturl": "http://decide.cadiz.es/",
     "clientyear": "2018",
     "calltoaction": {
       "call": "Decide cómo debe ser la ciudad que quieres"
@@ -1154,11 +1154,11 @@
   "foro-participacion": {
     "title": "Foro Andaluz de Gobiernos Locales y Procesos Participativos",
     "class": "foroparticipacion",
-    "subtitle": " ",
+    "subtitle": "Foro Andaluz de Gobiernos Locales y Procesos Participativos",
     "description": "Enreda ha desarrollado distintos jornadas de formación sobre la Ley Andaluza de Participación Ciudadana y su adaptación a nivel local y provincial para multitud de organismos públicos (Junta de Andalucía, FAMP, Ayuntamiento de Cádiz, Diputación de Cádiz...",
     "logo": "logo-foro-participacion.png",
     "name":"Foro Andaluz de Gobiernos Locales y Procesos Participativos",
-    "screenshot": "",
+    "screenshot": "foro-demo-particpativa.png",
     "url": "/trabajos/foro-participacion/",
     "sourcecode": "",
     "keys": [
@@ -1186,50 +1186,14 @@
       "call": ""
     }
   },
-  "aula-participacion": {
-    "title": "Aula Digital de Participación",
-    "class": "aulaparticipacion",
-    "subtitle": "",
-    "description": "Aula Digital de la Oficina De Presupuestos Participativos de la Diputación de Málaga para la capacitación de los usuarios de los servicios que ofrece la oficina.",
-    "logo": "logo-aula-participacion.png",
-    "name":"Aula Digital de Participación",
-    "screenshot": "aula-participacion.png",
-    "url": "/trabajos/aula-participacion",
-    "sourcecode": "",
-    "keys": [
-      {"key": "Desarrollo de la plataforma de formación basada moodle."},
-      {"key": "Elaboración de contenidos adaptados a formación online."},
-      {"key": "Acompañamiento digital a usuarios."}
-    ],
-    "metrics": [
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""},
-      {"metric": "", "value": ""}
-    ],
-    "metricsinfo": "",
-    "technologies": [
-      {"technology": "Moodle", "url": "https://moodle.org/", "logo": "https://moodle.org/theme/image.php/moodleorgcleaned_moodleorg/theme_moodleorgcleaned/1542196796/moodle-logo"},
-      {"technology": "Joomla", "url": "https://www.joomla.org/", "logo": "https://cdn.joomla.org/images/Joomla_logo.png"}
-    ],
-    "media": [
-    ],
-    "own": "no",
-    "clientname": "Diputación de Málaga",
-    "clientdescription": "Diputación de Málaga",
-    "clienturl": "www.malaga.es/",
-    "clientyear": "2018",
-    "calltoaction": {
-      "call": ""
-    }
-  },
   "dipu-participacion-cadiz": {
     "title": "Reglamento de Participación de la Diputación de Cádiz",
     "class": "dipuparticipacioncadiz",
-    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "subtitle": "Reglamento de Participación de la Diputación de Cádiz",
     "description": "Foro para la reforma del reglamento de Participación Ciudadana y su adaptación a la nueva Ley Andaluza de Participación.",
     "logo": "logo-diputacion-cadiz.png",
     "name":"Reglamento de Participación de la Diputación de Cádiz",
-    "screenshot": "",
+    "screenshot": "reglamento-dipu-cadiz.png",
     "url": "/trabajos/dipu-participacion-cadiz",
     "sourcecode": "",
     "keys": [
@@ -1259,11 +1223,11 @@
   "ayto-participacion-cadiz": {
     "title": "Reglamento de Participación del Ayuntamiento de Cádiz",
     "class": "aytoparticipacioncadiz",
-    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "subtitle": "Reglamento de Participación del Ayuntamiento de Cádiz",
     "description": "Foros para la reforma del reglamento de Participación Ciudadana y su adaptación a la nueva Ley Andaluza de Participación.",
     "logo": "logo-ayto-cadiz.png",
     "name":"Reglamento de Participación del Ayuntamiento de Cádiz",
-    "screenshot": "",
+    "screenshot": "reglamento-ayto-cadiz.png",
     "url": "/trabajos/ayto-participacion-cadiz",
     "sourcecode": "",
     "keys": [
@@ -1294,11 +1258,11 @@
   "formacion-ley-participacion": {
     "title": "Formación sobre la Ley Andaluza de Participación",
     "class": "formacionleyparticipacion",
-    "subtitle": "",
+    "subtitle": "Formación sobre la Ley Andaluza de Participación",
     "description": "Enreda ha desarrollado distintos jornadas de formación sobre la Ley Andaluza de Participación Ciudadana y su adaptación a nivel local y provincial para multitud de organismos públicos (Junta de Andalucía, FAMP, Ayuntamiento de Cádiz, Diputación de Cádiz…",
-    "logo": "logo-junta.png",
+    "logo": "logo_junta.png",
     "name":"Formación sobre la Ley Andaluza de Participación",
-    "screenshot": "screenshot-elo.png",
+    "screenshot": "formacion-LAP.png",
     "url": "/trabajos/formacion-ley-participacion",
     "sourcecode": "",
     "keys": [
@@ -1313,7 +1277,7 @@
     ],
     "metricsinfo": "",
     "technologies": [
-          ],
+    ],
     "media": [
     ],
     "own": "no",
@@ -1328,9 +1292,9 @@
   "sistema-participacion": {
     "title": "Sistema Público de Participación Digital de Andalucía",
     "class": "sistemaparticipacion",
-    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "subtitle": "Sistema Público de Participación Digital de Andalucía",
     "description": "Desarrollo de la Prueba de Concepto para usar CONSUL como base del Sistema Público de Participación Digital de Andalucía.",
-    "logo": "logo-junta.png",
+    "logo": "logo_junta.png",
     "name":"Sistema Público de Participación Digital de Andalucía",
     "screenshot": "",
     "url": "/trabajos/sistema-participacion",
@@ -1362,12 +1326,12 @@
   "ciudad-amable": {
     "title": "Participación para la planificación urbanística",
     "class": "ciudadamable",
-    "subtitle": "",
-    "description": "Enreda ha desarrollado diferente programas participativos para desarrollar elementos de planificación urbanísticas en municipios andaluces.",
-    "logo": "ciudad-amable.png",
+    "subtitle": "Participación para la planificación urbanística",
+    "description": "Enreda ha desarrollado diferentes programas participativos para desarrollar elementos de planificación urbanísticas en municipios andaluces.",
+    "logo": "logo-ayto-rota.png",
     "name":"Participación para la planificación urbanística",
     "screenshot": "",
-    "url": "/trabajos/ciudad-amable",
+    "url": "https://www.aytorota.es/espacio-ciudadano/delegaciones/participacion-ciudadana#presupuestos-participativos",
     "sourcecode": "",
     "keys": [
       {"key": "Proyecto  “Ciudad Amable” de la Junta de Andalucía en Rota."},
@@ -1396,11 +1360,11 @@
   "presupuesto-marbella": {
     "title": "Presupuesto Participativo de Marbella",
     "class": "presupuestomarbella",
-    "subtitle": "",
+    "subtitle": "Presupuesto Participativo de Marbella",
     "description": "Enreda ha diseñado e implementado los Presupuestos Participativos del Ayuntamiento de Marbella durante dos años.",
-    "logo": "camion.png",
+    "logo": "logo_marbella.png",
     "name":"Presupuesto Participativo de Marbella",
-    "screenshot": "",
+    "screenshot": "camion.png",
     "url": "/trabajos/presupuesto-marbella",
     "sourcecode": "",
     "keys": [
@@ -1427,12 +1391,12 @@
   "presupuesto-mijas": {
     "title": "Presupuesto Participativos de Mijas",
     "class": "presupuestomijas",
-    "subtitle": "Instituto de la Cultura y las Artes de Sevilla",
+    "subtitle": "Presupuesto Participativos de Mijas",
     "description": "Enreda ha diseñado e implementado los Presupuestos Participativos del Ayuntamiento de Mijas en 2018.",
-    "logo": "presupuesto-mijas.png",
+    "logo": "logo-ayto-mijas.png",
     "name":"Presupuesto Participativos de Mijas",
-    "screenshot": "",
-    "url": "/trabajos/presupuesto-mijas",
+    "screenshot": "mijas.png",
+    "url": "https://participa.mijas.es/",
     "sourcecode": "",
     "keys": [
     ],
@@ -1458,12 +1422,12 @@
   "plan-intervencion": {
     "title": "Plan de intervención",
     "class": "planintervencion",
-    "subtitle": "",
+    "subtitle": "Plan de intervención",
     "description": "Diseño y elaboración del plan local de intervención en zonas desfavorecidas de Coria del Río.",
     "logo": "logo-ayto-coria.png",
     "name":"Plan de intervención",
-    "screenshot": "",
-    "url": "/trabajos/plan-intervencion",
+    "screenshot": "coria.png",
+    "url": "http://www.ayto-coriadelrio.es",
     "sourcecode": "",
     "keys": [
     ],
@@ -1482,6 +1446,41 @@
     "clientname": "Ayuntamiento de Coria del Río",
     "clientdescription": "Ayuntamiento de Coria del Río",
     "clienturl": "www.ayto-coriadelrio.es/",
+    "clientyear": "2018",
+    "calltoaction": {
+      "call": ""
+    }
+  },
+  "presupuesto-tarifa": {
+    "title": "Presupuesto Participativo de Tarifa",
+    "class": "presupuestotarifa",
+    "subtitle": "Presupuesto Participativo de Tarifa",
+    "description": "Diseño e implementación de procesos participativos del Área de Juventud y el Área de Cultura.",
+    "logo": "logo-ayto-tarifa.png",
+    "name": "Presupuesto Participativo de Tarifa",
+    "screenshot": "tarifa.png",
+    "url": "http://hazloparticipativo.es/tarifa/",
+    "sourcecode": "",
+    "keys": [
+      {"key": "Proceso de intervención en el aula."},
+      {"key": "Proceso sectorial de Cultura."},
+      {"key": "Diseño de software para mesas electorales."}
+    ],
+    "metrics": [
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""},
+      {"metric": "", "value": ""}
+    ],
+    "metricsinfo": "",
+    "technologies": [
+      
+    ],
+    "media": [
+    ],
+    "own": "no",
+    "clientname": "Ayuntamiento de Tarifa",
+    "clientdescription": "Ayuntamiento de Tarifa",
+    "clienturl": "https://www.aytotarifa.com/",
     "clientyear": "2018",
     "calltoaction": {
       "call": ""
@@ -1507,3 +1506,4 @@
     ]
   }
 }
+
