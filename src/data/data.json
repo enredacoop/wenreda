@@ -31,16 +31,16 @@
       "people": [
         {"name": "Pablo García", "position": " ", "photo": "pablogg.jpg", "email": "pablo.garcia@enreda.coop", "web": "http://pablogg.com", "twitter": "pablov2", "linkedin": "", "github": "pablovg2", "role": "Socio"},
         {"name": "José Rubén Garrido", "position": " ", "photo": "joserubengar.jpeg", "email": "joser.garrido@enreda.coop", "web": "http://joserubengr.com", "twitter": "joserubengar", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "David Aurusa", "position": " ", "photo": "aurusa.jpg", "email": "david.aurusa@enreda.coop", "web": "http://hazlotransparente.es/", "user_placeholder.pngtwitter": "aurusa", "linkedin": "", "github": "", "role": "Socio"},
-        {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "David Aurusa", "position": " ", "photo": "aurusa.jpg", "email": "david.aurusa@enreda.coop", "web": "http://hazlotransparente.es/", "twitter": "aurusa", "twitter": "", "linkedin": "", "github": "", "role": "Socio"},
         {"name": "Lucía Cano", "position": " ", "photo": "luciacano.png", "email": "lucia.cano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
-        {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": " ", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "Arantza Lozano", "position": " ", "photo": "arantza.jpg", "email": "arantza.lozano@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Trabajadora"},
         {"name": "Alejandro Rodríguez", "position": " ", "photo": "alerodrom.jpg", "email": "alejandro.rodriguez@enreda.coop", "web": "", "twitter": "", "linkedin": "https://www.linkedin.com/in/alerodrom/", "github": "alerodrom", "role": "Trabajador"},
-        {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
-        {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
-        {"name": "Fátima Martínez", "position": " ", "photo": "fatima.jpg", "email": "fatima.martinez@enreda.coop", "web": "https://www.facebook.com/whitesugar.oficial/", "twitter": "", "linkedin": "https://es.linkedin.com/in/fatima-martinez-macias/", "github": "fmmsvq/", "role": "Colaboradora"},
         {"name": "Carlos Campos", "position": " ", "photo": "carloscampos.jpg", "email": "carlos.campos@enreda.coop", "web": "https://www.instagram.com/carcamcue/", "twitter": "", "linkedin": "https://www.linkedin.com/in/carcamcue/", "github": "carcamcue", "role": "Trabajador"},
+        {"name": "Manuel Barbadillo", "position": " ", "photo": "manbarser.jpg", "email": "manuel.barbadillo@enreda.coop", "web": "", "twitter": "", "linkedin": "", "github": "", "role": "Becario"},
+        {"name": "Azahara Martín", "position": " ", "photo": "aza.jpg", "email": "azahara.martin@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "4everAza", "linkedin": "", "github": "", "role": "Trabajadora"},
+        {"name": "Patricia García", "position": " ", "photo": "patriciagarciaespin.jpg", "email": "", "web": "http://csic.academia.edu/PatriciaGarciaEsp%C3%ADn", "twitter": "", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "Soledad Maldonado", "position": " ", "photo": "sole.jpg", "email": "soledad.maldonado@enreda.coop", "web": "http://hazloparticipativo.es/", "twitter": "solemalpe", "linkedin": "", "github": "", "role": "Colaboradora"},
+        {"name": "Quique Ruíz", "position": " ", "photo": "user_placeholder.png", "email": "quique@enreda.coop", "web": "http://www.systerminal.com", "twitter": "quiqueruizna", "linkedin": "", "github": "joseenrique", "role": "Colaborador"},
         {"name": "Javier Moreno", "position": " ", "photo": "user_placeholder.png", "email": "javier@enreda.coop", "web": "", "twitter": "javimoga", "linkedin": "", "github": "", "role": "Colaborador"}
 
       ]
