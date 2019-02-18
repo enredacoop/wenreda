@@ -860,7 +860,7 @@
     "description": "El portal institucional del Instituto de la Cultura y de las Artes que depende del Ayuntamiento de Sevilla, avanza desde un diseño descentralizado de espacios y áreas, para agrupar en un mismo portal todas las sedes culturales dependientes del ICAS. Este portal desarrollado sobre Plone/Zope permite la gestión de múltiples micro-sites y de la gestión completa de la comunicación del ICAS desde un mismo portal web.",
     "logo": "logo-icas.png",
     "name":"ICAS",
-    "screenshot": "screenshot-elo.png",
+    "screenshot": "screenshot-icas.png",
     "url": "http://www.icas-sevilla.org",
     "sourcecode": "",
     "keys": [
